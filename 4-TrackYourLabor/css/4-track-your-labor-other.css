@@ -1,0 +1,348 @@
+/* screen - 4-track-your-labor-other */
+
+.x4-track-your-labor-other {
+  background-color: var(--alabaster);
+  height: 100vh;
+  margin: 0px;
+  min-height: 12161px;
+  min-width: 1920px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.x4-track-your-labor-other .last-sec-green-6PR5WV {
+  background-color: transparent;
+  height: 827px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+ margin-top: 20vh;
+  width: 1920px;
+}
+
+.x4-track-your-labor-other .line-213-2Ph6Y8 {
+  background-color: transparent;
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 826px;
+  width: 1919px;
+}
+
+.x4-track-your-labor-other .bk-2Ph6Y8 {
+  background-color: var(--la-rioja);
+  height: 827px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 1920px;
+}
+
+.x4-track-your-labor-other .screen-shot-2022-05-03-at-223-1-2Ph6Y8 {
+  background-color: transparent;
+  height: 662px;
+  left: 1240px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: 82px;
+  width: 447px;
+}
+
+.x4-track-your-labor-other .i-conducted-a-week-l-2Ph6Y8 {
+  background-color: transparent;
+  height: auto;
+  left: 240px;
+  letter-spacing: -0.42px;
+  line-height: 48px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 139px;
+  width: 628px;
+}
+
+.x4-track-your-labor-other .here-is-a-link-to-th-2Ph6Y8 {
+  background-color: transparent;
+  color: var(--alabaster);
+  font-family: var(--font-family-abc_diatype_edu-bold);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: 240px;
+  letter-spacing: -0.42px;
+  line-height: 48px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 531px;
+  width: 628px;
+}
+
+.x4-track-your-labor-other .span0-BoXXp4 {
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: -0.18px;
+  text-decoration: underline;
+}
+
+.x4-track-your-labor-other .span1-BoXXp4 {
+  font-style: normal;
+  letter-spacing: -0.18px;
+}
+
+.x4-track-your-labor-other .direction-div-6PR5WV {
+  background-color: transparent;
+  height: 174px;
+  left: 295px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 1924px;
+  width: 760px;
+}
+
+.x4-track-your-labor-other .answer-each-question-3zS9Bw {
+  background-color: transparent;
+  color: var(--black);
+  font-family: var(--font-family-abc_diatype_edu-regular);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 32px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 40px;
+  width: 760px;
+}
+
+.x4-track-your-labor-other .directions-3zS9Bw {
+  background-color: transparent;
+  color: var(--la-rioja);
+  font-family: var(--font-family-abc_diatype_edu-bold);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 32px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x4-track-your-labor-other .x4-circle-and-text-6PR5WV {
+  background-color: transparent;
+  height: 434px;
+  left: 294px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 1322px;
+  width: 1332px;
+}
+
+.x4-track-your-labor-other .text-Z3fL7X {
+  background-color: transparent;
+  height: auto;
+  left: 182px;
+  letter-spacing: -2.16px;
+  line-height: 72px;
+  mix-blend-mode: darken;
+  position: absolute;
+  text-align: left;
+  top: 119px;
+  width: 1023px;
+}
+
+.x4-track-your-labor-other .span0-i7cM24 {
+  letter-spacing: -1.17px;
+}
+
+.x4-track-your-labor-other .span1-i7cM24 {
+  letter-spacing: -1.17px;
+}
+
+.x4-track-your-labor-other .span2-i7cM24 {
+  letter-spacing: -1.17px;
+}
+
+.x4-track-your-labor-other .span3-i7cM24 {
+  letter-spacing: -1.17px;
+}
+
+.x4-track-your-labor-other .circle-Z3fL7X {
+  background-color: transparent;
+  height: 434px;
+  left: 0px;
+  mix-blend-mode: darken;
+  position: absolute;
+  top: 0px;
+  width: 1332px;
+}
+
+.x4-track-your-labor-other .x4-1landing-page-6PR5WV {
+  background-color: transparent;
+  height: 1033px;
+  left: 161px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 121px;
+  width: 1597px;
+}
+
+.x4-track-your-labor-other .x4-landing-pagebk-1-jgG3PP {
+  background-color: transparent;
+  height: 1033px;
+  left: 0px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: 0px;
+  width: 1597px;
+}
+
+.x4-track-your-labor-other .landing-title2-jgG3PP {
+  background-color: transparent;
+  height: auto;
+  left: 641px;
+  letter-spacing: -2.00px;
+  line-height: 100px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 267px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x4-track-your-labor-other .landing-title1-jgG3PP {
+  background-color: transparent;
+  height: auto;
+  left: 118px;
+  letter-spacing: -4.00px;
+  line-height: 100px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 153px;
+  white-space: nowrap;
+  width: 1006px;
+}
+
+.x4-track-your-labor-other .x4-circle-and-text-2-6PR5WV {
+  background-color: transparent;
+  height: 434px;
+  left: 298px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 4326px;
+  width: 1332px;
+}
+
+.x4-track-your-labor-other .take-note-of-any-eme-xFwrUP {
+  background-color: transparent;
+  height: auto;
+  left: 139px;
+  letter-spacing: -2.16px;
+  line-height: 54px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 112px;
+  width: 1053px;
+}
+
+.x4-track-your-labor-other .span0-fBUWnK {
+  letter-spacing: -1.17px;
+  line-height: 70px;
+}
+
+.x4-track-your-labor-other .span1-fBUWnK {
+  letter-spacing: -1.17px;
+  line-height: 72px;
+}
+
+.x4-track-your-labor-other .span2-fBUWnK {
+  color: var(--baltic-sea);
+  font-family: var(--font-family-epilogue);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: -1.17px;
+  line-height: 72px;
+}
+
+.x4-track-your-labor-other .span3-fBUWnK {
+  letter-spacing: -1.17px;
+  line-height: 70px;
+}
+
+.x4-track-your-labor-other .span4-fBUWnK {
+  color: var(--baltic-sea);
+  font-family: var(--font-family-epilogue);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: -1.54px;
+  line-height: 78px;
+}
+
+.x4-track-your-labor-other .span5-fBUWnK {
+  letter-spacing: -1.17px;
+  line-height: 72px;
+}
+
+.x4-track-your-labor-other .ellipse-115-xFwrUP {
+  background-color: transparent;
+  height: 434px;
+  left: 0px;
+  mix-blend-mode: darken;
+  position: absolute;
+  top: 0px;
+  width: 1332px;
+}
+
+.x4-track-your-labor-other .x4-circle-and-text-3-6PR5WV {
+  background-color: transparent;
+  height: 434px;
+  left: 294px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 8411px;
+  width: 1332px;
+}
+
+.x4-track-your-labor-other .ellipse-148-AAmxTv {
+  background-color: transparent;
+  height: 434px;
+  left: 0px;
+  mix-blend-mode: darken;
+  position: absolute;
+  top: 0px;
+  width: 1332px;
+}
+
+.x4-track-your-labor-other .the-list-might-feel-AAmxTv {
+  background-color: transparent;
+  height: auto;
+  left: 129px;
+  letter-spacing: -2.16px;
+  line-height: 70px;
+  mix-blend-mode: darken;
+  position: absolute;
+  text-align: left;
+  top: 120px;
+  width: 1069px;
+}

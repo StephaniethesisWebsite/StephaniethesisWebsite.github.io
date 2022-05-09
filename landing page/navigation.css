@@ -1,0 +1,503 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Epilogue&display=swap');
+@import url("https://use.typekit.net/sis2rah.css");
+* {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: rgba(255,255,255,0);
+}
+
+
+
+html,body {
+  line-height: 1.5;
+font-family: 'Maven Pro', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+margin:0px;
+
+height: auto;
+/**need to delete**/
+/*background-image: url("img/model.png");*/
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+z-index: -2;
+overflow-x:hidden;
+width:1920px;
+
+}
+
+a {
+  text-decoration: none
+  color:inherit;
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.nav {
+  will-change: transform;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 120vw;
+  height: 40px;
+  z-index: 1;
+  background: #1a1a1a;
+ font-size: 20px;
+ letter-spacing: 0.09em;
+
+}
+.nav--active {
+  transform: translateY(0);
+}
+.nav__list {
+  display: inline-flex;
+
+}
+.nav__item {
+  flex: 1;
+  position: relative;
+
+}
+
+.nav__item:hover #nav1{
+
+  text-decoration: none;
+ color:#F65735;
+ font-weight: 700;
+}
+
+.nav__item:hover #nav2{
+
+  text-decoration: none;
+ color:#395B50;
+ font-weight: 700;
+}
+
+.nav__item:hover #nav3{
+ 
+  text-decoration: none;
+ color: #D674EE;
+ font-weight: 700;
+
+}
+
+
+.nav__item:hover #nav4{
+ 
+  text-decoration: none;
+ color: #BAB700;
+font-weight: 700;
+}
+
+.nav__item:hover #nav5{
+  text-decoration: none;
+ color: #FD7E53;
+font-weight: 700;
+}
+
+.nav__thumb {
+  display: block;
+  width:20vw;
+  height: 84px;
+  background-color:white;
+  border: 0.001em solid black;
+
+}
+.nav__thumb:before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+  opacity: 0.15;
+}
+.nav__label {
+  position: absolute;
+  top: 1.5vh;
+  right: -2vw;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0;
+  display: block;
+  width: 120%;
+  background-color: transparent;
+
+}
+.navitalic{
+  
+  font-style: italic;
+}
+
+/*** handle responisve design **/
+@media (max-width: 850px) {
+  .nav__label {
+    font-size: 8px;
+  }
+  body{
+    width:800px;
+    height:auto;
+  }
+}
+@media (max-width: 720px) {
+ /* .nav__label {
+    display: none;
+  }*/
+  .nav__thumb {
+    height: 30px;
+  }
+  .nav__thumb:before {
+    font-size: 24px;
+    opacity: 0.7;
+  }
+}
+
+
+/*.color1 {
+  background: #F65735;
+}
+.color2 {
+  background: #61A5FA;
+}
+.color3 {
+  background: #BAB700;
+}
+.color4 {
+  background: #F39474;
+}
+.color5 {
+  background: #CF8122;
+}*/
+
+section{
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px 80px;
+}
+
+/** first landing page ***/
+
+.lp1Container{
+
+position: fixed;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+margin-top: 0px;
+width:1942px;
+height:1232px;
+background-image: url("img/landingPage_1.1.png");
+background-size:cover;
+background-repeat:no-repeat;
+position:absolute;
+background-position: 0% 60%;
+overflow-x:hidden;
+  /**need to delete, just for align**/
+/*opacity: 0.7;*/
+}
+
+.lp1Bkg{
+  min-width:100%;
+}
+.landingPageOverlay{
+/*opacity: 0.9;
+background-color:linear-gradient(180deg, rgba(30, 31, 32, 0) 4.13%, rgba(30, 31, 32, 0.33) 50.55%, #1E1F20 100%),;*/
+background-image: url("img/landingPage_overlay.png");
+
+}
+/*.landingPagebk{
+
+ 
+}*/
+.lp1Title{
+  position: absolute;
+  font-family: 'Epilogue', sans-serif;
+  color: white;
+  font-size: 115px;
+  font-weight: 600;
+  letter-spacing: -0.03em;
+  display: inline-block;
+  width: 60vw;
+
+ }
+.lp1TitleIndent{
+    text-indent: 220px;
+    line-height: 250px;
+    margin-top: 180px;
+}
+.lp1TitlePadding{
+  margin-top: 60vh;
+ margin-left: 70px;
+  position: absolute;
+}
+
+.lp1ParaBox{
+ display: inline-flex;
+ width: 45vw;
+ /* height: 40px; */
+ margin-left: 16%;
+ margin-top: 98vh;
+ font-weight: 500;
+ font-size: 25.5px;
+ line-height: 35px;
+ letter-spacing: -0.01em;
+ color: #F9FBFF;
+ position: absolute;
+}
+
+/***cognitive labor section ***/
+.CognitiveLabor{
+display: inline-block;
+width:90%;
+
+}
+.clCircleTextConatiner{
+display: inline-block;
+position: absolute;
+width: 1434.13px;
+height: 651.2px;
+left: 200%;
+top: 130vh;
+/*margin-left: 25%;
+margin-right: 25%;*/
+mix-blend-mode: darken;
+border: 2px solid #F65735;
+box-sizing: border-box;
+border-radius: 50%;
+
+}
+.clcircleText{
+font-family: 'Epilogue', sans-serif;
+font-weight: 700;
+font-size: 72px;
+line-height: 88px;
+letter-spacing: -0.04em;
+display: inline-block;
+width: 71%;
+margin-top: 13%;
+margin-left: 15%;
+margin-right:15%;
+/*text-align: justify;*/
+
+}
+
+.clquote{
+font-family: freight-text-pro, serif;
+font-style: italic;
+font-size: 56px;
+line-height: 66px;
+letter-spacing: -0.005em;
+color: #1E1F20;
+
+}
+.clRedQuote{
+position: absolute;
+width: 1000px;
+height: 318.79px;
+left: 689.67px;
+top: 2600px;
+font-family: 'Epilogue';
+font-style: normal;
+font-weight: 500;
+font-size: 108px;
+line-height: 108px;
+/* or 100% */
+
+letter-spacing: -0.04em;
+
+/* 1 Cognitive Labor */
+
+color: #F65735;
+}
+.clquoteWrapper1{
+position: absolute;
+width: 522.74px;
+height: 39.92px;
+left: 245.2px;
+top: 2180px;
+display: none;
+}
+.clquoteWrapper2{
+position: absolute;
+width: 432px;
+height: 39.92px;
+left: 1350px;
+top: 2360px;
+display:none;
+}
+
+.clquoteWrapper3{
+  position: absolute;
+width: 541.32px;
+height: 94.35px;
+left: 91.84px;
+top: 3010.3px;
+display: inline-block;
+}
+.clquoteWrapper4{
+    position: absolute;
+    width: 726.82px;
+    height: 39.92px;
+    left: 866.57px;
+    top: 3084.72px;
+    display: inline-block;
+}
+
+.clquoteWrapper5{position: absolute;width: 565.93px;height: 50.08px;left: 244.02px;top: 3343px;}
+.clquoteWrapper6{position: absolute;width: 587.81px;height: 136px;left: 1167.21px;top: 3419.63px;}
+
+.roundRectTextContainer{
+  position: absolute;
+width: 1442.55px;
+height: 451px;
+left: 300px;
+top: 3705.27px;
+
+
+border: 1.5px solid #292D31;
+box-sizing: border-box;
+border-radius: 60px;
+}
+
+.roundRectText{
+  position: absolute;
+/*width: 1178.77px;
+height: 254px;
+left: 286.62px;
+top: 3803.77px;*/
+
+/* Epilogue Headers Semibold */
+
+font-family: 'Epilogue';
+font-style: normal;
+font-weight: 600;
+font-size: 72px;
+line-height: 88px;
+/* or 122% */
+
+letter-spacing: -0.04em;
+
+/* Header Dark Gray */
+
+color: #292D31;
+}
+.floatingAni1{
+ animation: floating1 6s ease-in-out infinite;
+}
+.floatingAni2{
+  animation: floating2 10s ease-out infinite;
+}
+.climg1{
+background-image: url("img/fries.png");
+background-size: cover;
+background-repeat: no-repeat;
+position: absolute;
+width: 531.68px;
+height: 600px;
+left: 0px;
+top: 1714.31px;
+transform: rotate(0deg);
+
+}
+.climg2{
+background-image: url("img/apple.png");
+background-size: cover;
+background-repeat: no-repeat;
+position: absolute;
+width: 418.55px;
+height: 461.1px;
+left: 1550px;
+top: 2050px;
+
+}
+
+.climg3{
+background-image: url("img/stethescope.png");
+background-size: cover;
+background-repeat: no-repeat;
+position: absolute;
+width: 873.56px;
+height: 630.12px;
+left: -10.41px;
+top: 2274.67px;
+
+
+}
+
+.climg4{
+position: absolute;
+width: 426.81px;
+height: 390.72px;
+left: 683.08px;
+top: 3013px;
+
+background-image: url("img/party blowers.png");
+/*transform: rotate(9.29deg);*/
+}
+.climg5{
+  position: absolute;
+width: 568.33px;
+height: 669.3px;
+left: 1994.36px;
+top: 2918.57px;
+
+background-image: url("img/striped onesie.png");
+transform: matrix(-0.95, -0.31, -0.31, 0.95, 0, 0);
+}
+/***fade away text***/
+.fade-away {
+  text-shadow: 0 0 25px #fff;
+  transform: scale(1.05);
+  opacity: 0;
+  transition: text-shadow 1s, opacity .5s,ease-out 1s;
+
+}
+
+.fade-away.visible {
+  color: transparent; 
+  text-shadow: 0 0 1px #fff;
+  transform: scale(1);
+  transition: text-shadow 1s, opacity 5s, ease-in 1s;
+  opacity: 1;
+}
+/***end fadeaway***/
+
+
+/**** floating image ***/
+
+@keyframes floating1 {
+    0% {
+ 
+    transform: translatey(0px);
+  }
+  50% {
+
+    transform: translatey(-20px);
+  }
+  100% {
+
+    transform: translatey(0px);
+  }
+}
+@keyframes floating2 {
+    0% {
+ 
+    transform: translatey(-20px);
+  }
+  50% {
+
+    transform: translatey(0px);
+  }
+  100% {
+
+    transform: translatey(20px);
+  }
+}
+/*** end floating image 

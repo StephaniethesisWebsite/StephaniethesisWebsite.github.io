@@ -1,0 +1,38 @@
+/* screen - 37_404 */
+
+.x4-1st-section {
+  align-items: flex-end;
+  display: flex;
+  height: 1032px;
+  justify-content: flex-end;
+  min-width: 1595px;
+}
+
+.landing-title-container {
+  align-items: flex-start;
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/626dd3a4ed67e88d0cf524b1/releases/6275ad8babee29561f13c2ca/img/4landingpagebk-1@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+ position: absolute;
+width: calc(1595px / 1920px) * 100% 
+height: 1032.38px;
+margin: ;
+}
+
+.landing-title1 {
+  letter-spacing: -4.00px;
+  line-height: 100px;
+  min-height: 105px;
+  white-space: nowrap;
+}
+
+.landing-title2 {
+  align-self: flex-end;
+  letter-spacing: -2.00px;
+  line-height: 100px;
+  margin-right: 7.8px;
+  margin-top: 9px;
+  min-height: 100px;
+  min-width: 831px;
+  white-space: nowrap;
+}

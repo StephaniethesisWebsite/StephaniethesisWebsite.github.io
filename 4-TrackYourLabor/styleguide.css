@@ -1,0 +1,15 @@
+:root { 
+  --alabaster: #f9fbff;
+  --black: #000000;
+ 
+  --font-size-m: 100px;
+ 
+  --font-family-epilogue: "Epilogue", Helvetica;
+}
+.epilogue-semi-bold-alabaster-100px {
+  color: var(--alabaster);
+  font-family: var(--font-family-epilogue);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 600;
+}

@@ -1,0 +1,67 @@
+:root { 
+  --baltic-sea: #292d31;
+  --black: #000000;
+  --coral: #fc7e53;
+  --mist-gray: #c4c4c4;
+ 
+  --font-size-l: 32px;
+  --font-size-m: 24px;
+  --font-size-s: 23px;
+  --font-size-xl: 42px;
+  --font-size-xxl: 54px;
+  --font-size-xxxl: 100px;
+ 
+  --font-family-abc_diatype_edu: "ABC Diatype Edu", Helvetica;
+  --font-family-abc_diatype_edu-bold: "ABC Diatype Edu-Bold", Helvetica;
+  --font-family-abc_diatype_edu-bolditalic: "ABC Diatype Edu-BoldItalic", Helvetica;
+  --font-family-abc_diatype_edu-medium: "ABC Diatype Edu-Medium", Helvetica;
+  --font-family-abc_diatype_edu-regular: "ABC Diatype Edu-Regular", Helvetica;
+  --font-family-abc_diatype_edu-regularitalic: "ABC Diatype Edu-RegularItalic", Helvetica;
+  --font-family-epilogue: "Epilogue", Helvetica;
+  --font-family-freighttext_pro-bookitalic: "FreightText Pro-BookItalic", Helvetica;
+}
+.abcdiatypeedu-regular-normal-black-32px {
+  color: var(--black);
+  font-family: var(--font-family-abc_diatype_edu-regular);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.abcdiatypeedu-regular-normal-black-24px {
+  color: var(--black);
+  font-family: var(--font-family-abc_diatype_edu-regular);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.abcdiatypeedu-regular-normal-black-24px-2 {
+  color: var(--black);
+  font-family: var(--font-family-abc_diatype_edu-regular);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.freighttextpro-bookitalic-normal-coral-42px {
+  color: var(--coral);
+  font-family: var(--font-family-freighttext_pro-bookitalic);
+  font-size: var(--font-size-xl);
+  font-style: italic;
+  font-weight: 400;
+}
+
+.abcdiatypeedu-normal-black-24px {
+  color: var(--black);
+  font-family: var(--font-family-abc_diatype_edu);
+  font-size: var(--font-size-m);
+}
+
+.abcdiatypeedu-regularitalic-normal-black-24px {
+  color: var(--black);
+  font-family: var(--font-family-abc_diatype_edu-regularitalic);
+  font-size: var(--font-size-m);
+  font-style: italic;
+  font-weight: 400;
+}
