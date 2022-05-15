@@ -1,0 +1,98 @@
+:root { 
+  --alabaster: #f9fbff;
+  --baltic-sea: #292d31;
+  --black: #000000;
+  --coral: #fc7e53;
+  --eerie-black: #1e1f20;
+  --heliotrope: #d573ee;
+  --la-rioja: #bab700;
+  --stromboli: #395b50;
+ 
+  --font-size-l: 32px;
+  --font-size-m: 31px;
+  --font-size-s: 23px;
+  --font-size-xl: 54px;
+  --font-size-xs: 18px;
+  --font-size-xxl: 100px;
+ 
+  --font-family-abc_diatype_edu-bold: "ABC Diatype Edu-Bold", Helvetica;
+  --font-family-abc_diatype_edu-medium: "ABC Diatype Edu-Medium", Helvetica;
+  --font-family-abc_diatype_edu-regular: "ABC Diatype Edu-Regular", Helvetica;
+  --font-family-epilogue: "Epilogue", Helvetica;
+  --font-family-freighttext_pro-bookitalic: "FreightText Pro-BookItalic", Helvetica;
+}
+.abcdiatypeedu-medium-stromboli-23px {
+  color: var(--stromboli);
+  font-family: var(--font-family-abc_diatype_edu-medium);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.freighttextpro-bookitalic-normal-black-32px {
+  color: var(--black);
+  font-family: var(--font-family-freighttext_pro-bookitalic);
+  font-size: var(--font-size-l);
+  font-style: italic;
+  font-weight: 400;
+}
+
+.abcdiatypeedu-regular-normal-black-31px {
+  color: var(--black);
+  font-family: var(--font-family-abc_diatype_edu-regular);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.epilogue-medium-stromboli-54px {
+  color: var(--stromboli);
+  font-family: var(--font-family-epilogue);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.abcdiatypeedu-medium-la-rioja-23px {
+  color: var(--la-rioja);
+  font-family: var(--font-family-abc_diatype_edu-medium);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.abcdiatypeedu-regular-normal-alabaster-31px {
+  color: var(--alabaster);
+  font-family: var(--font-family-abc_diatype_edu-regular);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.abcdiatypeedu-medium-heliotrope-23px {
+  color: var(--heliotrope);
+  font-family: var(--font-family-abc_diatype_edu-medium);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.abcdiatypeedu-medium-coral-23px {
+  color: var(--coral);
+  font-family: var(--font-family-abc_diatype_edu-medium);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.freighttextpro-bookitalic-normal-eerie-black-32px {
+  color: var(--eerie-black);
+  font-family: var(--font-family-freighttext_pro-bookitalic);
+  font-size: var(--font-size-l);
+  font-style: italic;
+  font-weight: 400;
+}
+
+.border-1px-alabaster {
+  border: 1px solid var(--alabaster);
+}
