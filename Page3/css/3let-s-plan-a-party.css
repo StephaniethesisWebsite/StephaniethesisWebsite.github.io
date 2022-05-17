@@ -31,7 +31,11 @@
   object-fit: cover;
   position: absolute;
   top: 692px;
-  width: 1916px;
+  left: 0px;
+top: 0px;
+
+ /* width: 1916px;*/
+  width: 100vw;
 }
 
 .x3let-s-plan-a-party .sec1-body-QFDS5x {
@@ -184,6 +188,47 @@
   width: 975px;
 }
 
+
+.x3let-s-plan-a-party .purple-circletext0-cklfwy {
+
+box-sizing: border-box;
+
+position: absolute;
+width: 1332px;
+height: 434px;
+left: 296.96px;
+top: 1242px;
+
+mix-blend-mode: darken;
+/* 3 Let's Plan A Party */
+
+border: 1.5px solid #D674EE;
+}
+
+.x3let-s-plan-a-party .span0-first1{
+position: absolute;
+width: 1008.83px;
+height: 198.79px;
+left: 475.52px;
+top: 1355.6px;
+
+/* 72 */
+
+font-family: 'Epilogue';
+font-style: normal;
+font-weight: 500;
+font-size: 54px;
+line-height: 70px;
+/* or 130% */
+
+letter-spacing: -0.04em;
+
+/* Header Dark Gray */
+
+color: #292D31;
+
+mix-blend-mode: darken;
+}
 .x3let-s-plan-a-party .span0-uz5p57 {
   letter-spacing: -1.54px;
   line-height: 78px;
