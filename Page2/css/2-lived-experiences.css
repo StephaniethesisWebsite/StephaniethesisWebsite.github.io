@@ -1086,23 +1086,24 @@
 
 .x2-lived-experiences .p2landing-part-nnPOLr {
   background-color: transparent;
-  height: 1032px;
-  left: 160px;
+  /*height: 1032px;*/
+  height: auto;
+  margin-left: 8vw;
+  margin-right: 8vw;
   mix-blend-mode: normal;
   position: absolute;
-  top: 121px;
-  width: 1601px;
+  top: calc(121 / 1920 * 100vw);
+  width: 84vw;
 }
 
 .x2-lived-experiences .part1bk-image-1-yOxLWy {
   background-color: transparent;
-  height: 1033px;
-  left: 3px;
+  height: auto;
   mix-blend-mode: normal;
   object-fit: cover;
   position: absolute;
   top: 0px;
-  width: 1602px;
+  width: 100%;
 }
 
 .x2-lived-experiences .with-cognitive-labor-yOxLWy {
@@ -1113,7 +1114,8 @@
   font-style: normal;
   font-weight: 600;
   height: auto;
-  left: 397px;
+ /* left: 397px;*/
+   left: calc(397 / 1620 * 100%);
   letter-spacing: -4.00px;
   line-height: 100px;
   mix-blend-mode: normal;
@@ -1142,3 +1144,4 @@
   white-space: nowrap;
   width: 1150px;
 }
+
