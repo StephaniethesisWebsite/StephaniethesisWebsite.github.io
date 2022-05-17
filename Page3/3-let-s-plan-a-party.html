@@ -7,6 +7,34 @@
     <link rel="stylesheet" type="text/css" href="3-let-s-plan-a-party.css" />
     <link rel="stylesheet" type="text/css" href="styleguide.css" />
     <link rel="stylesheet" type="text/css" href="globals.css" />
+      <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+  
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+  <script>
+   $( function() {
+
+
+    var i =1;
+    var w=100;
+
+    for(i=1; i<22; i++){
+           var dragId = "#drag" +i;
+    $("#dragArea").droppable({
+      // accept: dragId,
+      // tolerance: 'fit'
+    });
+ 
+    $( dragId).draggable({ 
+      cursor: "move"
+    });
+      $( dragId).droppable({
+
+      });
+}
+  
+  } );
+  </script>
   </head>
   <body style="margin: 0; background: #f9fbff">
     <input type="hidden" id="anPageName" name="page" value="3-let-s-plan-a-party" />
@@ -35,6 +63,67 @@
         </div>
         <div class="foot-text abcdiatypeedu-medium-baltic-sea-18px">THE INVISIBLE WEIGHT OF COGNITIVE LABOR</div>
         <div class="back-button"><div class="back-to-top abcdiatypeedu-bold-baltic-sea-18px">BACK TO TOP</div></div>
+        <div class="overlap-group5 freighttextpro-bookitalic-normal-baltic-sea-28px">
+          <img
+            class="line-136"
+            src="https://anima-uploads.s3.amazonaws.com/projects/628164e8cd367e86d77627d8/releases/6283fd4420ce71827922258f/img/line-136@1x.png"
+          />
+          <img
+            class="line-137"
+            src="https://anima-uploads.s3.amazonaws.com/projects/628164e8cd367e86d77627d8/releases/6283fd4420ce71827922258f/img/line-137@1x.png"
+          />
+          <img
+            class="line-138"
+            src="https://anima-uploads.s3.amazonaws.com/projects/628164e8cd367e86d77627d8/releases/6283fd4420ce71827922258f/img/line-137@1x.png"
+          />
+          <img
+            class="line-139"
+            src="https://anima-uploads.s3.amazonaws.com/projects/628164e8cd367e86d77627d8/releases/6283fd4420ce71827922258f/img/line-139@1x.png"
+          />
+          <div class="drag-drog-frame">
+            <div class="overlap-group3">
+              <div class="drag-and-drop-each-t abcdiatypeedu-bold-alabaster-28px">
+                DRAG AND DROP EACH TASK TO THE CORRESPONDING WEEK
+              </div>
+            </div>
+            <div class="overlap-group2 abcdiatypeedu-bold-alabaster-28px">
+              <div class="address">4 WEEKS</div>
+              <div class="address-1">3 WEEKS</div>
+              <div class="address-2">2 WEEKS</div>
+              <div class="address-3">1 WEEK</div>
+              <div class="surname">DAY OF</div>
+            </div>
+            <img
+              class="line-224"
+              src="https://anima-uploads.s3.amazonaws.com/projects/628164e8cd367e86d77627d8/releases/6283fa5f3cead5f9b3c1813f/img/line-224@1x.png"
+            />
+          </div>
+              <div draggable="true" id="drag21"class="quote21">I have to generate the invite list.</div>
+          <div draggable="true" id="drag20"class="quote20">How many people can we invite?</div>
+          <div draggable="true" id="drag19"class="quote19">There are friends we’ll definitely want to be there. Let’s check with them.</div>
+          <div draggable="true" id="drag18"class="quote18">We need to pick the best date for the party.</div>
+          <div draggable="true" id="drag17"class="quote17">Who to invite.</div>
+          <div draggable="true" id="drag16"class="quote16">Adding invite to calendar.</div>
+          <div draggable="true" id="drag15"class="quote15">Deciding which gift to buy.</div>
+          <div draggable="true" id="drag14"class="quote14">Researching which gift to buy.</div>
+          <div draggable="true" id="drag13"class="quote13">Figuring out the budget for the gift.</div>
+          <div draggable="true" id="drag12"class="quote12">Deciding on party favors.</div>
+          <div draggable="true" id="drag11"class="quote11">Researching which party favors buy.</div>
+          <div draggable="true" id="drag10"class="quote10">Asking what kind of cakes the birthday person wants.</div>
+          <div draggable="true" id="drag9"class="quote09">If baking the cake, knowing which ingredients are needed.</div>
+          <div draggable="true" id="drag8"class="quote08">If baking the cake, researching the kind of cake to bake.</div>
+          <div draggable="true" id="drag7"class="quote07">If purchasing the cake, researching where to buy cake.</div>
+          <div draggable="true" id="drag6"class="quote06">If purchasing the cake, ordering the cake in time.</div>
+          <div draggable="true" id="drag5"class="quote05">If purchasing the cake, picking up the cake.</div>
+          <div draggable="true" id="drag4"class="quote04">Deciding on cake size.</div>
+          <div draggable="true" id="drag3"class="quote03">Deciding on invite medium.</div>
+          <div draggable="true" id="drag2"class="quote02">Generating the invite.</div>
+          <div draggable="true" id="drag1"class="quote01">Sending out the invite.</div>
+        </div>
+        <img
+          class="minions-party-gif-1"
+          src="https://anima-uploads.s3.amazonaws.com/projects/628164e8cd367e86d77627d8/releases/6283fd4420ce71827922258f/img/minions-party-gif-1@2x.png"
+        />
         <div class="purplecircle3">
           <div class="did-any-of-the-tasks epilogue-medium-baltic-sea-54px">
             Did any of the tasks surprise you? Are you able to categorize these tasks based on the formal definition of
@@ -53,7 +142,7 @@
             </div>
             <img
               class="ellipse"
-              src="https://anima-uploads.s3.amazonaws.com/projects/628164e8cd367e86d77627d8/releases/6283fa5f3cead5f9b3c1813f/img/ellipse-6@1x.png"
+              src="https://anima-uploads.s3.amazonaws.com/projects/628164e8cd367e86d77627d8/releases/6283fd4420ce71827922258f/img/ellipse-6@1x.png"
             />
           </div>
         </div>
@@ -66,14 +155,10 @@
             </div>
             <img
               class="ellipse"
-              src="https://anima-uploads.s3.amazonaws.com/projects/628164e8cd367e86d77627d8/releases/6283fa5f3cead5f9b3c1813f/img/ellipse-9@1x.png"
+              src="https://anima-uploads.s3.amazonaws.com/projects/628164e8cd367e86d77627d8/releases/6283fd4420ce71827922258f/img/ellipse-9@1x.png"
             />
           </div>
         </div>
-        <img
-          class="line-224"
-          src="https://anima-uploads.s3.amazonaws.com/projects/628164e8cd367e86d77627d8/releases/6283fa5f3cead5f9b3c1813f/img/line-224@1x.png"
-        />
         <div class="purple-sec1">
           <div class="the-cognitive-dimens">The Cognitive Dimension of Household Labor, Allison Daminger (2019).</div>
           <div class="overlap-group-1">
@@ -84,18 +169,19 @@
             <div class="rectangle-16"></div>
           </div>
         </div>
-        <div class="overlap-group2">
-          <div class="purple-sec2">
+        <div class="purple-sec2">
+          <div class="overlap-group4">
+            <img
+              class="line-213"
+              src="https://anima-uploads.s3.amazonaws.com/projects/628164e8cd367e86d77627d8/releases/6283fa5f3cead5f9b3c1813f/img/line-213@1x.png"
+            />
+            <div class="rectangle-234"></div>
             <div class="many-people-that-i-t">
               Many people that I talked to were unaware of the definition of cognitive labor. Giving individuals the
               vocabulary to engage in this topic will, hopefully, be a catalyst in making others aware of this other
               dimension of household labor.
             </div>
           </div>
-          <img
-            class="line-213"
-            src="https://anima-uploads.s3.amazonaws.com/projects/628164e8cd367e86d77627d8/releases/6283fa5f3cead5f9b3c1813f/img/line-213@1x.png"
-          />
         </div>
       </div>
     </div>

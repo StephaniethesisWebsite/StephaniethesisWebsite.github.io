@@ -5,24 +5,42 @@
   --heliotrope: #d573ee;
   --white: #ffffff;
  
+  --font-size-m: 28px;
   --font-size-m2: 31px;
-  --font-size-s2: 23px;
+  --font-size-s: 23px;
   --font-size-xl: 52px;
   --font-size-xl2: 54px;
-  --font-size-xs2: 18px;
+  --font-size-xs: 18px;
   --font-size-xxl2: 100px;
  
   --font-family-abc_diatype_edu-bold: "ABC Diatype Edu-Bold", Helvetica;
   --font-family-abc_diatype_edu-medium: "ABC Diatype Edu-Medium", Helvetica;
   --font-family-abc_diatype_edu-regular: "ABC Diatype Edu-Regular", Helvetica;
   --font-family-epilogue: "Epilogue", Helvetica;
+  --font-family-freighttext_pro-bookitalic: "FreightText Pro-BookItalic", Helvetica;
 }
+.freighttextpro-bookitalic-normal-baltic-sea-28px {
+  color: var(--baltic-sea);
+  font-family: var(--font-family-freighttext_pro-bookitalic);
+  font-size: var(--font-size-m);
+  font-style: italic;
+  font-weight: 400;
+}
+
 .abcdiatypeedu-medium-heliotrope-23px {
   color: var(--heliotrope);
   font-family: var(--font-family-abc_diatype_edu-medium);
-  font-size: var(--font-size-s2);
+  font-size: var(--font-size-s);
   font-style: normal;
   font-weight: 500;
+}
+
+.abcdiatypeedu-bold-alabaster-28px {
+  color: var(--alabaster);
+  font-family: var(--font-family-abc_diatype_edu-bold);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 700;
 }
 
 .epilogue-medium-baltic-sea-54px {
@@ -52,7 +70,7 @@
 .abcdiatypeedu-medium-baltic-sea-18px {
   color: var(--baltic-sea);
   font-family: var(--font-family-abc_diatype_edu-medium);
-  font-size: var(--font-size-xs2);
+  font-size: var(--font-size-xs);
   font-style: normal;
   font-weight: 500;
 }
@@ -60,7 +78,7 @@
 .abcdiatypeedu-bold-baltic-sea-18px {
   color: var(--baltic-sea);
   font-family: var(--font-family-abc_diatype_edu-bold);
-  font-size: var(--font-size-xs2);
+  font-size: var(--font-size-xs);
   font-style: normal;
   font-weight: 700;
 }
