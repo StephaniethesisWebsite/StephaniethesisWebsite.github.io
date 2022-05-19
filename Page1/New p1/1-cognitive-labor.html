@@ -2,7 +2,8 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=1920, maximum-scale=1.0" />
+<!--     <meta name="viewport" content="width=1920, maximum-scale=1.0" /> -->
+   <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" />
     <meta name="og:type" content="website" />
     <meta name="twitter:card" content="photo" />
@@ -210,7 +211,7 @@
       <img id="image2"class="p1-floating-image2-62bqZC" src="img/p1floatingimage2@2x.png" />
       <img id="image1"class="p1-floating-image1-62bqZC" src="img/p1floatingimage1@1x.png" />
       <div class="p1-landing-sec-62bqZC">
-        <img class="landingpage-1-11x-1-xAbaoo" src="img/landingpage-1-1-1x-1@1x.png" />
+ <!--        <img class="landingpage-1-11x-1-xAbaoo" src="img/landingpage-1-1-1x-1@1x.png" /> -->
         <div class="how-can-we-better-re-xAbaoo abcdiatypeedu-medium-alabaster-28px">
           <span class="span0-IwhDUG abcdiatypeedu-medium-alabaster-28px"
             >How can we better recognize and value the invisible work it takes to manage </span
@@ -220,6 +221,8 @@
             >dimensions of household work visible and tangible for people in their homes.</span
           >
         </div>
+        
+        <div class="landingTitle">
         <div class="of-cognitive-labor-xAbaoo epilogue-semi-bold-white-100px">of cognitive labor</div>
         <div class="the-invisible-weight-xAbaoo epilogue-semi-bold-white-100px">
           <span class="span0-rbtW9N epilogue-semi-bold-white-100px">The </span
@@ -233,6 +236,7 @@ setTimeout(function() {
       </script>
 
         </div>
+      </div>
       </div>
     </div>
   </body>
@@ -251,8 +255,70 @@ $imageId.mouseover(function(){
   $quoteId.addClass("quoteDisplay");
 });
 }
+// $(window).resize(function () 
+// {
+//     calculateNewScale();
+//    // bringToTop();
+//     getBodyposition();
+
+    
+// });
+
+// function calculateNewScale()
+// {
+//     var percentageOn1 = $(window).innerWidth() / 1920 ;
+//      var h = $( "body" ).first();
+// var position = h.position();
+// var tx = -1 * parseInt(position.left, 10);
+// var ty = -1 * parseInt(position.top, 10);
+
+//     $("body").css(
+//     {
+//         "-moz-transform": "scale("+percentageOn1 +")",
+//         "-webkit-transform": "scale("+percentageOn1 +")",
+//         "transform": "scale("+percentageOn1 +")",
+//         // "top": ty,
+//         // "left": tx
+//         // "transform": "translate("+tx +", "+ty +" )"
+      
+//     });
+
+//     $("body").center();
+// }
+
+// function bringToTop()
+// {
+//  var h = $( "body" ).first();
+// var position = h.position();
+// var tx = -1 * position.left;
+// var ty = -1 * position.top;
+//     $("body").css(
+//     {
+//         "-moz-transform": "translate("+tx +", "+ty +" )",
+//         "-webkit-transform": "translate("+tx +", "+ty +" )",
+//         "transform": "translate("+tx +", "+ty +" )"
+//         // "transform": "translate("+tx +", "+ty +" )"
+      
+//     });
+// }
+
+// function getBodyposition()
+// {
+//   var h = $( "body" ).first();
+// var position = h.position();
+// console.log ( "left: " + position.left + ", top: " + position.top );
 
 
+// }
+
+// jQuery.fn.center = function () {
+//     this.css("position","absolute");
+//     this.css("top", Math.max(0, (($(window).height() - $(this).outerHeight()) / 2) + 
+//                                                 $(window).scrollTop()) + "px");
+//     this.css("left", Math.max(0, (($(window).width() - $(this).outerWidth()) / 2) + 
+//                                                 $(window).scrollLeft()) + "px");
+//     return this;
+// }
 
 </script>
 </html>

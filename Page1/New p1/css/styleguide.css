@@ -7,13 +7,22 @@
   --orange-soda: #f65735;
   --white: #ffffff;
  
-  --font-size-l: 62px;
+ /* --font-size-l: 62px;
   --font-size-m: 54px;
   --font-size-s: 42px;
   --font-size-xs: 32px;
   --font-size-xxs: 28px;
   --font-size-xxxs: 23px;
   --font-size-xxxxs: 18px;
+*/
+
+    --font-size-l: 3.2291666666667vw;
+  --font-size-m: 2.8125vw;
+  --font-size-s: 2.1875vw;
+  --font-size-xs: 1.6666666666667vw;
+  --font-size-xxs: 1.4583333333333vw;
+  --font-size-xxxs:  1.1979166666667vw;
+  --font-size-xxxxs: 0.9375vw;
  
   --font-family-abc_diatype_edu-bold: "ABC Diatype Edu-Bold", Helvetica;
   --font-family-abc_diatype_edu-bolditalic: "ABC Diatype Edu-BoldItalic", Helvetica;
@@ -73,7 +82,7 @@
 .epilogue-semi-bold-white-100px {
   color: var(--white);
   font-family: var(--font-family-epilogue);
-  font-size: 100px;
+  font-size: 5.2083333333333vw; /*100px*/
   font-style: normal;
   font-weight: 600;
 }

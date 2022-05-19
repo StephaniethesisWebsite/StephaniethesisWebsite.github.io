@@ -110,10 +110,10 @@ font-weight: 700;
   .nav__label {
     font-size: 8px;
   }
-  body{
+ /* body{
     width:800px;
     height:auto;
-  }
+  }*/
 }
 @media (max-width: 720px) {
  /* .nav__label {

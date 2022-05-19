@@ -930,36 +930,58 @@
 }
 
 .x1-cognitive-labor .p1-landing-sec-62bqZC {
-  background-color: transparent;
-  height: 1033px;
-  left: 162px;
-  mix-blend-mode: normal;
-  position: absolute;
-  top: 120px;
-  width: 1599px;
+/*background-color: transparent;*/
+    height: calc(100% * 1033 / 8918);
+    left: calc(100vw * 162 / 1920);
+    mix-blend-mode: normal;
+    position: absolute;
+    top: calc(100% * 120 / 8918);
+    width: calc(100vw * 1599 / 1920);
+background-repeat: no-repeat;
+background-size: contain;
+background-image: url("../img/landingpage-1-1-1x-1@1x.png" );
 }
 
 .x1-cognitive-labor .landingpage-1-11x-1-xAbaoo {
   background-color: transparent;
-  height: 1033px;
+  height: auto; /*1033px;*/
   left: 0px;
   mix-blend-mode: normal;
   object-fit: cover;
   position: absolute;
   top: 0px;
-  width: 1599px;
+  background-repeat: no-repeat;
+  object-fit: contain;
+  width: 100%; /*1599px;*/
 }
 
 .x1-cognitive-labor .how-can-we-better-re-xAbaoo {
   background-color: transparent;
-  height: auto;
-  left: 600px;
-  line-height: 38px;
+  height:  calc(100% * 112.34 / 1033);
+  left: calc(100% * 600 / 1599);
+  line-height: calc(100% * 38 / 1033);
   mix-blend-mode: normal;
   position: absolute;
   text-align: left;
-  top: 829px;
-  width: 916px;
+  top: calc(100% * 829 / 1033);
+  width: calc(100% * 916 / 1599);
+  word-wrap: break-word;
+}
+
+.x1-cognitive-labor .landingTitle{
+/*  position: absolute;
+height: 204.27px;
+left: 79.2px;
+right: 186.3px;
+top: calc(50% - 204.27px/2 + 198.7px);*/
+position: absolute;
+width: calc(100% * 1333.5 / 1599);
+height: calc(100% * 204.27 / 1033);
+left: calc(100% * 79.2 / 1599);
+right: calc(100% * 186.3 / 1599);
+margin-top: calc( (1 - 613.7 / 1033) * 100%);
+
+
 }
 
 .x1-cognitive-labor .span0-IwhDUG {
@@ -975,33 +997,35 @@
 }
 
 .x1-cognitive-labor .of-cognitive-labor-xAbaoo {
-  background-color: transparent;
-  height: auto;
-  left: 588px;
-  letter-spacing: -4.00px;
-  line-height: 100px;
-  mix-blend-mode: normal;
-  position: absolute;
-  text-align: left;
-  text-shadow: 0px 2px 2px #00000040;
-  top: 717px;
-  white-space: nowrap;
-  width: auto;
+background-color: transparent;
+height: auto;
+left: calc(100% * 508/ 1033);
+letter-spacing: -4.00px;
+line-height: calc(100% * 100 / 204.27);
+mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    text-shadow: 0px 2px 2px #00000040;
+    top: calc(100% * (104.27 / 204.27 ));
+    white-space: nowrap;
+    word-wrap: break-word;
+    width: calc(100% * 825 / 1333);
 }
 
 .x1-cognitive-labor .the-invisible-weight-xAbaoo {
   background-color: transparent;
   height: auto;
-  left: 79px;
+  left: calc(100% * 79 / 1333);
   letter-spacing: -4.00px;
-  line-height: 100px;
+  line-height: calc(100% * 100 / 204.27);
   mix-blend-mode: normal;
   position: absolute;
   text-align: left;
   text-shadow: 0px 2px 2px #00000040;
-  top: 613px;
+  top: 0; /*calc(100% * 613 / 1033);*/
   white-space: nowrap;
-  width: 1019px;
+  width: calc(100% * 1019 / 1333);
+      word-wrap: break-word;
 }
 
 .x1-cognitive-labor .span0-rbtW9N {
