@@ -707,3 +707,20 @@
   white-space: nowrap;
   width: auto;
 }
+
+
+/*.the-cognitive-dimens-cxwVHE:hover{
+  color: red;
+}*/
+.rImg1,#rImg2,#rImg3{
+  display: none;
+}
+
+
+.the-cognitive-dimens-cxwVHE:hover .rImg1{
+  display: block;
+  background-color: red;
+  width: 100vw;
+  height: 300px;
+  margin: 0 auto;
+}
