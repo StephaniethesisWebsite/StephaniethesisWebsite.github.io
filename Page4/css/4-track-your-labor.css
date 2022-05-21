@@ -2,32 +2,32 @@
 
 .x4-track-your-labor {
   background-color: var(--alabaster);
-  height: 100vh;
+  height: auto;
   margin: 0px;
-  min-height: 12161px;
-  min-width: 1920px;
+/*  min-height: 12161px;
+  min-width: 1920px;*/
   overflow: hidden;
   overflow-x: hidden;
   position: relative;
-  width: 100%;
+  width: 100vw;
 }
 
 .x4-track-your-labor .last-sec-green-nDlnrk {
   background-color: transparent;
-  height: 827px;
-  left: 0px;
+  height: calc(100vw * 827 / 1920);
+  left: 0;
   position: absolute;
-  top: 11244px;
-  width: 1920px;
+  top: calc(100vw * 11244 / 1920);
+  width: 100vw;
 }
 
 .x4-track-your-labor .line-213-tiZSqy {
   background-color: transparent;
-  height: 2px;
-  left: -1px;
+  height: calc(100vw * 2 / 1920);
+  left: calc(100vw * -1 / 1920);
   position: absolute;
-  top: 826px;
-  width: 1920px;
+  top: calc(100vw *  826 / 1920);
+  width: 100vw;
 }
 
 .x4-track-your-labor .bk-tiZSqy {
@@ -36,7 +36,7 @@
   left: 0px;
   position: absolute;
   top: 0px;
-  width: 1920px;
+  width: 100vw;
 }
 
 .x4-track-your-labor .screen-shot-2022-05-03-at-223-1-tiZSqy {

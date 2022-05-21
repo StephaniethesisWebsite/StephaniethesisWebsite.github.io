@@ -2,25 +2,24 @@
 
 .x4-track-your-labor-other {
   background-color: var(--alabaster);
-  height: 100vh;
+  height: auto;
   margin: 0px;
-  min-height: 12161px;
-  min-width: 1920px;
+/*  min-height: 12161px;
+  min-width: 1920px;*/
   mix-blend-mode: normal;
   overflow: hidden;
   overflow-x: hidden;
-  position: relative;
-  width: 100%;
+/*  position: relative;*/
+  width: 100vw;
 }
 
 .x4-track-your-labor-other .last-sec-green-6PR5WV {
-  background-color: transparent;
-  height: 827px;
-  left: 0px;
-  mix-blend-mode: normal;
+ background-color: transparent;
+  height: calc(100vw * 827 / 1920);
+  left: 0;
   position: absolute;
- margin-top: 20vh;
-  width: 1920px;
+  top: calc(110vw * 11244 / 1920);
+  width: 100vw;
 }
 
 .x4-track-your-labor-other .line-213-2Ph6Y8 {
@@ -28,42 +27,42 @@
   height: 1px;
   left: 0px;
   position: absolute;
-  top: 826px;
-  width: 1919px;
+  top: calc(826 / 1920 * 100vw);
+  width: 100vw;
 }
 
 .x4-track-your-labor-other .bk-2Ph6Y8 {
   background-color: var(--la-rioja);
-  height: 827px;
+  height: calc(100vw * 827 / 1920);
   left: 0px;
   mix-blend-mode: normal;
   position: absolute;
   top: 0px;
-  width: 1920px;
+  width: 100vw;
 }
 
 .x4-track-your-labor-other .screen-shot-2022-05-03-at-223-1-2Ph6Y8 {
-  background-color: transparent;
-  height: 662px;
-  left: 1240px;
+   background-color: transparent;
+  height:calc(100vw * 662  / 1920);
+  left:calc(100vw * 1240  / 1920);
   mix-blend-mode: normal;
   object-fit: cover;
   position: absolute;
-  top: 82px;
-  width: 447px;
+  top:calc(100vw * 82  / 1920);
+  width: calc(100vw * 447  / 1920);
 }
 
 .x4-track-your-labor-other .i-conducted-a-week-l-2Ph6Y8 {
   background-color: transparent;
-  height: auto;
-  left: 240px;
-  letter-spacing: -0.42px;
-  line-height: 48px;
+  height:auto;
+  left:calc(100vw * 240  / 1920);
+  letter-spacing: calc(100vw * -0.42  / 1920);
+  line-height:calc(100vw * 48  / 1920);
   mix-blend-mode: normal;
   position: absolute;
   text-align: left;
-  top: 139px;
-  width: 628px;
+  top:calc(100vw * 139  / 1920);
+  width: calc(100vw * 628  / 1920);
 }
 
 .x4-track-your-labor-other .here-is-a-link-to-th-2Ph6Y8 {
@@ -73,15 +72,15 @@
   font-size: var(--font-size-s);
   font-style: normal;
   font-weight: 700;
-  height: auto;
-  left: 240px;
-  letter-spacing: -0.42px;
-  line-height: 48px;
+  height:auto;
+  left:calc(100vw * 240  / 1920);
+  letter-spacing: calc(100vw * -0.42  / 1920);
+  line-height:calc(100vw * 48  / 1920);
   mix-blend-mode: normal;
   position: absolute;
   text-align: left;
-  top: 531px;
-  width: 628px;
+  top:calc(100vw * 531  / 1920);
+  width: calc(100vw * 628  / 1920);
 }
 
 .x4-track-your-labor-other .span0-BoXXp4 {
@@ -97,13 +96,22 @@
 }
 
 .x4-track-your-labor-other .direction-div-6PR5WV {
-  background-color: transparent;
+/*  background-color: transparent;
   height: 174px;
   left: 295px;
   mix-blend-mode: normal;
   position: absolute;
   top: 1924px;
-  width: 760px;
+  width: 760px;*/
+  background-color: transparent;
+    height: calc(100vw * 174 / 1920);
+    left: calc(100vw * 295 / 1920);
+    mix-blend-mode: normal;
+    position: absolute;
+    top: calc(100vw * 1924 / 1920);
+    width: calc(100vw * 760 / 1920);
+
+
 }
 
 .x4-track-your-labor-other .answer-each-question-3zS9Bw {
@@ -116,12 +124,12 @@
   height: auto;
   left: 0px;
   letter-spacing: 0.00px;
-  line-height: 32px;
+  line-height: calc(100vw * 32 / 1920);
   mix-blend-mode: normal;
   position: absolute;
   text-align: left;
-  top: 40px;
-  width: 760px;
+  top: calc(100vw * 40 / 1920);
+  width: calc(100vw * 760 / 1920);
 }
 
 .x4-track-your-labor-other .directions-3zS9Bw {
@@ -134,7 +142,7 @@
   height: auto;
   left: 0px;
   letter-spacing: 0.00px;
-  line-height: 32px;
+  line-height: calc(100vw * 32 / 1920);
   mix-blend-mode: normal;
   position: absolute;
   text-align: left;
@@ -145,25 +153,25 @@
 
 .x4-track-your-labor-other .x4-circle-and-text-6PR5WV {
   background-color: transparent;
-  height: 434px;
-  left: 294px;
+  height: calc(100vw * 434 / 1920);
+  left: calc(100vw * 294 / 1920);
   mix-blend-mode: normal;
   position: absolute;
-  top: 1322px;
-  width: 1332px;
+  top: calc(100vw * 1322 / 1920);
+  width: calc(100vw * 1332 / 1920);
 }
 
 .x4-track-your-labor-other .text-Z3fL7X {
   background-color: transparent;
   height: auto;
-  left: 182px;
-  letter-spacing: -2.16px;
-  line-height: 72px;
+  left: calc(100vw * 182 / 1920);
+  letter-spacing: calc(100vw * -2.16 / 1920);
+  line-height: calc(100vw * 72 / 1920);
   mix-blend-mode: darken;
   position: absolute;
   text-align: left;
-  top: 119px;
-  width: 1023px;
+  top: calc(100vw * 119 / 1920);
+  width: calc(100vw * 1023 / 1920) ;
 }
 
 .x4-track-your-labor-other .span0-i7cM24 {
@@ -184,94 +192,98 @@
 
 .x4-track-your-labor-other .circle-Z3fL7X {
   background-color: transparent;
-  height: 434px;
+  height: calc(100vw * 434 / 1920);
   left: 0px;
   mix-blend-mode: darken;
   position: absolute;
   top: 0px;
-  width: 1332px;
+  width: calc(100vw * 1332 / 1920);
 }
 
 .x4-track-your-labor-other .x4-1landing-page-6PR5WV {
-  background-color: transparent;
-  height: 1033px;
-  left: 161px;
+
+   background-color: transparent;
+  height: calc(100vw * 1033 / 1920);
+  left: calc(100vw * 161 / 1920);
   mix-blend-mode: normal;
   position: absolute;
-  top: 121px;
-  width: 1597px;
+  top: calc(100vw * 121 / 1920);
+  width: calc(100vw * 1597 / 1920);
 }
 
 .x4-track-your-labor-other .x4-landing-pagebk-1-jgG3PP {
-  background-color: transparent;
-  height: 1033px;
-  left: 0px;
-  mix-blend-mode: normal;
-  object-fit: cover;
-  position: absolute;
-  top: 0px;
-  width: 1597px;
+ background-color: transparent;
+    height: calc(100vw * 1033 / 1920);
+    left: 0px;
+    mix-blend-mode: normal;
+    object-fit: cover;
+    position: absolute;
+    top: 0px;
+    width: calc(100vw * 1597 / 1920);
 }
+
 
 .x4-track-your-labor-other .landing-title2-jgG3PP {
   background-color: transparent;
   height: auto;
-  left: 641px;
-  letter-spacing: -2.00px;
-  line-height: 100px;
+  left: calc(100vw * 641 / 1920);
+  letter-spacing: calc(100vw * -2.00 / 1920);
+  line-height: cacl(100vw* 100 / 1920);
   mix-blend-mode: normal;
   position: absolute;
   text-align: left;
-  top: 267px;
+  top: calc(100vw * 267 / 1920);
   white-space: nowrap;
   width: auto;
 }
 
 .x4-track-your-labor-other .landing-title1-jgG3PP {
-  background-color: transparent;
-  height: auto;
-  left: 118px;
-  letter-spacing: -4.00px;
-  line-height: 100px;
-  mix-blend-mode: normal;
-  position: absolute;
-  text-align: left;
-  top: 153px;
-  white-space: nowrap;
-  width: 1006px;
+     background-color: transparent;
+    height: auto;
+    left: calc(100vw * 118 / 1920);
+    letter-spacing: -4.00px;
+    line-height: cacl(100vw* 100 / 1920);
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: calc(100vw * 153 / 1920);
+    white-space: nowrap;
+    width: calc(100vw * 1006 / 1920);
 }
 
 .x4-track-your-labor-other .x4-circle-and-text-2-6PR5WV {
   background-color: transparent;
-  height: 434px;
-  left: 298px;
+  height: calc(100vw * 434 / 1920);
+  left: calc(100vw * 298 / 1920);
   mix-blend-mode: normal;
   position: absolute;
-  top: 4326px;
-  width: 1332px;
+ top: calc(100vw * 4325.73 / 1920);
+bottom:calc(100vw * 7401.27 / 1920);
+
+  width: calc(102vw * 1332 / 1920);
 }
 
 .x4-track-your-labor-other .take-note-of-any-eme-xFwrUP {
   background-color: transparent;
-  height: auto;
-  left: 139px;
-  letter-spacing: -2.16px;
-  line-height: 54px;
+  height: calc(210.75 / 1920 * 100vw);
+  left: calc(100vw * 139 / 1920);
+  letter-spacing: calc(100vw * -2.16 / 1920);
+  line-height: calc(100vw * 54 / 1920);
   mix-blend-mode: normal;
   position: absolute;
   text-align: left;
-  top: 112px;
-  width: 1053px;
+  top: calc(100vw * 112 / 1920);
+  width: calc(100vw * 1053 / 1920);
 }
 
 .x4-track-your-labor-other .span0-fBUWnK {
-  letter-spacing: -1.17px;
-  line-height: 70px;
+  letter-spacing: calc(100vw * -1.17 / 1920);
+  line-height: calc(100vw * 70 / 1920);
 }
 
 .x4-track-your-labor-other .span1-fBUWnK {
-  letter-spacing: -1.17px;
-  line-height: 72px;
+  letter-spacing: calc(100vw * -1.17 / 1920);
+  line-height: calc(100vw * 72 / 1920);
 }
 
 .x4-track-your-labor-other .span2-fBUWnK {
@@ -280,13 +292,13 @@
   font-size: var(--font-size-m);
   font-style: normal;
   font-weight: 600;
-  letter-spacing: -1.17px;
-  line-height: 72px;
+   letter-spacing: calc(100vw * -1.17 / 1920);
+  line-height: calc(100vw * 72 / 1920);
 }
 
 .x4-track-your-labor-other .span3-fBUWnK {
-  letter-spacing: -1.17px;
-  line-height: 70px;
+  letter-spacing: calc(100vw * -1.17 / 1920);
+  line-height: calc(100vw * 70 / 1920);
 }
 
 .x4-track-your-labor-other .span4-fBUWnK {
@@ -295,54 +307,54 @@
   font-size: var(--font-size-l);
   font-style: normal;
   font-weight: 700;
-  letter-spacing: -1.54px;
-  line-height: 78px;
+  letter-spacing: calc(100vw * -1.54 / 1920);
+  line-height: calc(100vw * 78 / 1920);
 }
 
 .x4-track-your-labor-other .span5-fBUWnK {
-  letter-spacing: -1.17px;
-  line-height: 72px;
+  letter-spacing: calc(100vw * -1.17 / 1920);
+  line-height: calc(100vw * 70 / 1920);
 }
 
 .x4-track-your-labor-other .ellipse-115-xFwrUP {
   background-color: transparent;
-  height: 434px;
+  height: calc(100vw * 434 / 1920);
   left: 0px;
   mix-blend-mode: darken;
   position: absolute;
   top: 0px;
-  width: 1332px;
+  width: calc(100vw * 1332 / 1920);
 }
 
 .x4-track-your-labor-other .x4-circle-and-text-3-6PR5WV {
   background-color: transparent;
-  height: 434px;
-  left: 294px;
+   height: calc(434 / 1920 * 100vw);
+  left: calc(434 / 1920 * 100vw);
   mix-blend-mode: normal;
   position: absolute;
-  top: 8411px;
-  width: 1332px;
+  top: calc(8411 / 1920 * 100vw);
+  width: calc(1332 / 1920 * 100vw);
 }
 
 .x4-track-your-labor-other .ellipse-148-AAmxTv {
   background-color: transparent;
-  height: 434px;
+  height: calc(434 / 1920 * 100vw);
   left: 0px;
   mix-blend-mode: darken;
   position: absolute;
   top: 0px;
-  width: 1332px;
+  width: calc(1332 / 1920 * 100vw);
 }
 
 .x4-track-your-labor-other .the-list-might-feel-AAmxTv {
   background-color: transparent;
   height: auto;
-  left: 129px;
-  letter-spacing: -2.16px;
-  line-height: 70px;
+  left: calc(129 / 1920 * 100vw);
+  letter-spacing: calc(-2.16 / 1920 * 100vw);
+  line-height: calc(70 / 1920 * 100vw);
   mix-blend-mode: darken;
   position: absolute;
   text-align: left;
-  top: 120px;
-  width: 1069px;
+  top: calc(120 / 1920 * 100vw);
+  width: calc(1069 / 1920 * 100vw);
 }
