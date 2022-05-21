@@ -1,0 +1,624 @@
+/* screen - 3-let-s-plan-a-party */
+
+.x3-let-s-plan-a-party {
+  background-color: var(--alabaster);
+  height:calc(100vw * 6700 / 1920 );
+  overflow: hidden;
+  position: relative;
+  width:calc(100vw * 1919 / 1920 );
+}
+
+.x3-let-s-plan-a-party .ellipse-5 {
+  background-color: #f65735b2;
+  border-radius: calc((100vw * 316.17 / 1920) /(100vw* 118.67 / 1920));
+  height:calc(100vw * 237 / 1920 );
+  left:calc(100vw * -1364 / 1920 );
+  position: absolute;
+  top:calc(100vw * 726 / 1920 );
+  width:calc(100vw * 632 / 1920 );
+}
+
+.x3-let-s-plan-a-party .quote1 {
+  height:calc(100vw * 224 / 1920 );
+  left:calc(100vw * 162 / 1920 );
+  position: absolute;
+  top:calc(100vw * 1796 / 1920 );
+  width:calc(100vw * 704 / 1920 );
+}
+
+.x3-let-s-plan-a-party .whenever-there-is-a {
+  left:0;
+  letter-spacing:calc(100vw * -0.31 / 1920 );
+  line-height:calc(100vw * 44 / 1920 );
+  position: absolute;
+  top:calc(100vw * -1 / 1920 );
+  width:calc(100vw * 704 / 1920 );
+}
+
+.x3-let-s-plan-a-party .anna-33-product-m {
+  left:0;
+  letter-spacing:0;
+  position: absolute;
+  top:calc(100vw * 194 / 1920 );
+}
+
+.x3-let-s-plan-a-party .quote2 {
+  height:calc(100vw * 227 / 1920 );
+  left:calc(100vw * 980 / 1920 );
+  position: absolute;
+  top:calc(100vw * 2020 / 1920 );
+  width:calc(100vw * 702 / 1920 );
+}
+
+.x3-let-s-plan-a-party .kaitlyn-33-resour {
+  left:0;
+  letter-spacing:0;
+  position: absolute;
+  top:calc(100vw * 197 / 1920 );
+}
+
+.x3-let-s-plan-a-party .take-something-like {
+  left:0;
+  letter-spacing:calc(100vw * -0.31 / 1920 );
+  line-height:calc(100vw * 44 / 1920 );
+  position: absolute;
+  top:calc(100vw * -1 / 1920 );
+  width:calc(100vw * 702 / 1920 );
+}
+
+.x3-let-s-plan-a-party .foot-text {
+  left:calc(100vw * 59 / 1920 );
+  letter-spacing:0;
+  position: absolute;
+  top:calc(100vw * 6646 / 1920 );
+}
+
+.x3-let-s-plan-a-party .back-button {
+  height:calc(100vw * 23 / 1920 );
+  left:calc(100vw * 1730 / 1920 );
+  position: absolute;
+  top:calc(100vw * 6645 / 1920 );
+  width:calc(100vw * 119 / 1920 );
+}
+
+.x3-let-s-plan-a-party .back-to-top {
+  left:0;
+  letter-spacing:calc(100vw * 0.23 / 1920 );
+  position: absolute;
+  text-align: right;
+  top:calc(100vw * -1 / 1920 );
+}
+
+.x3-let-s-plan-a-party .overlap-group5 {
+  height:calc(100vw * 1323 / 1920 );
+  left:0;
+  position: absolute;
+  top:calc(100vw * 3864 / 1920 );
+  width:calc(100vw * 1919 / 1920 );
+}
+
+.x3-let-s-plan-a-party .line-136 {
+  height:calc(100vw * 682 / 1920 );
+  left:calc(100vw * 383 / 1920 );
+  position: absolute;
+  top:calc(100vw * 641 / 1920 );
+  width:calc(100vw * 2 / 1920 );
+}
+
+.x3-let-s-plan-a-party .line-137 {
+  height:calc(100vw * 682 / 1920 );
+  left:calc(100vw * 767 / 1920 );
+  position: absolute;
+  top:calc(100vw * 641 / 1920 );
+  width:calc(100vw * 2 / 1920 );
+}
+
+.x3-let-s-plan-a-party .line-138 {
+  height:calc(100vw * 682 / 1920 );
+  left:calc(100vw * 1151 / 1920 );
+  position: absolute;
+  top:calc(100vw * 641 / 1920 );
+  width:calc(100vw * 2 / 1920 );
+}
+
+.x3-let-s-plan-a-party .line-139 {
+  height:calc(100vw * 609 / 1920 );
+  left:calc(100vw * 1535 / 1920 );
+  position: absolute;
+  top:calc(100vw * 714 / 1920 );
+  width:calc(100vw * 2 / 1920 );
+}
+
+.x3-let-s-plan-a-party .drag-drog-frame {
+  height:calc(100vw * 715 / 1920 );
+  left:0;
+  position: absolute;
+  top:0;
+  width:calc(100vw * 1919 / 1920 );
+}
+
+.x3-let-s-plan-a-party .overlap-group3 {
+  background-color: var(--heliotrope);
+  height:calc(100vw * 72 / 1920 );
+  left:0;
+  position: absolute;
+  top:0;
+  width:calc(100vw * 1919 / 1920 );
+}
+
+.x3-let-s-plan-a-party .drag-and-drop-each-t {
+  left:calc(100vw * 111 / 1920 );
+  letter-spacing:calc(100vw * 0.42 / 1920 );
+  line-height:calc(100vw * 39 / 1920 );
+  position: absolute;
+  top:calc(100vw * 19 / 1920 );
+  white-space: nowrap;
+  width:calc(100vw * 855 / 1920 );
+}
+
+.x3-let-s-plan-a-party .overlap-group2 {
+  background-color: var(--heliotrope);
+  height:calc(100vw * 72 / 1920 );
+  left:0;
+  position: absolute;
+  top:calc(100vw * 643 / 1920 );
+  width:calc(100vw * 1919 / 1920 );
+}
+
+.x3-let-s-plan-a-party .address {
+  left:calc(100vw * 115 / 1920 );
+  letter-spacing:calc(100vw * 0.42 / 1920 );
+  line-height:calc(100vw * 39 / 1920 );
+  position: absolute;
+  top:calc(100vw * 16 / 1920 );
+  white-space: nowrap;
+}
+
+.x3-let-s-plan-a-party .address-1 {
+  left:calc(100vw * 514 / 1920 );
+  letter-spacing:calc(100vw * 0.42 / 1920 );
+  line-height:calc(100vw * 39 / 1920 );
+  position: absolute;
+  top:calc(100vw * 16 / 1920 );
+  white-space: nowrap;
+}
+
+.x3-let-s-plan-a-party .address-2 {
+  left:calc(100vw * 898 / 1920 );
+  letter-spacing:calc(100vw * 0.42 / 1920 );
+  line-height:calc(100vw * 39 / 1920 );
+  position: absolute;
+  top:calc(100vw * 16 / 1920 );
+  white-space: nowrap;
+}
+
+.x3-let-s-plan-a-party .address-3 {
+  left:calc(100vw * 1294 / 1920 );
+  letter-spacing:calc(100vw * 0.42 / 1920 );
+  line-height:calc(100vw * 39 / 1920 );
+  position: absolute;
+  top:calc(100vw * 16 / 1920 );
+  white-space: nowrap;
+}
+
+.x3-let-s-plan-a-party .surname {
+  left:calc(100vw * 1677 / 1920 );
+  letter-spacing:calc(100vw * 0.42 / 1920 );
+  line-height:calc(100vw * 39 / 1920 );
+  position: absolute;
+  top:calc(100vw * 16 / 1920 );
+  white-space: nowrap;
+}
+
+.x3-let-s-plan-a-party .line-224 {
+  height:calc(100vw * 2 / 1920 );
+  left:0;
+  position: absolute;
+  top:calc(100vw * 1322 / 1920 );
+  width:calc(100vw * 1919 / 1920 );
+}
+
+.x3-let-s-plan-a-party .quote21 {
+  left:calc(100vw * 169 / 1920 );
+  letter-spacing:calc(100vw * -0.14 / 1920 );
+  line-height:calc(100vw * 39 / 1920 );
+  position: absolute;
+  top:calc(100vw * 93 / 1920 );
+  white-space: nowrap;
+}
+
+.x3-let-s-plan-a-party .quote20 {
+  left:calc(100vw * 132 / 1920 );
+  letter-spacing:calc(100vw * -0.14 / 1920 );
+  line-height:calc(100vw * 39 / 1920 );
+  position: absolute;
+  top:calc(100vw * 226 / 1920 );
+  white-space: nowrap;
+}
+
+.x3-let-s-plan-a-party .quote19 {
+  left:calc(100vw * 620 / 1920 );
+  letter-spacing:calc(100vw * -0.14 / 1920 );
+  line-height:calc(100vw * 39 / 1920 );
+  position: absolute;
+  top:calc(100vw * 227 / 1920 );
+  white-space: nowrap;
+}
+
+.x3-let-s-plan-a-party .quote18 {
+  left:calc(100vw * 346 / 1920 );
+  letter-spacing:calc(100vw * -0.14 / 1920 );
+  line-height:calc(100vw * 39 / 1920 );
+  position: absolute;
+  top:calc(100vw * 366 / 1920 );
+  white-space: nowrap;
+}
+
+.x3-let-s-plan-a-party .quote17 {
+  left:calc(100vw * 999 / 1920 );
+  letter-spacing:calc(100vw * -0.14 / 1920 );
+  line-height:calc(100vw * 39 / 1920 );
+  position: absolute;
+  top:calc(100vw * 327 / 1920 );
+  white-space: nowrap;
+}
+
+.x3-let-s-plan-a-party .quote16 {
+  left:calc(100vw * 1079 / 1920 );
+  letter-spacing:calc(100vw * -0.14 / 1920 );
+  line-height:calc(100vw * 39 / 1920 );
+  position: absolute;
+  top:calc(100vw * 164 / 1920 );
+  white-space: nowrap;
+}
+
+.x3-let-s-plan-a-party .quote15 {
+  left:calc(100vw * 1299 / 1920 );
+  letter-spacing:calc(100vw * -0.14 / 1920 );
+  line-height:calc(100vw * 39 / 1920 );
+  position: absolute;
+  top:calc(100vw * 354 / 1920 );
+  white-space: nowrap;
+}
+
+.x3-let-s-plan-a-party .quote14 {
+  left:calc(100vw * 661 / 1920 );
+  letter-spacing:calc(100vw * -0.14 / 1920 );
+  line-height:calc(100vw * 39 / 1920 );
+  position: absolute;
+  top:calc(100vw * 138 / 1920 );
+  white-space: nowrap;
+}
+
+.x3-let-s-plan-a-party .quote13 {
+  left:calc(100vw * 768 / 1920 );
+  letter-spacing:calc(100vw * -0.14 / 1920 );
+  line-height:calc(100vw * 39 / 1920 );
+  position: absolute;
+  top:calc(100vw * 472 / 1920 );
+  white-space: nowrap;
+}
+
+.x3-let-s-plan-a-party .quote12 {
+  left:calc(100vw * 1482 / 1920 );
+  letter-spacing:calc(100vw * -0.14 / 1920 );
+  line-height:calc(100vw * 39 / 1920 );
+  position: absolute;
+  top:calc(100vw * 127 / 1920 );
+  white-space: nowrap;
+}
+
+.x3-let-s-plan-a-party .quote11 {
+  left:calc(100vw * 952 / 1920 );
+  letter-spacing:calc(100vw * -0.14 / 1920 );
+  line-height:calc(100vw * 39 / 1920 );
+  position: absolute;
+  top:calc(100vw * 98 / 1920 );
+  white-space: nowrap;
+}
+
+.x3-let-s-plan-a-party .quote10 {
+  left:calc(100vw * 213 / 1920 );
+  letter-spacing:calc(100vw * -0.14 / 1920 );
+  line-height:calc(100vw * 39 / 1920 );
+  position: absolute;
+  top:calc(100vw * 470 / 1920 );
+  white-space: nowrap;
+}
+
+.x3-let-s-plan-a-party .quote09 {
+  left:calc(100vw * 1299 / 1920 );
+  letter-spacing:calc(100vw * -0.14 / 1920 );
+  line-height:calc(100vw * 39 / 1920 );
+  position: absolute;
+  top:calc(100vw * 486 / 1920 );
+  white-space: nowrap;
+}
+
+.x3-let-s-plan-a-party .quote08 {
+  left:calc(100vw * 1196 / 1920 );
+  letter-spacing:calc(100vw * -0.14 / 1920 );
+  line-height:calc(100vw * 39 / 1920 );
+  position: absolute;
+  top:calc(100vw * 420 / 1920 );
+  white-space: nowrap;
+}
+
+.x3-let-s-plan-a-party .quote07 {
+  left:calc(100vw * 989 / 1920 );
+  letter-spacing:calc(100vw * -0.14 / 1920 );
+  line-height:calc(100vw * 39 / 1920 );
+  position: absolute;
+  top:calc(100vw * 277 / 1920 );
+  white-space: nowrap;
+}
+
+.x3-let-s-plan-a-party .quote06 {
+  left:calc(100vw * 191 / 1920 );
+  letter-spacing:calc(100vw * -0.14 / 1920 );
+  line-height:calc(100vw * 39 / 1920 );
+  position: absolute;
+  top:calc(100vw * 288 / 1920 );
+  white-space: nowrap;
+}
+
+.x3-let-s-plan-a-party .quote05 {
+  left:calc(100vw * 69 / 1920 );
+  letter-spacing:calc(100vw * -0.14 / 1920 );
+  line-height:calc(100vw * 39 / 1920 );
+  position: absolute;
+  top:calc(100vw * 564 / 1920 );
+  white-space: nowrap;
+}
+
+.x3-let-s-plan-a-party .quote04 {
+  left:calc(100vw * 78 / 1920 );
+  letter-spacing:calc(100vw * -0.14 / 1920 );
+  line-height:calc(100vw * 39 / 1920 );
+  position: absolute;
+  top:calc(100vw * 405 / 1920 );
+  white-space: nowrap;
+}
+
+.x3-let-s-plan-a-party .quote03 {
+  left:calc(100vw * 808 / 1920 );
+  letter-spacing:calc(100vw * -0.14 / 1920 );
+  line-height:calc(100vw * 39 / 1920 );
+  position: absolute;
+  top:calc(100vw * 544 / 1920 );
+  white-space: nowrap;
+}
+
+.x3-let-s-plan-a-party .quote02 {
+  left:calc(100vw * 838 / 1920 );
+  letter-spacing:calc(100vw * -0.14 / 1920 );
+  line-height:calc(100vw * 39 / 1920 );
+  position: absolute;
+  top:calc(100vw * 381 / 1920 );
+  white-space: nowrap;
+}
+
+.x3-let-s-plan-a-party .quote01 {
+  left:calc(100vw * 1570 / 1920 );
+  letter-spacing:calc(100vw * -0.14 / 1920 );
+  line-height:calc(100vw * 39 / 1920 );
+  position: absolute;
+  top:calc(100vw * 193 / 1920 );
+  white-space: nowrap;
+}
+
+.x3-let-s-plan-a-party .minions-party-gif-1 {
+  height:calc(100vw * 82 / 1920 );
+  left:calc(100vw * 1652 / 1920 );
+  object-fit: cover;
+  position: absolute;
+  top:calc(100vw * 4790 / 1920 );
+  width:calc(100vw * 151 / 1920 );
+}
+
+.x3-let-s-plan-a-party .purplecircle3 {
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/628164e8cd367e86d77627d8/releases/6283fd4420ce71827922258f/img/ellipse-8@1x.png);
+  background-size: 100% 100%;
+  height:calc(100vw * 434 / 1920 );
+  left:calc(100vw * 293 / 1920 );
+  position: absolute;
+  top:calc(100vw * 5302 / 1920 );
+  width:calc(100vw * 1332 / 1920 );
+}
+
+.x3-let-s-plan-a-party .did-any-of-the-tasks {
+  left:calc(100vw * 150 / 1920 );
+  letter-spacing:calc(100vw * -2.16 / 1920 );
+  line-height:calc(100vw * 70 / 1920 );
+  position: absolute;
+  top:calc(100vw * 106 / 1920 );
+  width:calc(100vw * 1073 / 1920 );
+}
+
+.x3-let-s-plan-a-party .page3first-sec-bk {
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/628164e8cd367e86d77627d8/releases/6283fa5f3cead5f9b3c1813f/img/group-22@1x.png);
+  background-size: 100% 100%;
+  height:calc(100vw * 1032 / 1920 );
+  left:calc(100vw * 161 / 1920 );
+  position: absolute;
+  top:calc(100vw * 121 / 1920 );
+  width:calc(100vw * 1596 / 1920 );
+}
+
+.x3-let-s-plan-a-party .lets-plan-a-party {
+  left:calc(100vw * 662 / 1920 );
+  letter-spacing:calc(100vw * -4.00 / 1920 );
+  position: absolute;
+  top:calc(100vw * 291 / 1920 );
+}
+
+.x3-let-s-plan-a-party .making-labor-visible {
+  left:calc(100vw * 306 / 1920 );
+  letter-spacing:calc(100vw * -4.00 / 1920 );
+  line-height:calc(100vw * 100 / 1920 );
+  position: absolute;
+  top:calc(100vw * 173 / 1920 );
+  white-space: nowrap;
+  width:calc(100vw * 1150 / 1920 );
+}
+
+.x3-let-s-plan-a-party .purplecircle1 {
+  height:calc(100vw * 434 / 1920 );
+  left:calc(100vw * 297 / 1920 );
+  position: absolute;
+  top:calc(100vw * 1242 / 1920 );
+  width:calc(100vw * 1332 / 1920 );
+}
+
+.x3-let-s-plan-a-party .overlap-group {
+  height:calc(100vw * 434 / 1920 );
+  position: relative;
+}
+
+.x3-let-s-plan-a-party .one-surprising-insig {
+  left:calc(100vw * 179 / 1920 );
+  letter-spacing:calc(100vw * -2.16 / 1920 );
+  line-height:calc(100vw * 70 / 1920 );
+  mix-blend-mode: darken;
+  position: absolute;
+  top:calc(100vw * 113 / 1920 );
+  width:calc(100vw * 1009 / 1920 );
+}
+
+.x3-let-s-plan-a-party .ellipse {
+  height:calc(100vw * 434 / 1920 );
+  left:0;
+  mix-blend-mode: darken;
+  position: absolute;
+  top:0;
+  width:calc(100vw * 1332 / 1920 );
+}
+
+.x3-let-s-plan-a-party .purplecircle2 {
+  height:calc(100vw * 434 / 1920 );
+  left:calc(100vw * 297 / 1920 );
+  position: absolute;
+  top:calc(100vw * 3291 / 1920 );
+  width:calc(100vw * 1332 / 1920 );
+}
+
+.x3-let-s-plan-a-party .lets-makes-the-work {
+  left:calc(100vw * 146 / 1920 );
+  letter-spacing:calc(100vw * -2.16 / 1920 );
+  line-height:calc(100vw * 54 / 1920 );
+  mix-blend-mode: darken;
+  position: absolute;
+  top:calc(100vw * 116 / 1920 );
+  width:calc(100vw * 1046 / 1920 );
+}
+
+.x3-let-s-plan-a-party .span0 {
+  letter-spacing:calc(100vw * -1.17 / 1920 );
+  line-height:calc(100vw * 70 / 1920 );
+}
+
+.x3-let-s-plan-a-party .span1 {
+  color: var(--baltic-sea);
+  font-family: var(--font-family-epilogue);
+  font-size: var(--font-size-xl);
+  font-weight: 700;
+  letter-spacing:calc(100vw * -1.08 / 1920 );
+  line-height:calc(100vw * 72 / 1920 );
+}
+
+.x3-let-s-plan-a-party .purple-sec1 {
+  background-color: var(--heliotrope);
+  height:calc(100vw * 764 / 1920 );
+  left:0;
+  position: absolute;
+  top:calc(100vw * 2372 / 1920 );
+  width:calc(100vw * 1920 / 1920 );
+}
+
+.x3-let-s-plan-a-party .the-cognitive-dimens {
+  color: var(--white);
+  font-family: var(--font-family-abc_diatype_edu-medium);
+  font-size: var(--font-size-xs);
+  font-weight: 500;
+  left:calc(100vw * 1224 / 1920 );
+  letter-spacing:0;
+  line-height:calc(100vw * 32 / 1920 );
+  position: absolute;
+  top:calc(100vw * 695 / 1920 );
+  white-space: nowrap;
+}
+
+.x3-let-s-plan-a-party .overlap-group-1 {
+  border-radius: 20 / 1920 );
+  height:calc(100vw * 400 / 1920 );
+  left:calc(100vw * 297 / 1920 );
+  position: absolute;
+  top:calc(100vw * 148 / 1920 );
+  width:calc(100vw * 1332 / 1920 );
+}
+
+.x3-let-s-plan-a-party .cognitive-labor-comp {
+  color: #f8f9f8;
+  font-family: var(--font-family-epilogue);
+  font-size: var(--font-size-xl2);
+  font-weight: 500;
+  left:calc(100vw * 149 / 1920 );
+  letter-spacing:calc(100vw * -2.16 / 1920 );
+  line-height:calc(100vw * 72 / 1920 );
+  position: absolute;
+  top:calc(100vw * 57 / 1920 );
+  width:calc(100vw * 1086 / 1920 );
+}
+
+.x3-let-s-plan-a-party .rectangle-16 {
+  border: 1.5px solid var(--alabaster);
+  border-radius: 20 / 1920 );
+  height:calc(100vw * 400 / 1920 );
+  left:0;
+  position: absolute;
+  top:0;
+  width:calc(100vw * 1332 / 1920 );
+}
+
+.x3-let-s-plan-a-party .purple-sec2 {
+  height:calc(100vw * 764 / 1920 );
+  left:0;
+  position: absolute;
+  top:calc(100vw * 5851 / 1920 );
+  width:calc(100vw * 1920 / 1920 );
+}
+
+.x3-let-s-plan-a-party .overlap-group4 {
+  height:calc(100vw * 764 / 1920 );
+  position: relative;
+}
+
+.x3-let-s-plan-a-party .line-213 {
+  height:calc(100vw * 1 / 1920 );
+  left:0;
+  position: absolute;
+  top:calc(100vw * 763 / 1920 );
+  width:calc(100vw * 1919 / 1920 );
+}
+
+.x3-let-s-plan-a-party .rectangle-234 {
+  background-color: var(--heliotrope);
+  height:calc(100vw * 764 / 1920 );
+  left:0;
+  position: absolute;
+  top:0;
+  width:calc(100vw * 1920 / 1920 );
+}
+
+.x3-let-s-plan-a-party .many-people-that-i-t {
+  color: var(--alabaster);
+  font-family: var(--font-family-epilogue);
+  font-size: var(--font-size-xl2);
+  font-weight: 500;
+  left:calc(100vw * 335 / 1920 );
+  letter-spacing:calc(100vw * -2.16 / 1920 );
+  line-height:calc(100vw * 72 / 1920 );
+  position: absolute;
+  top:calc(100vw * 204 / 1920 );
+  width:calc(100vw * 1250 / 1920 );
+}

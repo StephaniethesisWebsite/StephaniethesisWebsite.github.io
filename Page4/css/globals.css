@@ -25,3 +25,18 @@
 * {
   box-sizing: border-box;
 }
+
+html {
+    display: table;
+    margin: auto;
+    overflow-x: hidden;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+    position: sticky;
+   width: 100vw;
+   height: auto;
+   overflow-x: hidden;
+}

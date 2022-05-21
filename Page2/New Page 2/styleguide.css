@@ -9,12 +9,12 @@
   --stromboli: #395b50;
   --white: #ffffff;
  
-  --font-size-l: 32px;
-  --font-size-m: 31px;
-  --font-size-s2: 23px;
-  --font-size-xl2: 54px;
-  --font-size-xs2: 18px;
-  --font-size-xxl2: 100px;
+  --font-size-l:calc(100vw *  32 / 1920);
+  --font-size-m:calc(100vw *  31 / 1920);
+  --font-size-s2:calc(100vw *  23 / 1920);
+  --font-size-xl2:calc(100vw *  54 / 1920);
+  --font-size-xs2:calc(100vw *  18 / 1920);
+  --font-size-xxl2: calc(100vw * 100 / 1920);
  
   --font-family-abc_diatype_edu-bold: "ABC Diatype Edu-Bold", Helvetica;
   --font-family-abc_diatype_edu-medium: "ABC Diatype Edu-Medium", Helvetica;

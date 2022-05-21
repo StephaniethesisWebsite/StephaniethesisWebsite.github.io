@@ -4,11 +4,11 @@
   --black: #000000;
   --la-rioja: #bab700;
  
-  --font-size-l: 62px;
-  --font-size-m: 54px;
-  --font-size-s: 42px;
-  --font-size-xl: 100px;
-  --font-size-xs: 24px;
+  --font-size-l:calc(100vw * 62 / 1920);
+  --font-size-m:calc(100vw * 54 / 1920);
+  --font-size-s:calc(100vw * 42 / 1920);
+  --font-size-xl: calc(100vw *100 / 1920);
+  --font-size-xs:calc(100vw * 24 / 1920);
  
   --font-family-abc_diatype_edu: "ABC Diatype Edu", Helvetica;
   --font-family-abc_diatype_edu-bold: "ABC Diatype Edu-Bold", Helvetica;

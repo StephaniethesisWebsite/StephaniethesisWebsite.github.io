@@ -7,6 +7,20 @@
   font-weight: 400;
   src: url("https://fonts.animaapp.com/FreightTextPro-BookItalic") format("opentype");
 }
+html {
+    display: table;
+    margin: auto;
+    overflow-x: hidden;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+    position: sticky;
+   width: 100vw;
+   height: auto;
+   overflow-x: hidden;
+}
 
 .screen a {
   display: contents;

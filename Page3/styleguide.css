@@ -5,13 +5,13 @@
   --heliotrope: #d573ee;
   --white: #ffffff;
  
-  --font-size-m: 28px;
-  --font-size-m2: 31px;
-  --font-size-s: 23px;
-  --font-size-xl: 52px;
-  --font-size-xl2: 54px;
-  --font-size-xs: 18px;
-  --font-size-xxl2: 100px;
+  --font-size-m:calc(100vw * 28 /1920);
+  --font-size-m2:calc(100vw * 31 /1920);
+  --font-size-s:calc(100vw * 23 /1920);
+  --font-size-xl:calc(100vw * 52 /1920);
+  --font-size-xl2:calc(100vw * 54 /1920);
+  --font-size-xs:calc(100vw * 18 /1920);
+  --font-size-xxl2: calc(100vw *100 /1920);
  
   --font-family-abc_diatype_edu-bold: "ABC Diatype Edu-Bold", Helvetica;
   --font-family-abc_diatype_edu-medium: "ABC Diatype Edu-Medium", Helvetica;
