@@ -1,0 +1,2363 @@
+/* screen - 4-track-your-labor-other */
+
+.x4-track-your-labor-other {
+  align-items: center;
+  background-color: var(--alabaster);
+  display: flex;
+  flex-direction: column;
+  height: 12161px;
+  padding: 89.7px 0;
+  width: 1920px;
+}
+
+.x4-track-your-labor-other .x4-1landing-page {
+  background-image: url(../img/4landingpagebk-1@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  height: 1033px;
+  margin-right: 1.0px;
+  margin-top: 31px;
+  width: 1597px;
+}
+
+.x4-track-your-labor-other .landing-title1 {
+  height: 105px;
+  letter-spacing: -4.00px;
+  line-height: 100px;
+  margin-left: 117.7px;
+  margin-top: 153.4px;
+  white-space: nowrap;
+  width: 1006.35px;
+}
+
+.x4-track-your-labor-other .landing-title2 {
+  height: 100px;
+  letter-spacing: -2.00px;
+  line-height: 100px;
+  margin-left: 640.5px;
+  margin-top: 8.5px;
+  white-space: nowrap;
+  width: 831px;
+}
+
+.x4-track-your-labor-other .x4-circle-and-text {
+  align-items: flex-start;
+  display: flex;
+  margin-right: 0.7px;
+  margin-top: 168px;
+  min-width: 1332px;
+}
+
+.x4-track-your-labor-other .overlap-group {
+  height: 434px;
+  margin-top: -0.5px;
+  position: relative;
+  width: 1332px;
+}
+
+.x4-track-your-labor-other .text {
+  left: 182px;
+  letter-spacing: -2.16px;
+  line-height: 72px;
+  mix-blend-mode: darken;
+  position: absolute;
+  top: 118px;
+  width: 1023px;
+}
+
+.x4-track-your-labor-other .span {
+  letter-spacing: -1.17px;
+}
+
+.x4-track-your-labor-other .circle {
+  height: 434px;
+  left: 0;
+  mix-blend-mode: darken;
+  position: absolute;
+  top: 0;
+  width: 1332px;
+}
+
+.x4-track-your-labor-other .direction-div {
+  display: flex;
+  flex-direction: column;
+  height: 174px;
+  margin-right: 569.52px;
+  margin-top: 168px;
+  width: 760px;
+}
+
+.x4-track-your-labor-other .directions {
+  color: var(--la-rioja);
+  font-family: var(--font-family-abc_diatype_edu-bold);
+  font-size: var(--font-size-s);
+  font-weight: 700;
+  height: 32px;
+  letter-spacing: 0;
+  line-height: 32px;
+  white-space: nowrap;
+  width: 147px;
+}
+
+.x4-track-your-labor-other .answer-each-question {
+  color: var(--black);
+  font-family: var(--font-family-abc_diatype_edu-regular);
+  font-size: var(--font-size-s);
+  font-weight: 400;
+  height: 133.31px;
+  letter-spacing: 0;
+  line-height: 32px;
+  margin-top: 8.3px;
+  width: 760.48px;
+}
+
+.x4-track-your-labor-other .cognitive-labor {
+  align-items: flex-start;
+  display: flex;
+  height: 2043px;
+  margin-right: 1.0px;
+  margin-top: 94px;
+  min-width: 1655px;
+}
+
+.x4-track-your-labor-other .overlap-group3 {
+  height: 2044px;
+  margin-top: -1.11px;
+  position: relative;
+  width: 1655px;
+}
+
+.x4-track-your-labor-other .x-row-titles {
+  display: flex;
+  height: 48px;
+  left: 151px;
+  position: absolute;
+  top: 38px;
+  width: 1363px;
+}
+
+.x4-track-your-labor-other .myself {
+  height: 48px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 154px;
+}
+
+.x4-track-your-labor-other .question {
+  height: 48px;
+  letter-spacing: 0;
+  margin-left: 199.2px;
+  text-align: center;
+  width: 656.5px;
+}
+
+.x4-track-your-labor-other .partner {
+  height: 48px;
+  letter-spacing: 0;
+  margin-left: 176.2px;
+  text-align: center;
+  width: 177px;
+}
+
+.x4-track-your-labor-other .x-question23 {
+  display: flex;
+  height: 44px;
+  left: 162px;
+  position: absolute;
+  top: 1983px;
+  width: 1330px;
+}
+
+.x4-track-your-labor-other .x-myself {
+  height: 43.68px;
+  margin-left: 0;
+  margin-top: 0.3px;
+  width: 132.94px;
+}
+
+.x4-track-your-labor-other .who-mostly-remembers {
+  height: 40px;
+  letter-spacing: 0;
+  margin-left: 81.2px;
+  margin-top: 1.8px;
+  text-align: center;
+  width: 912px;
+}
+
+.x4-track-your-labor-other .ellipse-68 {
+  height: 43.68px;
+  margin-left: 70.9px;
+  margin-top: -0.7px;
+  width: 132.94px;
+}
+
+.x4-track-your-labor-other .x-question22 {
+  display: flex;
+  height: 44px;
+  left: 162px;
+  position: absolute;
+  top: 1899px;
+  width: 1330px;
+}
+
+.x4-track-your-labor-other .x-myself-1 {
+  height: 43.68px;
+  margin-left: 0;
+  margin-top: -0.2px;
+  width: 132.94px;
+}
+
+.x4-track-your-labor-other .who-mostly-notices-w {
+  height: 40px;
+  letter-spacing: 0;
+  margin-left: 53.2px;
+  margin-top: 1.8px;
+  text-align: center;
+  width: 968px;
+}
+
+.x4-track-your-labor-other .ellipse-62 {
+  height: 43.68px;
+  margin-left: 42.9px;
+  margin-top: -0.2px;
+  width: 132.94px;
+}
+
+.x4-track-your-labor-other .cl-question21 {
+  display: flex;
+  height: 44px;
+  left: 162px;
+  position: absolute;
+  top: 1815px;
+  width: 1330px;
+}
+
+.x4-track-your-labor-other .who-mostly-notices-w-1 {
+  height: 40px;
+  letter-spacing: 0;
+  margin-left: 147.2px;
+  margin-top: 1.8px;
+  text-align: center;
+  width: 780px;
+}
+
+.x4-track-your-labor-other .ellipse-56 {
+  height: 43.68px;
+  margin-left: 136.9px;
+  margin-top: -0.2px;
+  width: 132.94px;
+}
+
+.x4-track-your-labor-other .x-question20 {
+  display: flex;
+  height: 44px;
+  left: 162px;
+  position: absolute;
+  top: 1732px;
+  width: 1330px;
+}
+
+.x4-track-your-labor-other .who-mostly-knows-wha {
+  height: 40px;
+  letter-spacing: 0;
+  margin-left: 155.7px;
+  margin-top: 1.8px;
+  text-align: center;
+  width: 765px;
+}
+
+.x4-track-your-labor-other .question-5 {
+  height: 43.68px;
+  margin-left: 143.4px;
+  margin-top: -0.7px;
+  width: 132.94px;
+}
+
+.x4-track-your-labor-other .x-question19 {
+  display: flex;
+  height: 44px;
+  left: 162px;
+  position: absolute;
+  top: 1648px;
+  width: 1330px;
+}
+
+.x4-track-your-labor-other .who-mostly-remembers-1 {
+  height: 40px;
+  letter-spacing: 0;
+  margin-left: 99.7px;
+  margin-top: 1.8px;
+  text-align: center;
+  width: 877px;
+}
+
+.x4-track-your-labor-other .question-16 {
+  height: 43.68px;
+  margin-left: 87.4px;
+  margin-top: -0.7px;
+  width: 132.94px;
+}
+
+.x4-track-your-labor-other .x-question18 {
+  display: flex;
+  height: 44px;
+  left: 162px;
+  position: absolute;
+  top: 1564px;
+  width: 1330px;
+}
+
+.x4-track-your-labor-other .who-mostly-unloads-the-dishwasher {
+  height: 40px;
+  letter-spacing: 0;
+  margin-left: 275.7px;
+  margin-top: 1.8px;
+  text-align: center;
+  width: 525px;
+}
+
+.x4-track-your-labor-other .ellipse-54 {
+  height: 43.68px;
+  margin-left: 263.4px;
+  margin-top: -0.7px;
+  width: 132.94px;
+}
+
+.x4-track-your-labor-other .cl-question17 {
+  display: flex;
+  height: 46px;
+  left: 162px;
+  position: absolute;
+  top: 1480px;
+  width: 1330px;
+}
+
+.x4-track-your-labor-other .cl-circ-myself {
+  height: 43.68px;
+  margin-left: 0;
+  margin-top: 2.0px;
+  width: 132.94px;
+}
+
+.x4-track-your-labor-other .who-mostly-loads-the-dishes {
+  height: 40px;
+  letter-spacing: 0;
+  margin-left: 328.5px;
+  text-align: center;
+  width: 419px;
+}
+
+.x4-track-your-labor-other .ellipse-64 {
+  height: 43.68px;
+  margin-left: 316.7px;
+  margin-top: 1.5px;
+  width: 132.94px;
+}
+
+.x4-track-your-labor-other .cl-question16 {
+  display: flex;
+  height: 48px;
+  left: 162px;
+  position: absolute;
+  top: 1396px;
+  width: 1330px;
+}
+
+.x4-track-your-labor-other .cl-circ-myself-1 {
+  height: 43.68px;
+  margin-left: 0;
+  margin-top: 2.5px;
+  width: 132.94px;
+}
+
+.x4-track-your-labor-other .who-mostly {
+  height: 48px;
+  letter-spacing: 0;
+  margin-left: 80.7px;
+  text-align: center;
+  width: 914px;
+}
+
+.x4-track-your-labor-other .ellipse {
+  height: 43.68px;
+  margin-left: 69.4px;
+  margin-top: 1.5px;
+  width: 132.94px;
+}
+
+.x4-track-your-labor-other .x-question15 {
+  display: flex;
+  height: 44px;
+  left: 162px;
+  position: absolute;
+  top: 1314px;
+  width: 1330px;
+}
+
+.x4-track-your-labor-other .who-mostly-notices-w-2 {
+  height: 40px;
+  letter-spacing: 0;
+  margin-left: 181.2px;
+  margin-top: 1.8px;
+  text-align: center;
+  width: 712px;
+}
+
+.x4-track-your-labor-other .ellipse-52 {
+  height: 43.68px;
+  margin-left: 170.9px;
+  margin-top: -0.2px;
+  width: 132.94px;
+}
+
+.x4-track-your-labor-other .cl-question14 {
+  display: flex;
+  height: 44px;
+  left: 162px;
+  position: absolute;
+  top: 1230px;
+  width: 1330px;
+}
+
+.x4-track-your-labor-other .who-mostly-remembers-2 {
+  height: 40px;
+  letter-spacing: 0;
+  margin-left: 109.2px;
+  margin-top: 1.8px;
+  text-align: center;
+  width: 856px;
+}
+
+.x4-track-your-labor-other .ellipse-47 {
+  height: 43.68px;
+  margin-left: 98.9px;
+  margin-top: -0.7px;
+  width: 132.94px;
+}
+
+.x4-track-your-labor-other .x-question13 {
+  display: flex;
+  height: 44px;
+  left: 162px;
+  position: absolute;
+  top: 1147px;
+  width: 1330px;
+}
+
+.x4-track-your-labor-other .who-mostly-notices-w-3 {
+  height: 40px;
+  letter-spacing: 0;
+  margin-left: 131.2px;
+  margin-top: 1.8px;
+  text-align: center;
+  width: 813px;
+}
+
+.x4-track-your-labor-other .ellipse-42 {
+  height: 43.68px;
+  margin-left: 119.9px;
+  margin-top: -0.7px;
+  width: 132.94px;
+}
+
+.x4-track-your-labor-other .x-question12 {
+  display: flex;
+  height: 44px;
+  left: 162px;
+  position: absolute;
+  top: 1063px;
+  width: 1330px;
+}
+
+.x4-track-your-labor-other .who-mostly-notices-w-4 {
+  height: 40px;
+  letter-spacing: 0;
+  margin-left: 219.7px;
+  margin-top: 1.8px;
+  text-align: center;
+  width: 637px;
+}
+
+.x4-track-your-labor-other .ellipse-49 {
+  height: 43.68px;
+  margin-left: 207.4px;
+  margin-top: -0.7px;
+  width: 132.94px;
+}
+
+.x4-track-your-labor-other .x-question11 {
+  display: flex;
+  height: 44px;
+  left: 162px;
+  position: absolute;
+  top: 979px;
+  width: 1330px;
+}
+
+.x4-track-your-labor-other .who-mostly-takes-out-the-garbage {
+  height: 40px;
+  letter-spacing: 0;
+  margin-left: 289.7px;
+  margin-top: 1.8px;
+  text-align: center;
+  width: 496px;
+}
+
+.x4-track-your-labor-other .ellipse-45 {
+  height: 43.68px;
+  margin-left: 278.4px;
+  margin-top: -0.7px;
+  width: 132.94px;
+}
+
+.x4-track-your-labor-other .cl-question10 {
+  display: flex;
+  height: 44px;
+  left: 162px;
+  position: absolute;
+  top: 895px;
+  width: 1330px;
+}
+
+.x4-track-your-labor-other .who-mostly-decides-w {
+  height: 40px;
+  letter-spacing: 0;
+  margin-left: 190.7px;
+  margin-top: 1.8px;
+  text-align: center;
+  width: 695px;
+}
+
+.x4-track-your-labor-other .ellipse-41 {
+  height: 43.68px;
+  margin-left: 178.4px;
+  margin-top: -0.2px;
+  width: 132.94px;
+}
+
+.x4-track-your-labor-other .x-question09 {
+  display: flex;
+  height: 46px;
+  left: 162px;
+  position: absolute;
+  top: 812px;
+  width: 1330px;
+}
+
+.x4-track-your-labor-other .who-mostly-mostly-kn {
+  height: 40px;
+  letter-spacing: 0;
+  margin-left: 101.5px;
+  text-align: center;
+  width: 872px;
+}
+
+.x4-track-your-labor-other .ellipse-48 {
+  height: 43.68px;
+  margin-left: 90.7px;
+  margin-top: 1.5px;
+  width: 132.94px;
+}
+
+.x4-track-your-labor-other .x-question08 {
+  display: flex;
+  height: 48px;
+  left: 162px;
+  position: absolute;
+  top: 727px;
+  width: 1330px;
+}
+
+.x4-track-your-labor-other .cl-question07 {
+  display: flex;
+  height: 48px;
+  left: 162px;
+  position: absolute;
+  top: 643px;
+  width: 1330px;
+}
+
+.x4-track-your-labor-other .who-mostly-preps-the-meals {
+  height: 48px;
+  letter-spacing: 0;
+  margin-left: 170.4px;
+  text-align: center;
+  width: 734.62px;
+}
+
+.x4-track-your-labor-other .ellipse-40 {
+  height: 43.68px;
+  margin-left: 159.1px;
+  margin-top: 1.5px;
+  width: 132.94px;
+}
+
+.x4-track-your-labor-other .x-question06 {
+  display: flex;
+  height: 48px;
+  left: 162px;
+  position: absolute;
+  top: 559px;
+  width: 1330px;
+}
+
+.x4-track-your-labor-other .who-mostly-cooks-the-meals {
+  height: 48px;
+  letter-spacing: 0;
+  margin-left: 183.3px;
+  text-align: center;
+  width: 708.8px;
+}
+
+.x4-track-your-labor-other .ellipse-51 {
+  height: 43.68px;
+  margin-left: 172.0px;
+  margin-top: 1.5px;
+  width: 132.94px;
+}
+
+.x4-track-your-labor-other .x-question05 {
+  display: flex;
+  height: 44px;
+  left: 162px;
+  position: absolute;
+  top: 476px;
+  width: 1330px;
+}
+
+.x4-track-your-labor-other .who-mostly-purchases-groceries {
+  height: 40px;
+  letter-spacing: 0;
+  margin-left: 298.7px;
+  margin-top: 1.8px;
+  text-align: center;
+  width: 478px;
+}
+
+.x4-track-your-labor-other .ellipse-46 {
+  height: 43.68px;
+  margin-left: 287.4px;
+  margin-top: -0.7px;
+  width: 132.94px;
+}
+
+.x4-track-your-labor-other .x-question04 {
+  display: flex;
+  height: 44px;
+  left: 162px;
+  position: absolute;
+  top: 393px;
+  width: 1330px;
+}
+
+.x4-track-your-labor-other .who-mostly-know-what {
+  height: 40px;
+  letter-spacing: 0;
+  margin-left: 165.7px;
+  margin-top: 1.8px;
+  text-align: center;
+  width: 744px;
+}
+
+.x4-track-your-labor-other .ellipse-39 {
+  height: 43.68px;
+  margin-left: 154.4px;
+  margin-top: -0.7px;
+  width: 132.94px;
+}
+
+.x4-track-your-labor-other .x-question03 {
+  display: flex;
+  height: 44px;
+  left: 162px;
+  position: absolute;
+  top: 311px;
+  width: 1330px;
+}
+
+.x4-track-your-labor-other .q3 {
+  height: 40px;
+  letter-spacing: 0;
+  margin-left: 153.7px;
+  margin-top: 1.8px;
+  text-align: center;
+  width: 768px;
+}
+
+.x4-track-your-labor-other .q3-partner-circle {
+  height: 43.68px;
+  margin-left: 142.4px;
+  margin-top: -0.7px;
+  width: 132.94px;
+}
+
+.x4-track-your-labor-other .x-question02 {
+  display: flex;
+  height: 44px;
+  left: 162px;
+  position: absolute;
+  top: 227px;
+  width: 1330px;
+}
+
+.x4-track-your-labor-other .q2 {
+  height: 40px;
+  letter-spacing: 0;
+  margin-left: 263.2px;
+  margin-top: 1.8px;
+  text-align: center;
+  width: 549px;
+}
+
+.x4-track-your-labor-other .q2-partner-circle {
+  height: 43.68px;
+  margin-left: 251.9px;
+  margin-top: -0.7px;
+  width: 132.94px;
+}
+
+.x4-track-your-labor-other .x-question01 {
+  display: flex;
+  height: 44px;
+  left: 162px;
+  position: absolute;
+  top: 142px;
+  width: 1330px;
+}
+
+.x4-track-your-labor-other .who-is-mostly-respon {
+  height: 40px;
+  letter-spacing: 0;
+  margin-left: 219.7px;
+  margin-top: 1.8px;
+  text-align: center;
+  width: 636px;
+}
+
+.x4-track-your-labor-other .q1-partner-circle {
+  height: 43.68px;
+  margin-left: 208.4px;
+  margin-top: -0.7px;
+  width: 132.94px;
+}
+
+.x4-track-your-labor-other .c-l-row-lines {
+  height: 2044px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1655px;
+}
+
+.x4-track-your-labor-other .x4-circle-and-text-2 {
+  align-items: flex-start;
+  display: flex;
+  margin-left: 8.18px;
+  margin-top: 92px;
+  min-width: 1332px;
+}
+
+.x4-track-your-labor-other .take-note-of-any-eme {
+  left: 140px;
+  letter-spacing: -2.16px;
+  line-height: 54px;
+  position: absolute;
+  top: 111px;
+  width: 1053px;
+}
+
+.x4-track-your-labor-other .span-1 {
+  letter-spacing: -1.17px;
+  line-height: 70px;
+}
+
+.x4-track-your-labor-other .span-2 {
+  letter-spacing: -1.17px;
+  line-height: 72px;
+}
+
+.x4-track-your-labor-other .span2 {
+  color: var(--baltic-sea);
+  font-family: var(--font-family-epilogue);
+  font-size: var(--font-size-xxl);
+  font-weight: 600;
+  letter-spacing: -1.17px;
+  line-height: 72px;
+}
+
+.x4-track-your-labor-other .span4 {
+  color: var(--baltic-sea);
+  font-family: var(--font-family-epilogue);
+  font-size: var(--font-size-xxxl);
+  font-weight: 700;
+  letter-spacing: -1.54px;
+  line-height: 78px;
+}
+
+.x4-track-your-labor-other .ellipse-115 {
+  height: 434px;
+  left: 0;
+  mix-blend-mode: darken;
+  position: absolute;
+  top: 0;
+  width: 1332px;
+}
+
+.x4-track-your-labor-other .emerging-patterns {
+  align-items: flex-end;
+  display: flex;
+  height: 3380px;
+  margin-left: 57.0px;
+  margin-top: 92px;
+  min-width: 1655px;
+}
+
+.x4-track-your-labor-other .overlap-group4 {
+  height: 3435px;
+  margin-bottom: -53.55px;
+  position: relative;
+  width: 1655px;
+}
+
+.x4-track-your-labor-other .em-question39 {
+  display: flex;
+  height: 44px;
+  left: 162px;
+  position: absolute;
+  top: 3352px;
+  width: 1330px;
+}
+
+.x4-track-your-labor-other .ellipse-1 {
+  height: 43.68px;
+  margin-left: 0;
+  margin-top: -0.7px;
+  width: 132.94px;
+}
+
+.x4-track-your-labor-other .who-mostly-spends-ti {
+  height: 40px;
+  letter-spacing: 0;
+  margin-left: 39.5px;
+  margin-top: 1.8px;
+  text-align: center;
+  width: 997px;
+}
+
+.x4-track-your-labor-other .ellipse-147 {
+  height: 43.68px;
+  margin-left: 27.4px;
+  margin-top: -0.7px;
+  width: 132.94px;
+}
+
+.x4-track-your-labor-other .em-question38 {
+  display: flex;
+  height: 44px;
+  left: 162px;
+  position: absolute;
+  top: 3269px;
+  width: 1330px;
+}
+
+.x4-track-your-labor-other .ellipse-1-1 {
+  height: 43.68px;
+  margin-left: 0;
+  margin-top: -0.2px;
+  width: 132.94px;
+}
+
+.x4-track-your-labor-other .who-mostly-spends-ti-1 {
+  height: 40px;
+  letter-spacing: 0;
+  margin-left: 139.5px;
+  margin-top: 1.8px;
+  text-align: center;
+  width: 797px;
+}
+
+.x4-track-your-labor-other .ellipse-141 {
+  height: 43.68px;
+  margin-left: 127.4px;
+  margin-top: -0.2px;
+  width: 132.94px;
+}
+
+.x4-track-your-labor-other .em-question37 {
+  display: flex;
+  height: 44px;
+  left: 162px;
+  position: absolute;
+  top: 3185px;
+  width: 1330px;
+}
+
+.x4-track-your-labor-other .who-mostly-spends-ti-2 {
+  height: 40px;
+  letter-spacing: 0;
+  margin-left: 108.5px;
+  margin-top: 1.8px;
+  text-align: center;
+  width: 858px;
+}
+
+.x4-track-your-labor-other .ellipse-137 {
+  height: 43.68px;
+  margin-left: 97.4px;
+  margin-top: -0.7px;
+  width: 132.94px;
+}
+
+.x4-track-your-labor-other .em-question36 {
+  display: flex;
+  height: 44px;
+  left: 162px;
+  position: absolute;
+  top: 3101px;
+  width: 1330px;
+}
+
+.x4-track-your-labor-other .who-is-mostly-respon-1 {
+  color: var(--baltic-sea);
+  font-family: var(--font-family-abc_diatype_edu-regular);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  height: 40px;
+  letter-spacing: 0;
+  margin-left: 142.0px;
+  margin-top: 1.8px;
+  text-align: center;
+  width: 792px;
+}
+
+.x4-track-your-labor-other .ellipse-145 {
+  height: 43.68px;
+  margin-left: 129.9px;
+  margin-top: -0.7px;
+  width: 132.94px;
+}
+
+.x4-track-your-labor-other .em-question35 {
+  display: flex;
+  height: 44px;
+  left: 162px;
+  position: absolute;
+  top: 3017px;
+  width: 1330px;
+}
+
+.x4-track-your-labor-other .who-is-mostly-in-cha {
+  height: 40px;
+  letter-spacing: 0;
+  margin-left: 89.0px;
+  margin-top: 1.8px;
+  text-align: center;
+  width: 898px;
+}
+
+.x4-track-your-labor-other .ellipse-139 {
+  height: 43.68px;
+  margin-left: 76.9px;
+  margin-top: -0.7px;
+  width: 132.94px;
+}
+
+.x4-track-your-labor-other .em-question34 {
+  display: flex;
+  height: 44px;
+  left: 162px;
+  position: absolute;
+  top: 2934px;
+  width: 1330px;
+}
+
+.x4-track-your-labor-other .who-is-mostly-respon-2 {
+  height: 40px;
+  letter-spacing: 0;
+  margin-left: 77.0px;
+  margin-top: 1.8px;
+  text-align: center;
+  width: 923px;
+}
+
+.x4-track-your-labor-other .ellipse-135 {
+  height: 43.68px;
+  margin-left: 63.9px;
+  margin-top: -0.2px;
+  width: 132.94px;
+}
+
+.x4-track-your-labor-other .em-question33 {
+  display: flex;
+  height: 44px;
+  left: 162px;
+  position: absolute;
+  top: 2852px;
+  width: 1330px;
+}
+
+.x4-track-your-labor-other .ellipse-142 {
+  height: 43.68px;
+  margin-left: 0;
+  margin-top: -0.6px;
+  width: 132.94px;
+}
+
+.x4-track-your-labor-other .who-is-mostly-respon-3 {
+  height: 40px;
+  letter-spacing: 0;
+  margin-left: 138.5px;
+  text-align: center;
+  width: 798px;
+}
+
+.x4-track-your-labor-other .ellipse-143 {
+  height: 43.68px;
+  margin-left: 127.4px;
+  margin-top: -0.6px;
+  width: 132.94px;
+}
+
+.x4-track-your-labor-other .em-question32 {
+  display: flex;
+  height: 44px;
+  left: 162px;
+  position: absolute;
+  top: 2767px;
+  width: 1330px;
+}
+
+.x4-track-your-labor-other .who-is-mostly-respon-4 {
+  height: 40px;
+  letter-spacing: 0;
+  margin-left: 128.5px;
+  margin-top: 1.8px;
+  text-align: center;
+  width: 818px;
+}
+
+.x4-track-your-labor-other .ellipse-133 {
+  height: 43.68px;
+  margin-left: 117.4px;
+  margin-top: -0.7px;
+  width: 132.94px;
+}
+
+.x4-track-your-labor-other .em-question31 {
+  display: flex;
+  height: 44px;
+  left: 162px;
+  position: absolute;
+  top: 2684px;
+  width: 1330px;
+}
+
+.x4-track-your-labor-other .who-is-mostly-respon-5 {
+  height: 40px;
+  letter-spacing: 0;
+  margin-left: 102.5px;
+  margin-top: 1.8px;
+  text-align: center;
+  width: 871px;
+}
+
+.x4-track-your-labor-other .ellipse-127 {
+  height: 43.68px;
+  margin-left: 90.4px;
+  margin-top: -0.2px;
+  width: 132.94px;
+}
+
+.x4-track-your-labor-other .em-question30 {
+  display: flex;
+  height: 44px;
+  left: 162px;
+  position: absolute;
+  top: 2600px;
+  width: 1330px;
+}
+
+.x4-track-your-labor-other .ellipse-2 {
+  height: 43.68px;
+  margin-left: 0;
+  margin-top: -0.7px;
+  width: 132.94px;
+}
+
+.x4-track-your-labor-other .who-is-mostly-respon-6 {
+  height: 40px;
+  letter-spacing: 0;
+  margin-left: 149.5px;
+  margin-top: 1.8px;
+  text-align: center;
+  width: 777px;
+}
+
+.x4-track-your-labor-other .ellipse-121 {
+  height: 43.68px;
+  margin-left: 137.4px;
+  margin-top: -0.7px;
+  width: 132.94px;
+}
+
+.x4-track-your-labor-other .em-question29 {
+  display: flex;
+  height: 44px;
+  left: 162px;
+  position: absolute;
+  top: 2516px;
+  width: 1330px;
+}
+
+.x4-track-your-labor-other .who-is-mostly-respon-7 {
+  color: var(--baltic-sea);
+  font-family: var(--font-family-abc_diatype_edu-regular);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  height: 40px;
+  letter-spacing: 0;
+  margin-left: 138.0px;
+  margin-top: 1.8px;
+  text-align: center;
+  width: 801px;
+}
+
+.x4-track-your-labor-other .ellipse-131 {
+  height: 43.68px;
+  margin-left: 124.9px;
+  margin-top: -0.7px;
+  width: 132.94px;
+}
+
+.x4-track-your-labor-other .em-question28 {
+  display: flex;
+  height: 44px;
+  left: 162px;
+  position: absolute;
+  top: 2432px;
+  width: 1330px;
+}
+
+.x4-track-your-labor-other .who-is-mostly-respon-8 {
+  height: 40px;
+  letter-spacing: 0;
+  margin-left: 135.0px;
+  margin-top: 1.8px;
+  text-align: center;
+  width: 806px;
+}
+
+.x4-track-your-labor-other .ellipse-125 {
+  height: 43.68px;
+  margin-left: 122.9px;
+  margin-top: -0.7px;
+  width: 132.94px;
+}
+
+.x4-track-your-labor-other .em-question27 {
+  display: flex;
+  height: 44px;
+  left: 162px;
+  position: absolute;
+  top: 2349px;
+  width: 1330px;
+}
+
+.x4-track-your-labor-other .ellipse-3 {
+  height: 43.68px;
+  margin-left: 0;
+  margin-top: -0.2px;
+  width: 132.94px;
+}
+
+.x4-track-your-labor-other .who-is-mostly-respon-9 {
+  height: 40px;
+  letter-spacing: 0;
+  margin-left: 122.0px;
+  margin-top: 1.8px;
+  text-align: center;
+  width: 832px;
+}
+
+.x4-track-your-labor-other .ellipse-119 {
+  height: 43.68px;
+  margin-left: 109.9px;
+  margin-top: -0.2px;
+  width: 132.94px;
+}
+
+.x4-track-your-labor-other .em-question26 {
+  display: flex;
+  height: 44px;
+  left: 162px;
+  position: absolute;
+  top: 2267px;
+  width: 1330px;
+}
+
+.x4-track-your-labor-other .ellipse-128 {
+  height: 43.68px;
+  margin-left: 0;
+  margin-top: -0.6px;
+  width: 132.94px;
+}
+
+.x4-track-your-labor-other .who-is-mostly-respon-10 {
+  height: 40px;
+  letter-spacing: 0;
+  margin-left: 36.5px;
+  text-align: center;
+  width: 1003px;
+}
+
+.x4-track-your-labor-other .ellipse-129 {
+  height: 43.68px;
+  margin-left: 24.4px;
+  margin-top: -0.6px;
+  width: 132.94px;
+}
+
+.x4-track-your-labor-other .em-question25 {
+  display: flex;
+  height: 46px;
+  left: 162px;
+  position: absolute;
+  top: 2180px;
+  width: 1330px;
+}
+
+.x4-track-your-labor-other .ellipse-122 {
+  height: 43.68px;
+  margin-left: 0;
+  margin-top: 1.5px;
+  width: 132.94px;
+}
+
+.x4-track-your-labor-other .who-is-mostly-respon-11 {
+  height: 40px;
+  letter-spacing: 0;
+  margin-left: 122.0px;
+  text-align: center;
+  width: 833px;
+}
+
+.x4-track-your-labor-other .ellipse-123 {
+  height: 43.68px;
+  margin-left: 108.9px;
+  margin-top: 1.5px;
+  width: 132.94px;
+}
+
+.x4-track-your-labor-other .em-question24 {
+  display: flex;
+  height: 44px;
+  left: 162px;
+  position: absolute;
+  top: 2099px;
+  width: 1330px;
+}
+
+.x4-track-your-labor-other .who-is-mostly-respon-12 {
+  height: 40px;
+  letter-spacing: 0;
+  margin-left: 51.5px;
+  margin-top: 1.8px;
+  text-align: center;
+  width: 973px;
+}
+
+.x4-track-your-labor-other .ellipse-117 {
+  height: 43.68px;
+  margin-left: 39.4px;
+  margin-top: -0.2px;
+  width: 132.94px;
+}
+
+.x4-track-your-labor-other .em-question23 {
+  display: flex;
+  height: 44px;
+  left: 162px;
+  position: absolute;
+  top: 2015px;
+  width: 1330px;
+}
+
+.x4-track-your-labor-other .who-is-mostly-respon-13 {
+  height: 40px;
+  letter-spacing: 0;
+  margin-left: 109.5px;
+  margin-top: 1.8px;
+  text-align: center;
+  width: 856px;
+}
+
+.x4-track-your-labor-other .ellipse-1-2 {
+  height: 43.68px;
+  margin-left: 98.4px;
+  margin-top: -0.7px;
+  width: 132.94px;
+}
+
+.x4-track-your-labor-other .em-question22 {
+  display: flex;
+  height: 44px;
+  left: 162px;
+  position: absolute;
+  top: 1931px;
+  width: 1330px;
+}
+
+.x4-track-your-labor-other .who-is-mostly-respon-14 {
+  height: 40px;
+  letter-spacing: 0;
+  margin-left: 154.5px;
+  margin-top: 1.8px;
+  text-align: center;
+  width: 767px;
+}
+
+.x4-track-your-labor-other .ellipse-104 {
+  height: 43.68px;
+  margin-left: 142.4px;
+  margin-top: -0.7px;
+  width: 132.94px;
+}
+
+.x4-track-your-labor-other .em-question21 {
+  display: flex;
+  height: 44px;
+  left: 162px;
+  position: absolute;
+  top: 1848px;
+  width: 1330px;
+}
+
+.x4-track-your-labor-other .who-is-mostly-respon-15 {
+  height: 40px;
+  letter-spacing: 0;
+  margin-left: 195.5px;
+  margin-top: 1.8px;
+  text-align: center;
+  width: 684px;
+}
+
+.x4-track-your-labor-other .ellipse-94 {
+  height: 43.68px;
+  margin-left: 184.4px;
+  margin-top: -0.2px;
+  width: 132.94px;
+}
+
+.x4-track-your-labor-other .em-question20 {
+  display: flex;
+  height: 44px;
+  left: 162px;
+  position: absolute;
+  top: 1764px;
+  width: 1330px;
+}
+
+.x4-track-your-labor-other .who-is-mostly-in-cha-1 {
+  height: 40px;
+  letter-spacing: 0;
+  margin-left: 59.0px;
+  margin-top: 1.8px;
+  text-align: center;
+  width: 958px;
+}
+
+.x4-track-your-labor-other .ellipse-108 {
+  height: 43.68px;
+  margin-left: 46.9px;
+  margin-top: -0.7px;
+  width: 132.94px;
+}
+
+.x4-track-your-labor-other .em-question19 {
+  display: flex;
+  height: 44px;
+  left: 162px;
+  position: absolute;
+  top: 1680px;
+  width: 1330px;
+}
+
+.x4-track-your-labor-other .who-is-mostly-respon-16 {
+  height: 40px;
+  letter-spacing: 0;
+  margin-left: 214.0px;
+  margin-top: 1.8px;
+  text-align: center;
+  width: 648px;
+}
+
+.x4-track-your-labor-other .ellipse-100 {
+  height: 43.68px;
+  margin-left: 201.9px;
+  margin-top: -0.7px;
+  width: 132.94px;
+}
+
+.x4-track-your-labor-other .em-question18 {
+  display: flex;
+  height: 44px;
+  left: 162px;
+  position: absolute;
+  top: 1596px;
+  width: 1330px;
+}
+
+.x4-track-your-labor-other .ellipse-91 {
+  height: 43.68px;
+  margin-left: 0;
+  margin-top: -0.7px;
+  width: 132.94px;
+}
+
+.x4-track-your-labor-other .who-is-mostly-respon-17 {
+  height: 40px;
+  letter-spacing: 0;
+  margin-left: 123.0px;
+  margin-top: 1.8px;
+  text-align: center;
+  width: 831px;
+}
+
+.x4-track-your-labor-other .ellipse-92 {
+  height: 43.68px;
+  margin-left: 109.9px;
+  margin-top: -0.7px;
+  width: 132.94px;
+}
+
+.x4-track-your-labor-other .em-question17 {
+  display: flex;
+  height: 44px;
+  left: 162px;
+  position: absolute;
+  top: 1515px;
+  width: 1330px;
+}
+
+.x4-track-your-labor-other .ellipse-105 {
+  height: 43.68px;
+  margin-left: 0;
+  margin-top: -0.1px;
+  width: 132.94px;
+}
+
+.x4-track-your-labor-other .who-mostly-arranges {
+  height: 40px;
+  letter-spacing: 0;
+  margin-left: 98.5px;
+  text-align: center;
+  width: 879px;
+}
+
+.x4-track-your-labor-other .ellipse-106 {
+  height: 43.68px;
+  margin-left: 86.4px;
+  margin-top: -0.1px;
+  width: 132.94px;
+}
+
+.x4-track-your-labor-other .em-question16 {
+  display: flex;
+  height: 44px;
+  left: 161px;
+  position: absolute;
+  top: 1412px;
+  width: 1330px;
+}
+
+.x4-track-your-labor-other .ellipse-91-1 {
+  height: 43.68px;
+  margin-left: 0;
+  margin-top: -0.2px;
+  width: 132.94px;
+}
+
+.x4-track-your-labor-other .who-mostly-knows-whi {
+  height: 40px;
+  letter-spacing: 0;
+  margin-left: 17.1px;
+  margin-top: 1.0px;
+  text-align: center;
+  width: 1038px;
+}
+
+.x4-track-your-labor-other .ellipse-91-2 {
+  height: 43.68px;
+  margin-left: 9.0px;
+  margin-top: -0.2px;
+  width: 132.94px;
+}
+
+.x4-track-your-labor-other .em-question15 {
+  display: flex;
+  height: 44px;
+  left: 162px;
+  position: absolute;
+  top: 1315px;
+  width: 1330px;
+}
+
+.x4-track-your-labor-other .ellipse-4 {
+  height: 43.68px;
+  margin-left: -0.5px;
+  margin-top: -0.2px;
+  width: 132.94px;
+}
+
+.x4-track-your-labor-other .who-mostly-manages-c {
+  height: 40px;
+  letter-spacing: 0;
+  margin-left: 107.0px;
+  margin-top: 1.8px;
+  text-align: center;
+  width: 863px;
+}
+
+.x4-track-your-labor-other .ellipse-90 {
+  height: 43.68px;
+  margin-left: 94.9px;
+  margin-top: -0.2px;
+  width: 132.94px;
+}
+
+.x4-track-your-labor-other .x-question14 {
+  display: flex;
+  height: 44px;
+  left: 162px;
+  position: absolute;
+  top: 1231px;
+  width: 1330px;
+}
+
+.x4-track-your-labor-other .ellipse-5 {
+  height: 43.68px;
+  margin-left: -0.5px;
+  margin-top: -0.7px;
+  width: 132.94px;
+}
+
+.x4-track-your-labor-other .who-mostly-does-rese {
+  height: 40px;
+  letter-spacing: 0;
+  margin-left: 194.3px;
+  margin-top: 1.8px;
+  text-align: center;
+  width: 688px;
+}
+
+.x4-track-your-labor-other .ellipse-80 {
+  height: 43.68px;
+  margin-left: 182.7px;
+  margin-top: -0.7px;
+  width: 132.94px;
+}
+
+.x4-track-your-labor-other .who {
+  height: 40px;
+  letter-spacing: 0;
+  margin-left: 62.0px;
+  margin-top: 1.8px;
+  text-align: center;
+  width: 952px;
+}
+
+.x4-track-your-labor-other .ellipse-72 {
+  height: 43.68px;
+  margin-left: 50.9px;
+  margin-top: -0.7px;
+  width: 132.94px;
+}
+
+.x4-track-your-labor-other .who-is-mostly-aware {
+  height: 40px;
+  letter-spacing: 0;
+  margin-left: 89.5px;
+  margin-top: 1.8px;
+  text-align: center;
+  width: 898px;
+}
+
+.x4-track-your-labor-other .ellipse-84 {
+  height: 43.68px;
+  margin-left: 77.4px;
+  margin-top: -0.7px;
+  width: 132.94px;
+}
+
+.x4-track-your-labor-other .who-mostly-cleans-the-home {
+  height: 40px;
+  letter-spacing: 0;
+  margin-left: 327.5px;
+  margin-top: 1.8px;
+  text-align: center;
+  width: 422px;
+}
+
+.x4-track-your-labor-other .ellipse-76 {
+  height: 43.68px;
+  margin-left: 315.4px;
+  margin-top: -0.7px;
+  width: 132.94px;
+}
+
+.x4-track-your-labor-other .x-question10 {
+  display: flex;
+  height: 44px;
+  left: 162px;
+  position: absolute;
+  top: 896px;
+  width: 1330px;
+}
+
+.x4-track-your-labor-other .who-mostly-calls-cus {
+  height: 40px;
+  letter-spacing: 0;
+  margin-left: 125.5px;
+  margin-top: 1.8px;
+  text-align: center;
+  width: 827px;
+}
+
+.x4-track-your-labor-other .ellipse-70 {
+  height: 43.68px;
+  margin-left: 112.4px;
+  margin-top: -0.2px;
+  width: 132.94px;
+}
+
+.x4-track-your-labor-other .ellipse-6 {
+  height: 43.68px;
+  margin-left: -0.5px;
+  margin-top: 1.5px;
+  width: 132.94px;
+}
+
+.x4-track-your-labor-other .who-mostly-manages-c-1 {
+  height: 40px;
+  letter-spacing: 0;
+  margin-left: 78.3px;
+  text-align: center;
+  width: 921px;
+}
+
+.x4-track-your-labor-other .ellipse-82 {
+  height: 43.68px;
+  margin-left: 65.7px;
+  margin-top: 1.5px;
+  width: 132.94px;
+}
+
+.x4-track-your-labor-other .who-mostly-1 {
+  height: 48px;
+  letter-spacing: 0;
+  margin-left: 81.5px;
+  text-align: center;
+  width: 914px;
+}
+
+.x4-track-your-labor-other .ellipse-74 {
+  height: 43.68px;
+  margin-left: 69.4px;
+  margin-top: 1.5px;
+  width: 132.94px;
+}
+
+.x4-track-your-labor-other .x-question07 {
+  display: flex;
+  height: 46px;
+  left: 162px;
+  position: absolute;
+  top: 643px;
+  width: 1330px;
+}
+
+.x4-track-your-labor-other .who-mostly-researche {
+  height: 40px;
+  letter-spacing: 0;
+  margin-left: 124.2px;
+  text-align: center;
+  width: 828px;
+}
+
+.x4-track-your-labor-other .ellipse-88 {
+  height: 43.68px;
+  margin-left: 112.8px;
+  margin-top: 1.5px;
+  width: 132.94px;
+}
+
+.x4-track-your-labor-other .who-mostly-does-rese-1 {
+  height: 48px;
+  letter-spacing: 0;
+  margin-left: 184.1px;
+  text-align: center;
+  width: 708.8px;
+}
+
+.x4-track-your-labor-other .ellipse-112 {
+  height: 43.68px;
+  margin-left: 172.0px;
+  margin-top: 1.5px;
+  width: 132.94px;
+}
+
+.x4-track-your-labor-other .who-mostly-manages-home-repairs {
+  height: 40px;
+  letter-spacing: 0;
+  margin-left: 283.5px;
+  margin-top: 1.8px;
+  text-align: center;
+  width: 511px;
+}
+
+.x4-track-your-labor-other .ellipse-102 {
+  height: 43.68px;
+  margin-left: 270.4px;
+  margin-top: -0.7px;
+  width: 132.94px;
+}
+
+.x4-track-your-labor-other .em-question04 {
+  display: flex;
+  height: 44px;
+  left: 162px;
+  position: absolute;
+  top: 394px;
+  width: 1330px;
+}
+
+.x4-track-your-labor-other .who-mostly-manages-the-social-calendar {
+  height: 40px;
+  letter-spacing: 0;
+  margin-left: 242.5px;
+  margin-top: 1.8px;
+  text-align: center;
+  width: 592px;
+}
+
+.x4-track-your-labor-other .ellipse-86 {
+  height: 43.68px;
+  margin-left: 230.4px;
+  margin-top: -0.2px;
+  width: 132.94px;
+}
+
+.x4-track-your-labor-other .who-mostly-knows-wha-1 {
+  height: 40px;
+  letter-spacing: 0;
+  margin-left: 177.5px;
+  margin-top: 1.8px;
+  text-align: center;
+  width: 723px;
+}
+
+.x4-track-your-labor-other .ellipse-110 {
+  height: 43.68px;
+  margin-left: 164.4px;
+  margin-top: -0.7px;
+  width: 132.94px;
+}
+
+.x4-track-your-labor-other .who-mostly-arranges-1 {
+  height: 40px;
+  letter-spacing: 0;
+  margin-left: 153.0px;
+  margin-top: 1.8px;
+  text-align: center;
+  width: 770px;
+}
+
+.x4-track-your-labor-other .ellipse-98 {
+  height: 43.68px;
+  margin-left: 141.9px;
+  margin-top: -0.7px;
+  width: 132.94px;
+}
+
+.x4-track-your-labor-other .who-mostly-manages-social-plans {
+  height: 40px;
+  letter-spacing: 0;
+  margin-left: 292.5px;
+  margin-top: 1.8px;
+  text-align: center;
+  width: 492px;
+}
+
+.x4-track-your-labor-other .ellipse-78 {
+  height: 43.68px;
+  margin-left: 280.4px;
+  margin-top: -0.7px;
+  width: 132.94px;
+}
+
+.x4-track-your-labor-other .em-row-lines {
+  height: 3435px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1655px;
+}
+
+.x4-track-your-labor-other .x4-circle-and-text-3 {
+  background-image: url(../img/ellipse-148@1x.png);
+  background-size: 100% 100%;
+  display: flex;
+  height: 434px;
+  margin-right: 1.7px;
+  margin-top: 178px;
+  width: 1332px;
+}
+
+.x4-track-your-labor-other .the-list-might-feel {
+  height: 194.63px;
+  letter-spacing: -2.16px;
+  line-height: 70px;
+  margin-left: 128.8px;
+  margin-top: 119.7px;
+  mix-blend-mode: darken;
+  width: 1068.59px;
+}
+
+.x4-track-your-labor-other .fraction-home {
+  align-items: flex-start;
+  display: flex;
+  height: 2126px;
+  margin-right: 7.0px;
+  margin-top: 93px;
+  min-width: 1655px;
+}
+
+.x4-track-your-labor-other .overlap-group5 {
+  height: 2128px;
+  margin-top: -1.32px;
+  position: relative;
+  width: 1655px;
+}
+
+.x4-track-your-labor-other .fh-question24 {
+  display: flex;
+  height: 44px;
+  left: 162px;
+  position: absolute;
+  top: 2067px;
+  width: 1330px;
+}
+
+.x4-track-your-labor-other .who-mostly-time-mana {
+  height: 40px;
+  letter-spacing: 0;
+  margin-left: 101.0px;
+  margin-top: 1.8px;
+  text-align: center;
+  width: 875px;
+}
+
+.x4-track-your-labor-other .ellipse-180 {
+  height: 43.68px;
+  margin-left: 88.9px;
+  margin-top: -0.7px;
+  width: 132.94px;
+}
+
+.x4-track-your-labor-other .who-mostly-registers {
+  height: 40px;
+  letter-spacing: 0;
+  margin-left: 126.0px;
+  margin-top: 1.8px;
+  text-align: center;
+  width: 825px;
+}
+
+.x4-track-your-labor-other .ellipse-188 {
+  height: 43.68px;
+  margin-left: 113.9px;
+  margin-top: -0.7px;
+  width: 132.94px;
+}
+
+.x4-track-your-labor-other .who-mostly-researche-1 {
+  height: 40px;
+  letter-spacing: 0;
+  margin-left: 38.0px;
+  margin-top: 1.8px;
+  text-align: center;
+  width: 1000px;
+}
+
+.x4-track-your-labor-other .ellipse-182 {
+  height: 43.68px;
+  margin-left: 26.9px;
+  margin-top: -0.2px;
+  width: 132.94px;
+}
+
+.x4-track-your-labor-other .fh-question21 {
+  display: flex;
+  height: 44px;
+  left: 162px;
+  position: absolute;
+  top: 1816px;
+  width: 1330px;
+}
+
+.x4-track-your-labor-other .who-mostly-manages-a {
+  height: 40px;
+  letter-spacing: 0;
+  margin-left: 95.0px;
+  margin-top: 1.8px;
+  text-align: center;
+  width: 886px;
+}
+
+.x4-track-your-labor-other .ellipse-165 {
+  height: 43.68px;
+  margin-left: 83.9px;
+  margin-top: -0.2px;
+  width: 132.94px;
+}
+
+.x4-track-your-labor-other .who-mostly-coordinat {
+  height: 40px;
+  letter-spacing: 0;
+  margin-left: 22.5px;
+  margin-top: 1.8px;
+  text-align: center;
+  width: 1033px;
+}
+
+.x4-track-your-labor-other .ellipse-186 {
+  height: 43.68px;
+  margin-left: 9.4px;
+  margin-top: -0.7px;
+  width: 132.94px;
+}
+
+.x4-track-your-labor-other .ellipse-1-3 {
+  height: 43.68px;
+  margin-left: -0.5px;
+  margin-top: -0.7px;
+  width: 132.94px;
+}
+
+.x4-track-your-labor-other .who-mostly-plans-and {
+  height: 40px;
+  letter-spacing: 0;
+  margin-left: 110.5px;
+  margin-top: 1.8px;
+  text-align: center;
+  width: 856px;
+}
+
+.x4-track-your-labor-other .who-mostly-manages-c-2 {
+  height: 40px;
+  letter-spacing: 0;
+  margin-left: 172.5px;
+  margin-top: 1.8px;
+  text-align: center;
+  width: 733px;
+}
+
+.x4-track-your-labor-other .ellipse-163 {
+  height: 43.68px;
+  margin-left: 159.4px;
+  margin-top: -0.7px;
+  width: 132.94px;
+}
+
+.x4-track-your-labor-other .fh-question17 {
+  display: flex;
+  height: 44px;
+  left: 162px;
+  position: absolute;
+  top: 1483px;
+  width: 1330px;
+}
+
+.x4-track-your-labor-other .ellipse-183 {
+  height: 43.68px;
+  margin-left: -0.5px;
+  margin-top: -0.6px;
+  width: 132.94px;
+}
+
+.x4-track-your-labor-other .who-mostly-manages-c-3 {
+  height: 40px;
+  letter-spacing: 0;
+  margin-left: 184.0px;
+  text-align: center;
+  width: 709px;
+}
+
+.x4-track-your-labor-other .ellipse-184 {
+  height: 43.68px;
+  margin-left: 171.9px;
+  margin-top: -0.6px;
+  width: 132.94px;
+}
+
+.x4-track-your-labor-other .fh-question16 {
+  display: flex;
+  height: 46px;
+  left: 162px;
+  position: absolute;
+  top: 1396px;
+  width: 1330px;
+}
+
+.x4-track-your-labor-other .ellipse-1-4 {
+  height: 43.68px;
+  margin-left: -0.5px;
+  margin-top: 1.5px;
+  width: 132.94px;
+}
+
+.x4-track-your-labor-other .who-mostly-manages-s {
+  height: 40px;
+  letter-spacing: 0;
+  margin-left: 142.5px;
+  text-align: center;
+  width: 793px;
+}
+
+.x4-track-your-labor-other .ellipse-167 {
+  height: 43.68px;
+  margin-left: 129.4px;
+  margin-top: 1.5px;
+  width: 132.94px;
+}
+
+.x4-track-your-labor-other .ellipse-1-5 {
+  height: 43.68px;
+  margin-left: -0.5px;
+  margin-top: -0.2px;
+  width: 132.94px;
+}
+
+.x4-track-your-labor-other .who-mostly-manages-s-1 {
+  height: 40px;
+  letter-spacing: 0;
+  margin-left: 132.0px;
+  margin-top: 1.8px;
+  text-align: center;
+  width: 813px;
+}
+
+.x4-track-your-labor-other .ellipse-161 {
+  height: 43.68px;
+  margin-left: 119.9px;
+  margin-top: -0.2px;
+  width: 132.94px;
+}
+
+.x4-track-your-labor-other .who-mostly-communica {
+  height: 40px;
+  letter-spacing: 0;
+  margin-left: 160.3px;
+  margin-top: 1.8px;
+  text-align: center;
+  width: 756px;
+}
+
+.x4-track-your-labor-other .ellipse-168 {
+  height: 43.68px;
+  margin-left: 148.7px;
+  margin-top: -0.7px;
+  width: 132.94px;
+}
+
+.x4-track-your-labor-other .ellipse-152 {
+  height: 43.68px;
+  margin-left: 50.9px;
+  margin-top: -0.7px;
+  width: 132.94px;
+}
+
+.x4-track-your-labor-other .who-mostly-is-in-cha {
+  height: 40px;
+  letter-spacing: 0;
+  margin-left: 80.5px;
+  margin-top: 1.8px;
+  text-align: center;
+  width: 916px;
+}
+
+.x4-track-your-labor-other .ellipse-172 {
+  height: 43.68px;
+  margin-left: 68.4px;
+  margin-top: -0.7px;
+  width: 132.94px;
+}
+
+.x4-track-your-labor-other .who-is-mostly-respon-18 {
+  height: 40px;
+  letter-spacing: 0;
+  margin-left: 141.5px;
+  margin-top: 1.8px;
+  text-align: center;
+  width: 794px;
+}
+
+.x4-track-your-labor-other .ellipse-156 {
+  height: 43.68px;
+  margin-left: 129.4px;
+  margin-top: -0.7px;
+  width: 132.94px;
+}
+
+.x4-track-your-labor-other .who-mostly-fills-out {
+  height: 40px;
+  letter-spacing: 0;
+  margin-left: 213.5px;
+  margin-top: 1.8px;
+  text-align: center;
+  width: 650px;
+}
+
+.x4-track-your-labor-other .ellipse-150 {
+  height: 43.68px;
+  margin-left: 201.4px;
+  margin-top: -0.2px;
+  width: 132.94px;
+}
+
+.x4-track-your-labor-other .who-mostly-ensures-c {
+  height: 40px;
+  letter-spacing: 0;
+  margin-left: 84.3px;
+  text-align: center;
+  width: 908px;
+}
+
+.x4-track-your-labor-other .ellipse-170 {
+  height: 43.68px;
+  margin-left: 72.7px;
+  margin-top: 1.5px;
+  width: 132.94px;
+}
+
+.x4-track-your-labor-other .ellipse-154 {
+  height: 43.68px;
+  margin-left: 69.4px;
+  margin-top: 1.5px;
+  width: 132.94px;
+}
+
+.x4-track-your-labor-other .ellipse-1-6 {
+  height: 43.68px;
+  margin-left: -0.5px;
+  margin-top: 1.5px;
+  width: 132.94px;
+}
+
+.x4-track-your-labor-other .who-is-mostly-respon-19 {
+  height: 40px;
+  letter-spacing: 0;
+  margin-left: 104.2px;
+  text-align: center;
+  width: 869px;
+}
+
+.x4-track-your-labor-other .ellipse-176 {
+  height: 43.68px;
+  margin-left: 91.8px;
+  margin-top: 1.5px;
+  width: 132.94px;
+}
+
+.x4-track-your-labor-other .fh-question06 {
+  display: flex;
+  height: 46px;
+  left: 162px;
+  position: absolute;
+  top: 559px;
+  width: 1330px;
+}
+
+.x4-track-your-labor-other .who-mostly-notices-w-5 {
+  height: 40px;
+  letter-spacing: 0;
+  margin-left: 86.1px;
+  text-align: center;
+  width: 904px;
+}
+
+.x4-track-your-labor-other .ellipse-196 {
+  height: 43.68px;
+  margin-left: 74.8px;
+  margin-top: 1.5px;
+  width: 132.94px;
+}
+
+.x4-track-your-labor-other .ellipse-1-7 {
+  height: 43.68px;
+  margin-left: -0.5px;
+  margin-top: -0.7px;
+  width: 132.94px;
+}
+
+.x4-track-your-labor-other .who-mostly-knows-wha-2 {
+  height: 40px;
+  letter-spacing: 0;
+  margin-left: 122.5px;
+  margin-top: 1.8px;
+  text-align: center;
+  width: 832px;
+}
+
+.x4-track-your-labor-other .ellipse-192 {
+  height: 43.68px;
+  margin-left: 110.4px;
+  margin-top: -0.7px;
+  width: 132.94px;
+}
+
+.x4-track-your-labor-other .who-is-mostly-respon-20 {
+  height: 40px;
+  letter-spacing: 0;
+  margin-left: 111.5px;
+  margin-top: 1.8px;
+  text-align: center;
+  width: 854px;
+}
+
+.x4-track-your-labor-other .ellipse-174 {
+  height: 43.68px;
+  margin-left: 99.4px;
+  margin-top: -0.7px;
+  width: 132.94px;
+}
+
+.x4-track-your-labor-other .who-is-mostly-respon-21 {
+  height: 40px;
+  letter-spacing: 0;
+  margin-left: 57.5px;
+  margin-top: 1.8px;
+  text-align: center;
+  width: 962px;
+}
+
+.x4-track-your-labor-other .ellipse-194 {
+  height: 43.68px;
+  margin-left: 45.4px;
+  margin-top: -0.7px;
+  width: 132.94px;
+}
+
+.x4-track-your-labor-other .who-is-mostly-respon-22 {
+  height: 40px;
+  letter-spacing: 0;
+  margin-left: 38.0px;
+  margin-top: 1.8px;
+  text-align: center;
+  width: 1001px;
+}
+
+.x4-track-your-labor-other .ellipse-190 {
+  height: 43.68px;
+  margin-left: 25.9px;
+  margin-top: -0.7px;
+  width: 132.94px;
+}
+
+.x4-track-your-labor-other .who-is-mostly-respon-23 {
+  height: 40px;
+  letter-spacing: 0;
+  margin-left: 112.5px;
+  margin-top: 1.8px;
+  text-align: center;
+  width: 852px;
+}
+
+.x4-track-your-labor-other .ellipse-158 {
+  height: 43.68px;
+  margin-left: 100.4px;
+  margin-top: -0.7px;
+  width: 132.94px;
+}
+
+.x4-track-your-labor-other .fh-row-lines {
+  height: 2128px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1655px;
+}
+
+.x4-track-your-labor-other .last-sec-green {
+  align-items: flex-end;
+  display: flex;
+  margin-top: 181px;
+  min-width: 1920px;
+}
+
+.x4-track-your-labor-other .overlap-group-1 {
+  height: 827px;
+  margin-bottom: 0;
+  position: relative;
+  width: 1920px;
+}
+
+.x4-track-your-labor-other .line-213 {
+  height: 1px;
+  left: 0;
+  position: absolute;
+  top: 826px;
+  width: 1919px;
+}
+
+.x4-track-your-labor-other .bk {
+  background-color: var(--la-rioja);
+  height: 827px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1920px;
+}
+
+.x4-track-your-labor-other .screen-shot-2022-05-03-at-223-1 {
+  height: 662px;
+  left: 1241px;
+  object-fit: cover;
+  position: absolute;
+  top: 82px;
+  width: 447px;
+}
+
+.x4-track-your-labor-other .i-conducted-a-week-l {
+  left: 240px;
+  letter-spacing: -0.42px;
+  line-height: 48px;
+  position: absolute;
+  top: 138px;
+  width: 628px;
+}
+
+.x4-track-your-labor-other .here-is-a-link-to-th {
+  color: var(--alabaster);
+  font-family: var(--font-family-abc_diatype_edu-bold);
+  font-size: var(--font-size-xl);
+  font-weight: 700;
+  left: 240px;
+  letter-spacing: -0.42px;
+  line-height: 48px;
+  position: absolute;
+  top: 530px;
+  width: 628px;
+}
+
+.x4-track-your-labor-other .span0 {
+  font-weight: 700;
+  letter-spacing: -0.18px;
+  text-decoration: underline;
+}
+
+.x4-track-your-labor-other .span1 {
+  letter-spacing: -0.18px;
+}

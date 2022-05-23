@@ -41,7 +41,7 @@ var c1QuestionArr= ['Who is mostly responsible for meal planning?',
     clMCircleHolder.className='col-sm-4 itemAlign';
     clQuestionHolder.className='col-sm-4 itemAlign question1';
     clPCircleHolder.className='col-sm-4 itemAlign';
-    clDivRow.className = 'questionRowBorder row';
+    clDivRow.className = 'questionRowBorder rowHeight';
 
     clMCircleHolder.appendChild(clMCircle);
     clPCircleHolder.appendChild(clPCircle);

@@ -3,7 +3,7 @@
 .x4-track-your-labor {
   background-color: var(--alabaster);
   height: auto;
-  margin: 0px;
+  margin: 0 auto;
 /*  min-height: 12161px;
   min-width: 1920px;*/
   overflow: hidden;

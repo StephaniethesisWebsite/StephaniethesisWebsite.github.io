@@ -57,7 +57,7 @@ var emQuestionArr= ['Who mostly manages social plans?',
     emMCircleHolder.className='col-sm-4 itemAlign';
     emclQuestionHolder.className='col-sm-4 itemAlign question1';
     emPCircleHolder.className='col-sm-4 itemAlign';
-    emclDivRow.className = 'questionRowBorder row';
+    emclDivRow.className = 'questionRowBorder rowHeight';
 
     emMCircleHolder.appendChild(emMCircle);
     emPCircleHolder.appendChild(emPCircle);

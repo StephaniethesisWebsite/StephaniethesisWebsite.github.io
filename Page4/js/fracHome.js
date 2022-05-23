@@ -57,7 +57,7 @@ var fhQuestionArr= ['Who mostly manages social plans?',
     fhMCircleHolder.className='col-sm-4 itemAlign';
     fhclQuestionHolder.className='col-sm-4 itemAlign question1';
     fhPCircleHolder.className='col-sm-4 itemAlign';
-    fhclDivRow.className = 'questionRowBorder row';
+    fhclDivRow.className = 'questionRowBorder rowHeight';
 
     fhMCircleHolder.appendChild(fhMCircle);
     fhPCircleHolder.appendChild(fhPCircle);
