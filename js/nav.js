@@ -47,14 +47,14 @@
     });
    
 
-   $('#nav1').click(function(){
-   window.location.href='../Page1/1-cognitive-labor.html';
-});
+//    $('#nav1').click(function(){
+//    window.location.href='../Page1/1-cognitive-labor.html';
+// });
 
-     $('#nav2').click(function(){
-   window.location.href='../Page2/2-lived-experiences.html';
-})
+//      $('#nav2').click(function(){
+//    window.location.href='../Page2/2-lived-experiences.html';
+// })
 
-    $('#nav3').click(function(){
-   window.location.href='../Page3/3-let-s-plan-a-party.html';
-})
+//     $('#nav3').click(function(){
+//    window.location.href='../Page3/3-let-s-plan-a-party.html';
+// })
