@@ -654,12 +654,12 @@
 }
 
 .x5-from-the-experts .x5-landingpage-BKK1YR {
-  background-color: transparent;
-  height: 1033px;
-  left: 162px;
-  position: absolute;
-  top: 121px;
-  width: 1595px;
+background-color: transparent;
+height: calc(100vw * 1033 / 1920);
+left: calc(100vw * 161 / 1920);
+position: absolute;
+top: calc(100vw * 121 / 1920);
+width: calc(100vw * 1595 / 1920);
 }
 
 .x5-from-the-experts .x5-landingpage-1-v8xIEp {
