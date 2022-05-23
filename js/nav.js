@@ -29,7 +29,7 @@
 
       $('#nav4').mousedown(function(){
       $('#nav4').addClass('navitalic');
-        window.location.href='../Page4/track-tour-labor.html';
+        window.location.href='../Page4/track-your-labor.html';
     });
 
     $('#nav4').mouseup(function(){
