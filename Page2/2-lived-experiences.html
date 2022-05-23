@@ -59,14 +59,10 @@
           </div>
           <div class="green-rect-sec1">
               <audio id="Carolynaudio" src="mp3/Carolyn.mp3"></audio>
-            <div id="carolyn-play-pause" class="overlap-group">
+            <div id="carolyn-player-container" class="">
           
-                <div id="c-play-pause" class="play">Play
-              <img
-                class="icon-play"
-                src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMiAyNHYtMjRsMjAgMTItMjAgMTJ6Ii8+PC9zdmc+"
-              />
-              <div class="ellipse-197 border-1px-alabaster"></div>
+                <div id="c-play-pause" class="play">
+      
               </div>
             </div>
             <div class="overlap-group1">
@@ -167,11 +163,16 @@
         <div class="overlap-group6">
           <div class="green-rect-sec">
             <div class="overlap-group-2">
-              <img
+             <!--  <img
                 class="icon-play"
                 src="https://anima-uploads.s3.amazonaws.com/projects/628164e8cd367e86d77627d8/releases/628164ffcd367e86d77627da/img/polygon-5@2x.png"
               />
-              <div class="ellipse-197 border-1px-alabaster"></div>
+              <div class="ellipse-197 border-1px-alabaster"></div> -->
+              <audio id="Nancyaudio" src="mp3/nancy.mp3"></audio>
+            <div id="nancy-player-container" class="">
+          
+                <div id="n-play-pause" class="play"></div>
+            </div>
             </div>
             <div class="nancy2quote">
               <div class="nancy-39-design-c-1 abcdiatypeedu-medium-la-rioja-23px">
@@ -219,12 +220,21 @@
                 if I didn&#39;t do all of that stuff. And so he&#39;s been more sensitive to it since then.”
               </div>
             </div>
-            <div class="overlap-group1-1">
+   <!--          <div class="overlap-group1-1">
+
               <img
                 class="icon-play"
                 src="https://anima-uploads.s3.amazonaws.com/projects/628164e8cd367e86d77627d8/releases/628164ffcd367e86d77627da/img/polygon-5-1@2x.png"
               />
               <div class="ellipse-197 border-1px-alabaster"></div>
+            </div> -->
+
+                 <audio id="Bethaudio" src="mp3/Beth.mp3"></audio>
+            <div id="beth-player-container" class="">
+          
+                <div id="b-play-pause" class="play">
+      
+              </div>
             </div>
           </div>
           <div class="floating-text_8 freighttextpro-bookitalic-normal-alabaster-32px">
@@ -306,9 +316,12 @@
   <script  src="../js/nav.js"></script>
   <script type="text/javascript">
 var track = document.getElementById('Carolynaudio');
+var track2= document.getElementById('Bethaudio');
+var track3 = document.getElementById('Nancyaudio');
 
 var controlBtn = document.getElementById('c-play-pause');
-
+var controlBtn2 = document.getElementById('b-play-pause');
+var controlBtn3 = document.getElementById('n-play-pause');
 function playPause() {
     if (track.paused) {
         track.play();
@@ -324,6 +337,40 @@ function playPause() {
 controlBtn.addEventListener("click", playPause);
 track.addEventListener("ended", function() {
   controlBtn.className = "play";
+});
+
+function playPause2() {
+    if (track2.paused) {
+        track2.play();
+        //controlBtn.textContent = "Pause";
+        controlBtn2.className = "pause";
+    } else { 
+        track2.pause();
+         //controlBtn.textContent = "Play";
+        controlBtn2.className = "play";
+    }
+}
+
+controlBtn2.addEventListener("click", playPause2);
+track2.addEventListener("ended", function() {
+  controlBtn2.className = "play";
+});
+
+function playPause3() {
+    if (track3.paused) {
+        track3.play();
+        //controlBtn.textContent = "Pause";
+        controlBtn3.className = "pause";
+    } else { 
+        track3.pause();
+         //controlBtn.textContent = "Play";
+        controlBtn3.className = "play";
+    }
+}
+
+controlBtn3.addEventListener("click", playPause3);
+track3.addEventListener("ended", function() {
+  controlBtn3.className = "play";
 });
 
   </script>
