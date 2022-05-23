@@ -4,263 +4,268 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=1920, maximum-scale=1.0" />
 
-
-        <link rel="stylesheet" type="text/css" href="css/4-track-your-labor-other.css" />
-<!--    <link rel="stylesheet" type="text/css" href="css/res4.css"/> -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="css/4-track-your-labor-other.css"
+    />
+    <!--    <link rel="stylesheet" type="text/css" href="css/res4.css"/> -->
     <link rel="stylesheet" type="text/css" href="css/styleguide.css" />
     <link rel="stylesheet" type="text/css" href="css/globals.css" />
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"/>
- <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
     <style type="text/css">
- 
-.questiontitle1{
-  border-bottom-style:solid;
-  border-top-style:solid;
-  border-right-style: hiden;
-  border-left-style: hidden;
-  border-color: black;
-  }
+      .questiontitle1 {
+        border-bottom-style: solid;
+        border-top-style: solid;
+        border-right-style: hiden;
+        border-left-style: hidden;
+        border-color: black;
+      }
 
+      .questionRowBorder {
+        border-style: solid hidden hidden hidden;
+        color: black;
+        width: calc(100vw * 1655 / 1920);
+        left: calc(100vw * 132 / 1655);
+      }
+      #questionBody1 {
+        /*margin-top: 120vh;
+      transform: scale(1.1);*/
+        position: absolute;
+        width: calc(100vw * 1655 / 1920);
+        height: calc(100vh * 2042.77 / 12144);
+        left: 0;
+        top: calc(100% * 2155.12 / 12144);
+        display: flex;
+        flex-direction: column;
+      }
 
-.questionRowBorder{
-  border-style: solid hidden hidden hidden;
-  color: black;
-  width: calc(100vw * 1655 / 1920);
-  left: calc(100vw * 132 / 1655);
-}
-#questionBody1{
-/*margin-top: 120vh;
-transform: scale(1.1);*/
-position: absolute;
-width: calc(100vw * 1655 / 1920);
-height: calc(100vh * 2042.77 / 12144);
-left: 0;
-top: calc(100% *  2155.12/ 12144);
-display: flex;
-flex-direction: column;
-}
+      #questionBody2 {
+        width: calc(100vw * 1655 / 1920);
+        /*height: calc(100vw *  3380.09 / 1920);*/
+        left: 0;
+        top: 40.332785132802vh;
+        position: absolute;
+        /*background-color:salmon;*/
+        height: 27.794507030672vh;
+        display: flex;
+        flex-direction: column;
+      }
+      #questionBody3 {
+        /*  margin-top: 60vh;
+      transform: scale(1.1);*/
+        width: calc(100vw * 1655 / 1920);
+        height: calc(100vw * 2126.36 / 1920);
+        left: 0;
+        top: calc(100vw * 8990.11 / 1920);
+        position: absolute;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+      }
+      .itemAlign {
+        margin-top: calc(100vw * 20 / 1920);
+        margin-bottom: calc(100vw * 20 / 1920);
+        text-align: center;
+      }
+      .titlefont {
+        font-size: calc(100vw * 38 / 1920);
+        color: #bab700;
+        line-height: calc(100vw * 48 / 1920);
+        text-align: center;
+      }
 
-#questionBody2{
- width: calc(100vw * 1655 / 1920);
-/*height: calc(100vw *  3380.09 / 1920);*/
-left: 0;
-top:40.332785132802vh;
-position: absolute;
-/*background-color:salmon;*/
-  height: 27.794507030672vh;
-    display: flex;
-    flex-direction: column;
-}
-#questionBody3{
-/*  margin-top: 60vh;
-transform: scale(1.1);*/
- width: calc(100vw * 1655 / 1920);
-height: calc(100vw * 2126.36 / 1920);
-left: 0;
-top: calc(100vw * 8990.11 / 1920);
-position: absolute;
-  height: 100%;
-    display: flex;
-    flex-direction: column;
+      .myselflCircle1,
+      .partnerCircle1 {
+        box-sizing: border-box;
+        width: calc(100vw * 132.94 / 1920);
+        height: calc(100vw * 43.68 / 1920);
+        border: 1.5px solid #000000;
+        border-radius: 50%;
+        background-color: white;
+        left: calc(100vw * 1197.06 / 1920);
+        top: calc(100vw * 43.68 / 1920);
+        margin-top: 1vh;
+        margin-left: 9vw;
+      }
 
-}
-.itemAlign{
-  margin-top: calc(100vw * 20 / 1920);
-  margin-bottom: calc(100vw * 20 / 1920);
-  text-align: center;
+      .myselflCircle1Color {
+        background-color: #bab700;
+      }
+      .mchangeback {
+        background-color: white;
+      }
+      .partnerCircle1.partnerCircle1Color {
+        background-color: #d674ee;
+      }
 
-}
-.titlefont{
-font-size: calc(100vw * 38/1920);
-color: #BAB700;
-line-height:calc(100vw *  48/1920);
-text-align: center;
-}
+      .mPColor {
+        background-color: #fd7e53;
+      }
+      .landingBk {
+        margin: 0 auto;
+      }
+      .center {
+        display: inline-block;
+        margin: 0 auto;
+        width: 100%;
+        margin-top: calc(100vw * 100 / 1920);
+      }
+      .circle1 {
+        position: absolute;
+        width: calc(100vw * 1332 / 1920);
+        height: calc(100vw * 434 / 1920);
+        border-radius: 50%;
+        display: inline-block;
+        border: 1px solid #bab700;
+        margin: 0 auto;
+      }
+      .question-circle-one {
+        position: absolute;
+        width: calc(100vw * 1655 / 1920);
+        /*left: calc(100vw - 132 / 1920);*/
+        transform: translateY(calc(100vw * 1321.6 / 1920));
+        height: 100%;
+        display: block;
+        left: calc(100vw * 132 / 1920);
+        /*background-color: pink;*/
+        /*background-color: green;*/
+      }
 
-.myselflCircle1, .partnerCircle1 {
-box-sizing: border-box;
-width:calc(100vw *  132.94/1920);
-height:calc(100vw *  43.68/1920);
-border: 1.5px solid #000000;
-border-radius: 50%;
-background-color: white;
-left: calc(100vw * 1197.06 / 1920);
-top: calc(100vw * 43.68 / 1920);
-margin-top: 1vh;
-margin-left: 9vw;
-}
+      .question-circle-two {
+        /*top: calc(100% * 4325.73 / 1920);*/
+        /*transform: translateY(calc(100vw * 1321.6 / 1920 + 100vw * 4325.73 / 1920));*/
+        top: calc(100vh * 4325.73 / 12161);
+        width: calc(100vw * 1655 / 1920);
+        /*  height: calc(100vw * 3959.22 / 1920);*/
+        height: auto;
+        position: absolute;
+        left: calc(100vw * 132 / 1920);
+        display: flex;
+        flex-direction: column;
+        background-color: pink;
+      }
+      .question-circle-three {
+        position: absolute;
+        width: calc(100vw * 1655 / 1920);
+        height: auto;
+        left: calc(100vw * 132 / 1920);
+        top: calc(250% * 8410.96 / 1920);
+        display: flex;
+        flex-direction: column;
+        background-color: blue;
+      }
 
-.myselflCircle1Color{
-  background-color: #BAB700;
-}
-.mchangeback{
-  background-color: white;
-}
-.partnerCircle1.partnerCircle1Color{
-  background-color: #D674EE;
-}
+      .whiteSpace {
+        width: 100vw;
+        height: calc(100vw * 132 / 1920);
+        display: inline-block;
+        margin: 0 auto;
+        background-color: blue;
+        flex-direction: column;
+        position: absolute;
+      }
 
-.mPColor{
-  background-color: #FD7E53;
-}
-.landingBk{
-  margin: 0 auto;
-
-}
-.center {
-  display: inline-block;
-margin: 0 auto;
-  width: 100%;
-margin-top: calc(100vw * 100 / 1920);
-}
-.circle1{
-  position: absolute;
-width: calc(100vw * 1332/1920);
-height: calc(100vw * 434/1920);
-border-radius: 50%;
-display: inline-block;
-border: 1px solid #BAB700;;
-margin: 0 auto;
-}
-.question-circle-one{
-position: absolute;
-width: calc(100vw * 1655 / 1920);
-/*left: calc(100vw - 132 / 1920);*/
-transform: translateY(calc(100vw * 1321.6 / 1920));
-height: 100%;
-display: block;
-left: calc(100vw * 132 / 1920);
-/*background-color: pink;*/
-/*background-color: green;*/
-}
-
-.question-circle-two{
-/*top: calc(100% * 4325.73 / 1920);*/
-/*transform: translateY(calc(100vw * 1321.6 / 1920 + 100vw * 4325.73 / 1920));*/
-top: calc(100vh * 4325.73 / 12161);
-  width: calc(100vw * 1655 / 1920);
-/*  height: calc(100vw * 3959.22 / 1920);*/
-height: auto;
-  position: absolute;
-left:  calc(100vw * 132 / 1920);
-display: flex;
-flex-direction: column;
-background-color: pink;
-}
-.question-circle-three{
-  position: absolute;
-  width: calc(100vw * 1655 / 1920);
-height: auto
-left:  calc(100vw * 132 / 1920);
-top: calc(250% * 8410.96 / 1920);
-display: flex;
-flex-direction: column;
-background-color: blue;
-}
-
-.whiteSpace{
-  width: 100vw;
-  height:  calc(100vw * 132 / 1920);
-  display: inline-block;
-  margin: 0 auto;
-  background-color: blue;
-flex-direction: column;
-position: absolute;
-}
-
-.rowHeight{
-      height: calc(100vw * 84 / 1920);
-      display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    margin-right: calc(100vw * -15px / 1920);
-    margin-left: calc(100vw * -15px / 1920);
-}
-}
-</style>
+      .rowHeight {
+        height: calc(100vw * 84 / 1920);
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-right: calc(100vw * -15px / 1920);
+        margin-left: calc(100vw * -15px / 1920);
+      }
+    </style>
   </head>
 
   <body>
-<!--     <div class="x4-track-your-labor-other screen"> -->
-            <div class="x4-1landing-page-6PR5WV">
-        <img class="x4-landing-pagebk-1-jgG3PP" src="img/4landingpagebk-1@1x.png" />
-        <div class="landing-title2-jgG3PP epilogue-semi-bold-alabaster-100px">labor in your life?</div>
-        <div class="landing-title1-jgG3PP epilogue-semi-bold-alabaster-100px">What’s the division of</div>
+    <!--     <div class="x4-track-your-labor-other screen"> -->
+    <div class="x4-1landing-page-6PR5WV">
+      <img
+        class="x4-landing-pagebk-1-jgG3PP"
+        src="img/4landingpagebk-1@1x.png"
+      />
+      <div class="landing-title1-jgG3PP epilogue-semi-bold-alabaster-100px">
+        What’s the division of
       </div>
-
-    <div class="direction-div-6PR5WV">
-        <div class="answer-each-question-3zS9Bw">
-          Answer each question by clicking on the corresponding box. If the cognitive labor is shared equallty, click on
-          both boxes. <br />If the task isn’t applicable to you, leave the boxes blank.
-        </div>
-        <div class="directions-3zS9Bw">DIRECTIONS</div>
+      <div class="landing-title2-jgG3PP epilogue-semi-bold-alabaster-100px">
+        labor in your life?
       </div>
-      <div class="x4-circle-and-text-6PR5WV">
-        <div class="text-Z3fL7X epilogue-medium-baltic-sea-54px">
-          <span class="span0-i7cM24 epilogue-medium-baltic-sea-54px">Let’s </span
-          ><span class="span1-i7cM24 epilogue-bold-baltic-sea-54px">break down your cognitive labor</span
-          ><span class="span2-i7cM24 epilogue-medium-baltic-sea-54px"> and division of household work </span
-          ><span class="span3-i7cM24 epilogue-bold-baltic-sea-54px">between you and your partner.</span>
-        </div>
-        <img class="circle-Z3fL7X" src="img/circle-@1x.png" />
+    </div>
+
+    <div>something</div>
+
+    <!-- <div class="direction-div-6PR5WV">
+      <div class="answer-each-question-3zS9Bw">
+        Answer each question by clicking on the corresponding box. If the
+        cognitive labor is shared equallty, click on both boxes. <br />If the
+        task isn’t applicable to you, leave the boxes blank.
       </div>
-
-<!--   <div class="question-circle-one"> -->
-  <div class="mw-100" id="questionBody1">
-<div class="questionRowBorder row">
-  
-    <span class="col-sm-4 titlefont" id="myself1">Myself</span>
-    <span class="col-sm-4 titlefont"  id="question">Question</span>
-    <span class="col-sm-4 titlefont" id="partner">Partner</span>
- </div>
-</div>
-
-  <!-- </div> -->
-
-
-      <div class="x4-circle-and-text-2-6PR5WV">
-        <div class="take-note-of-any-eme-xFwrUP epilogue-medium-baltic-sea-54px">
-          <span class="span0-fBUWnK epilogue-medium-baltic-sea-54px">Take note of any </span
-          ><span class="span1-fBUWnK epilogue-bold-baltic-sea-54px">emerging patterns</span
-          ><span class="span2-fBUWnK">&nbsp;</span
-          ><span class="span3-fBUWnK epilogue-medium-baltic-sea-54px">
-            as you’re answering the questions. Are these chores</span
-          ><span class="span4-fBUWnK">&nbsp;</span
-          ><span class="span5-fBUWnK epilogue-bold-baltic-sea-54px">divided intentionally?</span>
-        </div>
-     <!--    <img class="ellipse-115-xFwrUP" src="img/ellipse-115@1x.png" /> -->
+      <div class="directions-3zS9Bw">DIRECTIONS</div>
+    </div>
+    <div class="x4-circle-and-text-6PR5WV">
+      <div class="text-Z3fL7X epilogue-medium-baltic-sea-54px">
+        <span class="span0-i7cM24 epilogue-medium-baltic-sea-54px">Let’s </span
+        ><span class="span1-i7cM24 epilogue-bold-baltic-sea-54px"
+          >break down your cognitive labor</span
+        ><span class="span2-i7cM24 epilogue-medium-baltic-sea-54px">
+          and division of household work </span
+        ><span class="span3-i7cM24 epilogue-bold-baltic-sea-54px"
+          >between you and your partner.</span
+        >
       </div>
-  <div class = "question-circle-two">
+      <img class="circle-Z3fL7X" src="img/circle-@1x.png" />
+    </div> -->
 
+    <!--   <div class="question-circle-one"> -->
+    <!-- <div class="mw-100" id="questionBody1">
+      <div class="questionRowBorder row">
+        <span class="col-sm-4 titlefont" id="myself1">Myself</span>
+        <span class="col-sm-4 titlefont" id="question">Question</span>
+        <span class="col-sm-4 titlefont" id="partner">Partner</span>
+      </div>
+    </div> -->
 
+    <!-- </div> -->
 
+    <!-- <div class="x4-circle-and-text-2-6PR5WV">
+      <div class="take-note-of-any-eme-xFwrUP epilogue-medium-baltic-sea-54px">
+        <span class="span0-fBUWnK epilogue-medium-baltic-sea-54px"
+          >Take note of any </span
+        ><span class="span1-fBUWnK epilogue-bold-baltic-sea-54px"
+          >emerging patterns</span
+        ><span class="span2-fBUWnK">&nbsp;</span
+        ><span class="span3-fBUWnK epilogue-medium-baltic-sea-54px">
+          as you’re answering the questions. Are these chores</span
+        ><span class="span4-fBUWnK">&nbsp;</span
+        ><span class="span5-fBUWnK epilogue-bold-baltic-sea-54px"
+          >divided intentionally?</span
+        >
+      </div>
+    </div> -->
+    <!-- <div class="question-circle-two">
       <div class="mw-100" id="questionBody2">
-<div class="questionRowBorder row">
-  
-    <span class="col-sm-4 titlefont" id="myself2">Myself</span>
-    <span class="col-sm-4 titlefont"  id="question2">Question</span>
-    <span class="col-sm-4 titlefont" id="partner2">Partner</span>
- </div>
- 
-</div>
-
-
-  
-</div>
-
-      <div class="x4-circle-and-text-3-6PR5WV">
-     <!--    <img class="ellipse-148-AAmxTv" src="img/ellipse-148@1x.png" /> -->
-        <div class="the-list-might-feel-AAmxTv epilogue-medium-baltic-sea-54px">
-          The list might feel long but this is a fraction of home labor tasks performed. If you have children, the work
-          compounds.
+        <div class="questionRowBorder row">
+          <span class="col-sm-4 titlefont" id="myself2">Myself</span>
+          <span class="col-sm-4 titlefont" id="question2">Question</span>
+          <span class="col-sm-4 titlefont" id="partner2">Partner</span>
         </div>
       </div>
+    </div> -->
 
+    <!-- <div class="x4-circle-and-text-3-6PR5WV">
+      <div class="the-list-might-feel-AAmxTv epilogue-medium-baltic-sea-54px">
+        The list might feel long but this is a fraction of home labor tasks
+        performed. If you have children, the work compounds.
+      </div>
+    </div> -->
 
-
-<!-- 
+    <!-- 
   <div class="mw-100" id="questionBody3">
 <div class="questionRowBorder row">
   
@@ -271,28 +276,35 @@ position: absolute;
  
 </div>
  -->
-<div class="last-sec-green-6PR5WV">
-        <img class="line-213-2Ph6Y8" src="img/line-213@1x.png" />
-        <div class="bk-2Ph6Y8"></div>
-        <img class="screen-shot-2022-05-03-at-223-1-2Ph6Y8" src="img/screen-shot-2022-05-03-at-2-23-1@1x.png" />
-        <div class="i-conducted-a-week-l-2Ph6Y8 abcdiatypeedu-regular-normal-alabaster-42px">
-          I conducted a week-long diary study and exercise where I had individuals track their household labor. After
-          each day, they then reflected on their cognitive labor and division of household labor.
-        </div>
-        <div class="here-is-a-link-to-th-2Ph6Y8">
-          <span class="span0-BoXXp4">Here is a link to the diary study</span
-          ><span class="span1-BoXXp4 abcdiatypeedu-regular-normal-alabaster-42px">
-            if you are curious about tracking your own daily labor.
-          </span>
-        </div>
+    <!-- <div class="last-sec-green-6PR5WV">
+      <img class="line-213-2Ph6Y8" src="img/line-213@1x.png" />
+      <div class="bk-2Ph6Y8"></div>
+      <img
+        class="screen-shot-2022-05-03-at-223-1-2Ph6Y8"
+        src="img/screen-shot-2022-05-03-at-2-23-1@1x.png"
+      />
+      <div
+        class="i-conducted-a-week-l-2Ph6Y8 abcdiatypeedu-regular-normal-alabaster-42px"
+      >
+        I conducted a week-long diary study and exercise where I had individuals
+        track their household labor. After each day, they then reflected on
+        their cognitive labor and division of household labor.
       </div>
- <!--    </div> -->
+      <div class="here-is-a-link-to-th-2Ph6Y8">
+        <span class="span0-BoXXp4">Here is a link to the diary study</span
+        ><span class="span1-BoXXp4 abcdiatypeedu-regular-normal-alabaster-42px">
+          if you are curious about tracking your own daily labor.
+        </span>
+      </div>
+    </div> -->
+    <!--    </div> -->
   </body>
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
- <script src='./js/clquestion.js'></script>
-  <script src='./js/emquestion.js'></script>
-  <script src='./js/fracHome.js'></script>
-<!--   <script type="text/javascript">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="./js/clquestion.js"></script>
+  <script src="./js/emquestion.js"></script>
+  <script src="./js/fracHome.js"></script>
+  <!--   <script type="text/javascript">
      var q1Height =  $('#questionBody1').height();
 console.log("q1" + q1Height);
   var q2Top = $('.x4-circle-and-text-6PR5WV').height() + $('.direction-div-6PR5WV').height() + $('#questionBody1').height() + $('x4-1landing-page-6PR5WV').height();
