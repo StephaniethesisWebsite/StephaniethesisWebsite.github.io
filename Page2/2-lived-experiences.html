@@ -58,12 +58,16 @@
             </div>
           </div>
           <div class="green-rect-sec1">
-            <div class="overlap-group">
+              <audio id="Carolynaudio" src="mp3/Carolyn.mp3"></audio>
+            <div id="carolyn-play-pause" class="overlap-group">
+          
+                <div id="c-play-pause" class="play">Play
               <img
                 class="icon-play"
-                src="https://anima-uploads.s3.amazonaws.com/projects/628164e8cd367e86d77627d8/releases/628164ffcd367e86d77627da/img/polygon-5-2@2x.png"
+                src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMiAyNHYtMjRsMjAgMTItMjAgMTJ6Ii8+PC9zdmc+"
               />
               <div class="ellipse-197 border-1px-alabaster"></div>
+              </div>
             </div>
             <div class="overlap-group1">
               <div class="cognitive-labor-is-n">
@@ -300,4 +304,27 @@
   </body>
    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/'></script>
   <script  src="../js/nav.js"></script>
+  <script type="text/javascript">
+var track = document.getElementById('Carolynaudio');
+
+var controlBtn = document.getElementById('c-play-pause');
+
+function playPause() {
+    if (track.paused) {
+        track.play();
+        //controlBtn.textContent = "Pause";
+        controlBtn.className = "pause";
+    } else { 
+        track.pause();
+         //controlBtn.textContent = "Play";
+        controlBtn.className = "play";
+    }
+}
+
+controlBtn.addEventListener("click", playPause);
+track.addEventListener("ended", function() {
+  controlBtn.className = "play";
+});
+
+  </script>
 </html>
