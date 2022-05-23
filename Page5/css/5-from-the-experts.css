@@ -663,13 +663,12 @@ width: calc(100vw * 1595 / 1920);
 }
 
 .x5-from-the-experts .x5-landingpage-1-v8xIEp {
-  background-color: transparent;
-  height: 1033px;
-  left: 0px;
-  object-fit: cover;
-  position: absolute;
-  top: 0px;
-  width: 1595px;
+background-color: transparent;
+height: calc(100vw * 1033 / 1920);
+left: 0;
+position: absolute;
+top:0;
+width: calc(100vw * 1595 / 1920);
 }
 
 .x5-from-the-experts .and-other-resources-v8xIEp {
