@@ -10,6 +10,14 @@
   --font-size-xl: 42px;
   --font-size-xxl: 54px;
   --font-size-xxxl: 100px;
+
+
+    --font-size-l: calc(100vw * 32 / 1920);
+  --font-size-m: calc(100vw *24 / 1920);
+  --font-size-s: calc(100vw *23 / 1920);
+  --font-size-xl: calc(100vw *42 / 1920);
+  --font-size-xxl: calc(100vw *54 / 1920);
+  --font-size-xxxl: calc(100vw *100 / 1920);
  
   --font-family-abc_diatype_edu: "ABC Diatype Edu", Helvetica;
   --font-family-abc_diatype_edu-bold: "ABC Diatype Edu-Bold", Helvetica;
