@@ -561,3 +561,33 @@ height: calc(100vw * 324 / 1920);
   min-width:calc(100vw *  151 / 1920);
   text-align: right;
 }
+
+.hoverImg{
+position: absolute;
+width: calc(100vw * 705 / 1920);
+height: calc(100vw * 749 / 1920);
+left: calc(100vw * 634 / 1920);
+top: calc(100vw * 8246 / 1920);
+/*display: none;*/
+background: #D9D9D9;
+
+}
+
+#cogDimImag{
+  background-image: url("../resources/CogD-1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#DegenPImag{
+  background-image: url("../resources/DegenPro.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#FairPlayDecImag{
+    background-image: url("../resources/Fair.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/*#cogDim:hover + #cogDimImag{
+  display: inline-block;
+}*/
