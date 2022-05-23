@@ -1,45 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Epilogue&display=swap');
+@import url("https://use.typekit.net/sis2rah.css");
 :root { 
   --alabaster: #f9fbff;
   --baltic-sea: #292d31;
   --black: #000000;
+  --coral: #fc7e53;
   --desert-storm: #f8f9f8;
   --eerie-black: #1e1f20;
+  --heliotrope: #d573ee;
   --orange-soda: #f65735;
-  --white: #ffffff;
+  --orange-soda-2: #f6573566;
+  --stromboli: #395b50;
  
- /* --font-size-l: 62px;
-  --font-size-m: 54px;
+  --font-size-l: 108px;
+  --font-size-m: 62px;
   --font-size-s: 42px;
   --font-size-xs: 32px;
   --font-size-xxs: 28px;
-  --font-size-xxxs: 23px;
-  --font-size-xxxxs: 18px;
-*/
-
-    --font-size-l: 3.2291666666667vw;
-  --font-size-m: 2.8125vw;
-  --font-size-s: 2.1875vw;
-  --font-size-xs: 1.6666666666667vw;
-  --font-size-xxs: 1.4583333333333vw;
-  --font-size-xxxs:  1.1979166666667vw;
-  --font-size-xxxxs: 0.9375vw;
+  --font-size-xxxs: 24px;
+  --font-size-xxxxs: 23px;
  
   --font-family-abc_diatype_edu-bold: "ABC Diatype Edu-Bold", Helvetica;
   --font-family-abc_diatype_edu-bolditalic: "ABC Diatype Edu-BoldItalic", Helvetica;
   --font-family-abc_diatype_edu-medium: "ABC Diatype Edu-Medium", Helvetica;
   --font-family-abc_diatype_edu-regular: "ABC Diatype Edu-Regular", Helvetica;
   --font-family-epilogue: "Epilogue", Helvetica;
-  --font-family-freighttext_pro-bookitalic: "FreightText Pro-BookItalic", Helvetica;
+  --font-family-freighttext-bookitalic: "FreightText-BookItalic", Helvetica;
 }
-.abcdiatypeedu-regular-normal-alabaster-23px {
-  color: var(--alabaster);
-  font-family: var(--font-family-abc_diatype_edu-regular);
-  font-size: var(--font-size-xxxs);
-  font-style: normal;
-  font-weight: 400;
-}
-
-.epilogue-medium-baltic-sea-54px {
+.epilogue-medium-baltic-sea-62px {
   color: var(--baltic-sea);
   font-family: var(--font-family-epilogue);
   font-size: var(--font-size-m);
@@ -47,15 +36,15 @@
   font-weight: 500;
 }
 
-.abcdiatypeedu-bold-alabaster-23px {
+.abcdiatypeedu-regular-normal-alabaster-23px {
   color: var(--alabaster);
-  font-family: var(--font-family-abc_diatype_edu-bold);
-  font-size: var(--font-size-xxxs);
+  font-family: var(--font-family-abc_diatype_edu-regular);
+  font-size: var(--font-size-xxxxs);
   font-style: normal;
-  font-weight: 700;
+  font-weight: 400;
 }
 
-.epilogue-bold-baltic-sea-54px {
+.epilogue-bold-baltic-sea-62px {
   color: var(--baltic-sea);
   font-family: var(--font-family-epilogue);
   font-size: var(--font-size-m);
@@ -63,9 +52,17 @@
   font-weight: 700;
 }
 
-.freighttextpro-bookitalic-normal-eerie-black-32px {
+.abcdiatypeedu-bold-alabaster-23px {
+  color: var(--alabaster);
+  font-family: var(--font-family-abc_diatype_edu-bold);
+  font-size: var(--font-size-xxxxs);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.freighttext-bookitalic-normal-eerie-black-32px {
   color: var(--eerie-black);
-  font-family: var(--font-family-freighttext_pro-bookitalic);
+  font-family: var(--font-family-freighttext-bookitalic);
   font-size: var(--font-size-xs);
   font-style: italic;
   font-weight: 400;
@@ -79,15 +76,15 @@
   font-weight: 500;
 }
 
-.epilogue-semi-bold-white-100px {
-  color: var(--white);
+.epilogue-semi-bold-alabaster-108px {
+  color: var(--alabaster);
   font-family: var(--font-family-epilogue);
-  font-size: 5.2083333333333vw; /*100px*/
+  font-size: var(--font-size-l);
   font-style: normal;
   font-weight: 600;
 }
 
-.epilogue-medium-desert-storm-54px {
+.epilogue-medium-desert-storm-62px {
   color: var(--desert-storm);
   font-family: var(--font-family-epilogue);
   font-size: var(--font-size-m);
@@ -95,15 +92,7 @@
   font-weight: 500;
 }
 
-.epilogue-medium-orange-soda-62px {
-  color: var(--orange-soda);
-  font-family: var(--font-family-epilogue);
-  font-size: var(--font-size-l);
-  font-style: normal;
-  font-weight: 500;
-}
-
-.epilogue-extra-bold-baltic-sea-54px {
+.epilogue-extra-bold-baltic-sea-62px {
   color: var(--baltic-sea);
   font-family: var(--font-family-epilogue);
   font-size: var(--font-size-m);
@@ -111,6 +100,34 @@
   font-weight: 800;
 }
 
+.epilogue-medium-orange-soda-62px {
+  color: var(--orange-soda);
+  font-family: var(--font-family-epilogue);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.epilogue-normal-baltic-sea-62px {
+  color: var(--baltic-sea);
+  font-family: var(--font-family-epilogue);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.epilogue-semi-bold-baltic-sea-62px {
+  color: var(--baltic-sea);
+  font-family: var(--font-family-epilogue);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 600;
+}
+
 .border-1-5px-black {
   border: 1.5px solid var(--black);
+}
+
+.border-1px-orange-soda-2 {
+  border: 1px solid var(--orange-soda-2);
 }

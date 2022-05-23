@@ -8,6 +8,8 @@
    
        $('#nav2').mousedown(function(){
       $('#nav2').addClass('navitalic');
+ 
+   window.location.href='../Page2/2-lived-experiences.html';
     });
 
     $('#nav2').mouseup(function(){
@@ -40,3 +42,11 @@
       $('#nav5').removeClass('navitalic');
     });
    
+
+   $('#nav1').click(function(){
+   window.location.href='../Page1/1-cognitive-labor.html';
+});
+
+     $('#nav2').click(function(){
+   window.location.href='../Page2/2-lived-experiences.html';
+})
