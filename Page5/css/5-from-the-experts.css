@@ -290,6 +290,9 @@
   margin-top: 110.9px;
   min-height: 915.78px;
   width: 735px;
+  background-image: url("additional resources/GIF-Battleship.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .x5-from-the-experts .dont-have-a-lite-br {

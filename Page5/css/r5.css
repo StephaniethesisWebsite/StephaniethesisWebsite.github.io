@@ -321,33 +321,42 @@
 }
 
 .x5-from-the-experts .img_2477-1 {
-  background-color: var(--mist-gray);
-  height:calc(100vw *  324 / 1920);
-  left: calc(100vw * 40 / 1920);
-  position: absolute;
-  top:calc(100vw *  -40 / 1920);
-  transform: rotate(-90.00deg);
-  width:calc(100vw *  243 / 1920);
+height: calc(100vw * 324 / 1920);
+    left: calc(100vw * 0 / 1920);
+    position: absolute;
+    top: calc(100vw * 8 / 1920);
+    transform: rotate(0deg);
+    width: calc(100vw * 324 / 1920);
+    background-image: url(../resources/GIF-Battleship.gif);
+    background-size: contain;
+    background-repeat: no-repeat;
+
 }
 
 .x5-from-the-experts .img_2477-2 {
-  background-color: var(--mist-gray);
-  height:calc(100vw *  324 / 1920);
-  left: calc(100vw * 40 / 1920);
-  position: absolute;
-  top:calc(100vw *  251 / 1920);
-  transform: rotate(-90.00deg);
-  width:calc(100vw *  243 / 1920);
+ background-color: var(--mist-gray);
+    height: calc(100vw * 244 / 1920);
+    left: calc(100vw * 0 / 1920);
+    position: absolute;
+    top: calc(100vw * 294 / 1920);
+    transform: rotate(0.00deg);
+    width: calc(100vw * 324 / 1920);
+    background-image: url(../resources/GIF-Stickers.gif);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .x5-from-the-experts .img_2477-3 {
   background-color: var(--mist-gray);
-  height:calc(100vw *  324 / 1920);
-  left: calc(100vw * 40 / 1920);
+  height:calc(100vw *  244 / 1920);
+  left: calc(100vw * 0 / 1920);
   position: absolute;
-  top:calc(100vw *  542 / 1920);
-  transform: rotate(-90.00deg);
-  width:calc(100vw *  243 / 1920);
+  top:calc(100vw *  585 / 1920);
+  transform: rotate(0.00deg);
+  width:calc(100vw *  324 / 1920);
+     background-image: url(../resources/GIF-Lite-Brite.gif);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .x5-from-the-experts .flex-col {
