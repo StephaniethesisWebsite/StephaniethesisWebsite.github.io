@@ -51,12 +51,13 @@
 
 .x1-cognitive-labor .purple-footnote-rect-62bqZC {
   background-color: transparent;
-  height: 43.021vw;
-  left: 0px;
-  mix-blend-mode: normal;
-  position: absolute;
-  top: 7375.729vw;
-  width: 100vw;
+
+position: absolute;
+width: 100vw;
+height: calc(100vw * 826.46 / 1920);
+left: 0px;
+top: calc(100vw * 7214.26 / 1920);
+
 }
 
 .x1-cognitive-labor .line-213-gfxP7X {
@@ -70,7 +71,7 @@
 
 .x1-cognitive-labor .rectangle-220-gfxP7X {
   background-color: #d573ee;
-  height: 826px;
+  height: 100%;
   left: 0px;
   mix-blend-mode: multiply;
   position: absolute;
@@ -210,58 +211,60 @@
 }
 
 .x1-cognitive-labor .tag1-fOl3iR {
-  background-color: transparent;
-position: absolute;
-width: calc(100vw * 383.33 / 1920);
-height: calc(100vw * 60 / 1920);
-left: calc(100vw * 1246.02 / 1920);
-top: calc(100vw * 6552.17 / 1920);
-
+background-color: white;
+    position: absolute;
+    width: calc(100vw * 383.33 / 1920);
+    height: calc(100vw * 60 / 1920);
+    left: calc(100vw * 1246.02 / 1920);
+    top: calc(100vw * 165.26 / 1920);
+    border: 1.5px solid #000;
 
 }
 
 .x1-cognitive-labor .rectangle-219-EvOCBD {
-     background-color: var(--alabaster);
-    height: 100%;
-    left: 0px;
-    mix-blend-mode: normal;
-    position: relative;
-    top: 0px;
-    width: 100%;
+ background-color: var(--alabaster);
+ box-sizing: border-box;
+
+position: absolute;
+left: 64.9%;
+right: 15.14%;
+top: calc(100vw * 6552.17 / 1920);
+bottom: calc(100vw * 2305.83 / 1920);
+
+background: #FFFFFF;
+border: 1.5px solid #000000;
+width: 100%;
+height: 100%;
 }
 
 .x1-cognitive-labor .lived-experiences-EvOCBD {
-  background-color: transparent;
-  color: #395b50;
-  font-family: var(--font-family-abc_diatype_edu-bolditalic);
-  font-size: 1.250vw;
-  font-style: italic;
-  font-weight: 700;
-  left: 17.86vw;
-  letter-spacing: 0.016vw;
-  line-height: normal;
-  mix-blend-mode: normal;
-  position: absolute;
-  text-align: left;
-  left: 68.48%;
-  right: 18.76%;
-  top: calc(100vw * 182.26 / 1920);
-  bottom: calc(100vw * 615.09 / 1920);
+background-color: transparent;
+    color: #395b50;
+    font-family: var(--font-family-abc_diatype_edu-bolditalic);
+    font-style: italic;
+    font-weight: 700;
+    left: calc(69/1920 * 100vw);
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    right: calc(69/1920 * 100vw);
+    top: calc(100vw * 13 / 1920);
+    bottom: calc(100vw * 13 / 1920);
+    font-size: calc(100vw * 18 / 1920);
+    line-height: calc(100vw * 30 / 1920);
+    letter-spacing: calc(100vw * 2 / 1920);
+    line-height: calc(100vw * 30 / 1920);
 
-
-line-height: calc(100vw * 30 / 1920);
-/* identical to box height */
-
-letter-spacing: 0.0125em;
 }
 
 .x1-cognitive-labor .tag2-fOl3iR {
   background-color: transparent;
-  height: 7.25vh;
-  left: 64.90%;
+  left: calc(1246.02 / 1920 * 100vw);
   position: absolute;
-  top: 38.83vh;
-  width: 20.07vw;
+  top: calc(100vw * 321.26/1920);
+  width: calc(100vw * 383.33 / 1920);
+height: calc(100vw * 60 / 1920);
 }
 
 .x1-cognitive-labor .group-11-P4CoMN {
@@ -286,19 +289,21 @@ letter-spacing: 0.0125em;
 .x1-cognitive-labor .lets-plan-a-party-P4CoMN {
   background-color: transparent;
   color: #d573ee;
-  font-family: var(--font-family-abc_diatype_edu-bolditalic);
-  font-size: 24px;
-  font-style: italic;
-  font-weight: 700;
-  height: 50.00%;
-  left: 17.17%;
-  letter-spacing: 0.30px;
-  line-height: normal;
-  mix-blend-mode: normal;
-  position: absolute;
-  text-align: left;
-  top: 27.71%;
-  width: 65.14%;
+    font-family: var(--font-family-abc_diatype_edu-bolditalic);
+    font-style: italic;
+    font-weight: 700;
+    left: calc(69/1920 * 100vw);
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    right: calc(69/1920 * 100vw);
+    top: calc(100vw * 13 / 1920);
+    bottom: calc(100vw * 13 / 1920);
+    font-size: calc(100vw * 18 / 1920);
+    line-height: calc(100vw * 30 / 1920);
+    letter-spacing: calc(100vw * 2 / 1920);
+    line-height: calc(100vw * 30 / 1920);
 }
 
 .x1-cognitive-labor .tag3-fOl3iR {
@@ -322,20 +327,22 @@ letter-spacing: 0.0125em;
 
 .x1-cognitive-labor .track-your-labor-3qPDaJ {
   background-color: transparent;
-  color: #bab700;
-  font-family: var(--font-family-abc_diatype_edu-bolditalic);
-  font-size: calc(100vw * 24 / 1920);
-  font-style: italic;
-  font-weight: 700;
-  height: 50.00%;
-  left: 18.47%;
-  letter-spacing: calc(100vw * 0.30 / 1920);
-  line-height: normal;
-  mix-blend-mode: normal;
-  position: absolute;
-  text-align: left;
-  top: 27.31%;
-  width: 62.54%;
+  color: #bab700;å
+    font-family: var(--font-family-abc_diatype_edu-bolditalic);
+    font-style: italic;
+    font-weight: 700;
+    left: calc(69/1920 * 100vw);
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    right: calc(69/1920 * 100vw);
+    top: calc(100vw * 13 / 1920);
+    bottom: calc(100vw * 13 / 1920);
+    font-size: calc(100vw * 18 / 1920);
+    line-height: calc(100vw * 30 / 1920);
+    letter-spacing: calc(100vw * 2 / 1920);
+    line-height: calc(100vw * 30 / 1920);
 }
 
 .x1-cognitive-labor .tag4-fOl3iR {
@@ -360,19 +367,21 @@ letter-spacing: 0.0125em;
 .x1-cognitive-labor .from-the-experts-36ugNc {
   background-color: transparent;
   color: #fc7e53;
-  font-family: var(--font-family-abc_diatype_edu-bolditalic);
-  font-size: 24px;
-  font-style: italic;
-  font-weight: 700;
-  height: 50.00%;
-  left: 18.73%;
-  letter-spacing: 0.30px;
-  line-height: normal;
-  mix-blend-mode: normal;
-  position: absolute;
-  text-align: left;
-  top: 30.45%;
-  width: 62.02%;
+    font-family: var(--font-family-abc_diatype_edu-bolditalic);
+    font-style: italic;
+    font-weight: 700;
+    left: calc(69/1920 * 100vw);
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    right: calc(69/1920 * 100vw);
+    top: calc(100vw * 13 / 1920);
+    bottom: calc(100vw * 13 / 1920);
+    font-size: calc(100vw * 18 / 1920);
+    line-height: calc(100vw * 30 / 1920);
+    letter-spacing: calc(100vw * 2 / 1920);
+    line-height: calc(100vw * 30 / 1920);
 }
 
 .x1-cognitive-labor .rect-text2-62bqZC {

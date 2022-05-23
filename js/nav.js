@@ -54,3 +54,7 @@
      $('#nav2').click(function(){
    window.location.href='../Page2/2-lived-experiences.html';
 })
+
+    $('#nav3').click(function(){
+   window.location.href='../Page3/3-let-s-plan-a-party.html';
+})
