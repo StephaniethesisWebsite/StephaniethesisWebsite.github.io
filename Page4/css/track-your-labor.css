@@ -109,17 +109,19 @@
 }
 
 .question-circle-container {
-  height: 20px;
+  height: calc(100vw * 60 / 1920);
   width: 100%;
 }
 
 .question-circle {
-  margin: auto;
-  width: 40%;
-  height: 100%;
-  border: 1.5px solid #000000;
-  border-radius: 50%;
-  background-color: white;
+margin: auto;
+/* width: 40%; */
+/* height: 100%; */
+width: calc(100vw * 132.94 / 1920);
+height: calc(100vw * 43.68 / 1920);
+border: 1.5px solid #000000;
+border-radius: 50%;
+background-color: white;
 }
 
 .question-circle-left-on-color {
