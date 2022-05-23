@@ -188,13 +188,13 @@
       <div id="quote1"class="p1-floating1-62bqZC freighttextpro-bookitalic-normal-eerie-black-32px">
         Did we add the pasta to the grocery list for this week’s run?
       </div>
-      <img id="image9"class="p1-floating-image9-62bqZC" src="img/p1floatingimage9@1x.png" />
-      <img id="image8"class="p1-floating-image8-62bqZC" src="img/p1floatingimage8@2x.png" />
-      <img id="image7"class="p1-floating-image7-62bqZC" src="img/p1floatingimage7@4x.png" />
-      <img id="image6"class="p1-floating-image6-62bqZC" src="img/p1floatingimage6@2x.png" />
-      <img id="image5"class="p1-floating-image5-62bqZC" src="img/p1floatingimage5@1x.png" />
-      <img id="image4"class="p1-floating-image4-62bqZC" src="img/p1floatingimage4@1x.png" />
-      <img id="image3"class="p1-floating-image3-62bqZC" src="img/p1floatingimage3@2x.png" />
+      <img id="image9"class="p1-floating-image9-62bqZC floatingAni1" src="img/p1floatingimage9@1x.png" />
+      <img id="image8"class="p1-floating-image8-62bqZC floatingAni2" src="img/p1floatingimage8@2x.png" />
+      <img id="image7"class="p1-floating-image7-62bqZC floatingAni1" src="img/p1floatingimage7@4x.png" />
+      <img id="image6"class="p1-floating-image6-62bqZC floatingAni2" src="img/p1floatingimage6@2x.png" />
+      <img id="image5"class="p1-floating-image5-62bqZC floatingAni1" src="img/p1floatingimage5@1x.png" />
+      <img id="image4"class="p1-floating-image4-62bqZC floatingAni2" src="img/p1floatingimage4@1x.png" />
+      <img id="image3"class="p1-floating-image3-62bqZC floatingAni1" src="img/p1floatingimage3@2x.png" />
       <div class="it-can-feel-like-a-n-62bqZC epilogue-medium-orange-soda-62px">
         <span class="span0-JxNdPt epilogue-medium-orange-soda-62px">It can feel like a </span
         ><span class="span1-JxNdPt">never-ending <br /></span><span class="span2-JxNdPt">mental checklist</span
@@ -209,8 +209,8 @@
         </div>
         <img class="ellipse-6-2MrXlm" src="img/ellipse-6@1x.png" />
       </div>
-      <img id="image2"class="p1-floating-image2-62bqZC" src="img/p1floatingimage2@2x.png" />
-      <img id="image1"class="p1-floating-image1-62bqZC" src="img/p1floatingimage1@1x.png" />
+      <img id="image2"class="p1-floating-image2-62bqZC floatingAni2" src="img/p1floatingimage2@2x.png" />
+      <img id="image1"class="p1-floating-image1-62bqZC floatingAni1" src="img/p1floatingimage1@1x.png" />
       <div class="p1-landing-sec-62bqZC">
  <!--        <img class="landingpage-1-11x-1-xAbaoo" src="img/landingpage-1-1-1x-1@1x.png" /> -->
         <div class="how-can-we-better-re-xAbaoo abcdiatypeedu-medium-alabaster-28px">
@@ -237,7 +237,6 @@ setTimeout(function() {
       </script>
 
 
-
         </div>
       </div>
       </div>
@@ -246,6 +245,71 @@ setTimeout(function() {
 
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
     <script src="js/script.js"></script>
+<!--     <script src="js/imageReveal.js"></script> -->
     <script  src="../js/nav.js"></script>
+  <script type="text/javascript">
+$("#quote1").css("display", "none");
+$("#quote2").css("display", "none");
+$("#quote3").css("display", "none");
+$("#quote4").css("display", "none");
+$("#quote5").css("display", "none");
+$("#quote6").css("display", "none");
+$("#quote7").css("display", "none");
+$("#quote8").css("display", "none");
+$("#quote9").css("display", "none");
+
+$("#image1").mouseover(function (){
+    $("#quote1").css("display", "block");
+});
+$("#image2").mouseover(function (){
+    $("#quote2").css("display", "block");
+});
+$("#image3").mouseover(function (){
+    $("#quote3").css("display", "block");
+});
+$("#image4").mouseover(function (){
+    $("#quote4").css("display", "block");
+});
+$("#image5").mouseover(function (){
+    $("#quote5").css("display", "block");
+});
+$("#image6").mouseover(function (){
+    $("#quote6").css("display", "block");
+});
+$("#image7").mouseover(function (){
+    $("#quote7").css("display", "block");
+});
+$("#image8").mouseover(function (){
+    $("#quote8").css("display", "block");
+});
+$("#image9").mouseover(function (){
+    $("#quote9").css("display", "block");
+});
+
+
+// var imageId, quoteId;
+// var imageIdArray=[];
+// var quoteIDArray=[];
+// for(let i=1; i<10; i++){
+//  imageId =String("#image" + i);
+//  quoteId =String("#quote" + i);
+//  imageIdArray.push(imageId);
+//  quoteIDArray.push(quoteId);
+// }
+
+// var imageSelector = imageIdArray.join(',');
+// var quoteSelector = quoteIDArray.join(',');
+// $(quoteSelector).css('display', 'none');
+// for(let i=0; i<imageIdArray.length; i++){
+//   var imgS = imageIdArray[i];
+//   var quoS = quoteIDArray[i];
+// $(imgS).mouseover(function(){
+//  $(quoS).css('display', 'block');
+// });
+// }
+
+
+
+  </script>
 
 </html>
