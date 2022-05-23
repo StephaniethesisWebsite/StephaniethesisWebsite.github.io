@@ -1,146 +1,149 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=2">
-	<title></title>
-	  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
-        <link rel="stylesheet" type="text/css" href="css/4-track-your-labor-other.css" />
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=2" />
+    <title></title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="css/4-track-your-labor-other.css"
+    />
     <link rel="stylesheet" type="text/css" href="css/styleguide.css" />
     <link rel="stylesheet" type="text/css" href="css/globals.css" />
- <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
 
-<style type="text/css">
-	body{
-		width: 100vw;
-		height: auto;
-		display: inline-block;
-		margin: 0 auto;
-}
+    <style type="text/css">
+      body {
+        width: 100vw;
+        height: auto;
+        display: inline-block;
+        margin: 0 auto;
+      }
 
-.questiontitle1{
-  border-bottom-style:solid;
-  border-top-style:solid;
-  border-right-style: hiden;
-  border-left-style: hidden;
-  border-color: black;
+      .questiontitle1 {
+        border-bottom-style: solid;
+        border-top-style: solid;
+        border-right-style: hiden;
+        border-left-style: hidden;
+        border-color: black;
+      }
+      td {
+        border-bottom-style: solid;
+        border-top-style: hidden;
+        border-right-style: hiden;
+        border-left-style: hidden;
+      }
+      .questionRowBorder {
+        border-style: solid hidden hidden hidden;
+        color: black;
+      }
+      #questionBody1,
+      #questionBody2,
+      #questionBody3 {
+        margin-top: 2%;
+      }
+      .itemAlign {
+        margin-top: 1%;
+        margin-bottom: 1%;
+      }
+      .titlefont {
+        font-size: 38px;
+        color: #bab700;
+        line-height: 48px;
+      }
 
-	}
-td{
- border-bottom-style:solid;
-  border-top-style: hidden;
-  border-right-style: hiden;
-  border-left-style: hidden;
+      .myselflCircle1,
+      .partnerCircle1 {
+        box-sizing: border-box;
+        width: 132.94px;
+        height: 43.68px;
+        border: 1.5px solid #000000;
+        border-radius: 50%;
+        background-color: white;
+      }
 
-}
-.questionRowBorder{
-	border-style: solid hidden hidden hidden;
-	color: black;
-}
-#questionBody1,#questionBody2,#questionBody3{
-margin-top: 2%;
+      .myselflCircle1Color {
+        background-color: #bab700;
+      }
+      .mchangeback {
+        background-color: white;
+      }
+      .partnerCircle1.partnerCircle1Color {
+        background-color: #d674ee;
+      }
 
-}
-.itemAlign{
-	margin-top: 1%;
-	margin-bottom: 1%;
-}
-.titlefont{
-font-size: 38px;
-color: #BAB700;
-line-height: 48px;
-}
+      .mPColor {
+        background-color: #fd7e53;
+      }
+      .landingBk {
+        margin: 0 auto;
+      }
+      .center {
+        display: inline-block;
+        margin: 0 auto;
+        width: 100%;
+        margin-top: 100px;
+      }
+      .circle1 {
+        position: absolute;
+        width: 1332px;
+        height: 434px;
+        border-radius: 50%;
+        display: inline-block;
+        border: 1px solid #bab700;
+        margin: 0 auto;
+      }
+    </style>
+  </head>
+  <body>
+    <center>
+      <div class="x4-1landing-page-6PR5WV">
+        <img
+          class="x4-landing-pagebk-1-jgG3PP"
+          src="img/4landingpagebk-1@1x.png"
+        />
+        <div class="landing-title2-jgG3PP epilogue-semi-bold-alabaster-100px">
+          labor in your life?
+        </div>
+        <div class="landing-title1-jgG3PP epilogue-semi-bold-alabaster-100px">
+          What’s the division of
+        </div>
+      </div>
+      <div class="container" id="questionBody1">
+        <div class="questionRowBorder row">
+          <span class="col-sm-4 titlefont" id="myself1">Myself</span>
+          <span class="col-sm-4 titlefont" id="question">Question</span>
+          <span class="col-sm-4 titlefont" id="partner">Partner</span>
+        </div>
+      </div>
 
-.myselflCircle1, .partnerCircle1 {
-box-sizing: border-box;
-width: 132.94px;
-height: 43.68px;
-border: 1.5px solid #000000;
-border-radius: 50%;
-background-color: white;
-}
-
-.myselflCircle1Color{
-	background-color: #BAB700;
-}
-.mchangeback{
-	background-color: white;
-}
-.partnerCircle1.partnerCircle1Color{
-	background-color: #D674EE;
-}
-
-.mPColor{
-	background-color: #FD7E53;
-}
-.landingBk{
-	margin: 0 auto;
-
-}
-.center {
-  display: inline-block;
-margin: 0 auto;
-  width: 100%;
-margin-top: 100px;
-}
-.circle1{
-	position: absolute;
-width: 1332px;
-height: 434px;
-border-radius: 50%;
-display: inline-block;
-border: 1px solid #BAB700;;
-margin: 0 auto;
-}
-</style>
-</head>
-<body>
-<center>
-  <div class="x4-1landing-page-6PR5WV">
-        <img class="x4-landing-pagebk-1-jgG3PP" src="img/4landingpagebk-1@1x.png" />
-        <div class="landing-title2-jgG3PP epilogue-semi-bold-alabaster-100px">labor in your life?</div>
-        <div class="landing-title1-jgG3PP epilogue-semi-bold-alabaster-100px">What’s the division of</div>
-</div>
-<div class="container" id="questionBody1">
-<div class="questionRowBorder row">
-  
-    <span class="col-sm-4 titlefont" id="myself1">Myself</span>
-    <span class="col-sm-4 titlefont"  id="question">Question</span>
-    <span class="col-sm-4 titlefont" id="partner">Partner</span>
- </div>
- 
-
-</div>
-
- <br>
-<div class="container" id="questionBody2">
-<div class="questionRowBorder row">
-  
-    <span class="col-sm-4 titlefont" id="myself2">Myself</span>
-    <span class="col-sm-4 titlefont"  id="question2">Question</span>
-    <span class="col-sm-4 titlefont" id="partner2">Partner</span>
- </div>
- 
-</div>
-<br>
-<div class="container" id="questionBody3">
-<div class="questionRowBorder row">
-  
-    <span class="col-sm-4 titlefont" id="myself3">Myself</span>
-    <span class="col-sm-4 titlefont"  id="question3">Question</span>
-    <span class="col-sm-4 titlefont" id="partner3">Partner</span>
- </div>
- 
-</div>
-</center>
-
-</body>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
- <script src='./clquestion.js'></script>
-  <script src='./emquestion.js'></script>
-  <script src='./fracHome.js'></script>
-
-
+      <br />
+      <div class="container" id="questionBody2">
+        <div class="questionRowBorder row">
+          <span class="col-sm-4 titlefont" id="myself2">Myself</span>
+          <span class="col-sm-4 titlefont" id="question2">Question</span>
+          <span class="col-sm-4 titlefont" id="partner2">Partner</span>
+        </div>
+      </div>
+      <br />
+      <div class="container" id="questionBody3">
+        <div class="questionRowBorder row">
+          <span class="col-sm-4 titlefont" id="myself3">Myself</span>
+          <span class="col-sm-4 titlefont" id="question3">Question</span>
+          <span class="col-sm-4 titlefont" id="partner3">Partner</span>
+        </div>
+      </div>
+    </center>
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="./clquestion.js"></script>
+  <script src="./emquestion.js"></script>
+  <script src="./fracHome.js"></script>
 </html>

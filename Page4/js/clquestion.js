@@ -1,117 +1,113 @@
-var c1QuestionArr= ['Who is mostly responsible for meal planning?',
-'Who mostly generates the grocery list?',
-'Who mostly keeps a tab on items that are running low?',
-'Who mostly know what brands of foods to purchase?',
-'Who mostly purchases groceries?',
-'Who mostly cooks the meals?',
-'Who mostly preps the meals?',
-'Who mostly knows what foods are needed to make the meal?',
-'Who mostly mostly knows what ingredients exist in the home?',
-'Who mostly decides what to make for each meal?',
-'Who mostly takes out the garbage?',
-'Who mostly notices when the garbage is full?',
-'Who mostly notices when the trash bags are running low?',
-'Who mostly remembers to add trash bags to the grocery list?',
-'Who mostly notices when the dishes are piling up?',
-'Who mostly washes the dishes?',
-'Who mostly loads the dishes?',
-'Who mostly unloads the dishwasher?',
-'Who mostly remembers that the dishwasher needs unloading?',
-'Who mostly knows what brand dish soap to purchase?',
-'Who mostly notices when the dish soap is running low?',
-'Who mostly notices when other household supplies are running low?',
-'Who mostly remembers to add these supplies to the grocery list?'];
+var c1QuestionArr = [
+  'Who is mostly responsible for meal planning?',
+  'Who mostly generates the grocery list?',
+  'Who mostly keeps a tab on items that are running low?',
+  'Who mostly know what brands of foods to purchase?',
+  'Who mostly purchases groceries?',
+  'Who mostly cooks the meals?',
+  'Who mostly preps the meals?',
+  'Who mostly knows what foods are needed to make the meal?',
+  'Who mostly mostly knows what ingredients exist in the home?',
+  'Who mostly decides what to make for each meal?',
+  'Who mostly takes out the garbage?',
+  'Who mostly notices when the garbage is full?',
+  'Who mostly notices when the trash bags are running low?',
+  'Who mostly remembers to add trash bags to the grocery list?',
+  'Who mostly notices when the dishes are piling up?',
+  'Who mostly washes the dishes?',
+  'Who mostly loads the dishes?',
+  'Who mostly unloads the dishwasher?',
+  'Who mostly remembers that the dishwasher needs unloading?',
+  'Who mostly knows what brand dish soap to purchase?',
+  'Who mostly notices when the dish soap is running low?',
+  'Who mostly notices when other household supplies are running low?',
+  'Who mostly remembers to add these supplies to the grocery list?',
+];
 
-	var clDivRowArr = [];
-	var clMCircleArr =[];
-	var clPCircleArr = [];
-	var clQuestionDivArr=[];
-	for(var i=0; i<c1QuestionArr.length; i++){
-    var clDivRow = document.createElement('div');
-    var clMCircleHolder = document.createElement('span');
-    var clQuestionHolder = document.createElement('span');
-    var clPCircleHolder= document.createElement('span');
-    var clMCircle = document.createElement('div');
-    var clPCircle = document.createElement('div');
+var clDivRowArr = [];
+var clMCircleArr = [];
+var clPCircleArr = [];
+var clQuestionDivArr = [];
+var isLeftOn = [];
+var isRightOn = [];
 
-    //var clQuestion = (cotent of question )
+for (var i = 0; i < c1QuestionArr.length; i++) {
+  var clDivRow = document.createElement('div');
+  var clRowLeft = document.createElement('div');
+  var clRowRight = document.createElement('div');
+  var clMCircleHolder = document.createElement('div');
+  var clQuestionHolder = document.createElement('div');
+  var clPCircleHolder = document.createElement('div');
+  var clMCircle = document.createElement('div');
+  var clPCircle = document.createElement('div');
 
-    clMCircle.className = 'myselflCircle1';
-    clPCircle.className='partnerCircle1';
-    clMCircleHolder.className='col-sm-4 itemAlign';
-    clQuestionHolder.className='col-sm-4 itemAlign question1';
-    clPCircleHolder.className='col-sm-4 itemAlign';
-    clDivRow.className = 'questionRowBorder rowHeight';
+  //var clQuestion = (cotent of question )
 
-    clMCircleHolder.appendChild(clMCircle);
-    clPCircleHolder.appendChild(clPCircle);
-    clDivRow.appendChild(clMCircleHolder);
-    clDivRow.appendChild(clQuestionHolder);
-    clDivRow.appendChild(clPCircleHolder);
-    
-    clDivRowArr.push(clDivRow);
-    clMCircleArr.push(clMCircle);
-    clQuestionDivArr.push(clQuestionHolder);
-    clPCircleArr.push(clPCircle);
+  clMCircle.className = 'question-circle';
+  clPCircle.className = 'question-circle';
+  clMCircleHolder.className = 'question-circle-container';
+  clPCircleHolder.className = 'question-circle-container';
+  clRowLeft.className = 'question-row-side';
+  clQuestionHolder.className = 'question-row-center';
+  clRowRight.className = 'question-row-side';
+  clDivRow.className = 'question-row';
 
-	}
-	for(var i =0; i <23; i++){
-	clQuestionDivArr[i].innerHTML = c1QuestionArr[i];
-	}
-    for(var i=0; i<clDivRowArr.length;i++){
- 		document.getElementById('questionBody1').appendChild(clDivRowArr[i]);
+  clMCircleHolder.appendChild(clMCircle);
+  clPCircleHolder.appendChild(clPCircle);
+  clRowLeft.appendChild(clMCircleHolder);
+  clRowRight.appendChild(clPCircleHolder);
+  clDivRow.appendChild(clRowLeft);
+  clDivRow.appendChild(clQuestionHolder);
+  clDivRow.appendChild(clRowRight);
 
-    }
-
-  /*** color status ***/
-
-
-for(let i =0; i <clMCircleArr.length;i++){
-
- 	clMCircleArr[i].addEventListener("click", event =>
-{
-
-if(!clMCircleArr[i].classList.contains('mPColor')){
-
-	if(!clPCircleArr[i].classList.contains('partnerCircle1Color')){
-		clMCircleArr[i].classList.toggle('myselflCircle1Color');
-	}else{
-	  clPCircleArr[i].classList.replace('partnerCircle1Color','mPColor');
-	  clMCircleArr[i].classList.add('mPColor');
-	}
+  clDivRowArr.push(clDivRow);
+  clMCircleArr.push(clMCircle);
+  clQuestionDivArr.push(clQuestionHolder);
+  clPCircleArr.push(clPCircle);
 }
-else{
-	  clMCircleArr[i].classList.remove('mPColor');
-	  clMCircleArr[i].classList.remove('myselflCircle1Color');
-	  clPCircleArr[i].classList.replace('mPColor','partnerCircle1Color');
-
+for (var i = 0; i < 23; i++) {
+  clQuestionDivArr[i].innerHTML = c1QuestionArr[i];
+}
+for (var i = 0; i < clDivRowArr.length; i++) {
+  document.getElementById('questionBody1').appendChild(clDivRowArr[i]);
+  isLeftOn.push(false);
+  isRightOn.push(false);
 }
 
+/*** color status ***/
 
-}); 
+for (let i = 0; i < clMCircleArr.length; i++) {
+  clMCircleArr[i].addEventListener('click', (event) => {
+    isLeftOn[i] = !isLeftOn[i];
+    updateRowColor(i);
+  });
 
- 	clPCircleArr[i].addEventListener("click", event =>
-{
-
-if(!clPCircleArr[i].classList.contains('mPColor')){
-
-	if(!clMCircleArr[i].classList.contains('myselflCircle1Color')){
-		clPCircleArr[i].classList.toggle('partnerCircle1Color');
-	}else{
-	  clPCircleArr[i].classList.add('mPColor');
-	  clMCircleArr[i].classList.replace('myselflCircle1Color','mPColor');
-	}
-}
-else{
-	clPCircleArr[i].classList.remove('mPColor');
-	 clPCircleArr[i].classList.remove('partnerCircle1Color');
-	  clMCircleArr[i].classList.replace('mPColor','myselflCircle1Color');
-
+  clPCircleArr[i].addEventListener('click', (event) => {
+    isRightOn[i] = !isRightOn[i];
+    updateRowColor(i);
+  });
 }
 
+function updateRowColor(i) {
+  let l = isLeftOn[i];
+  let r = isRightOn[i];
+  console.log(l, r);
 
-});
-
+  if (l && r) {
+    // both side on
+    clMCircleArr[i].className = 'question-circle question-circle-both-on-color';
+    clPCircleArr[i].className = 'question-circle question-circle-both-on-color';
+  } else if (l && !r) {
+    clMCircleArr[i].className = 'question-circle question-circle-left-on-color';
+    clPCircleArr[i].className = 'question-circle';
+  } else if (!l && r) {
+    clMCircleArr[i].className = 'question-circle';
+    clPCircleArr[i].className =
+      'question-circle question-circle-right-on-color';
+  } else if (!l && !r) {
+    clMCircleArr[i].className = 'question-circle';
+    clPCircleArr[i].className = 'question-circle';
+  } else {
+    console.log('should not go here');
+  }
 }
-
-
