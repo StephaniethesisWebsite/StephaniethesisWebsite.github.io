@@ -1,0 +1,27 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Epilogue:600italic,700,500,600");
+/* The following line is used to measure usage of this code in production. For more info see our usage billing page */
+@import url("https://px.animaapp.com/5bcee82802cfb80009043cf5.626dd280ed67e88d0cf524ad.e7M095l.hcp.png");
+
+@font-face {
+  font-family: "FreightText Pro-BookItalic";
+  font-style: italic;
+  font-weight: 400;
+  src: url("../fonts/FreightTextPro_Book_Italic.otf") format("opentype");
+}
+@font-face {
+  font-family: "undefined-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Augusta.ttf") format("truetype");
+}
+
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
