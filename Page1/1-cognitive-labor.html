@@ -49,7 +49,7 @@
     <input type="hidden" id="anPageName" name="page" value="1-cognitive-labor" />
     <div class="x1-cognitive-labor screen">
       <div class="foot-text-62bqZC">THE INVISIBLE WEIGHT OF COGNITIVE LABOR</div>
-        <div class="back-button-62bqZC">BACK TO TOP</div>
+        <div id="backButton" class="back-button-62bqZC">BACK TO TOP</div>
       <div class="purple-footnote-rect-62bqZC">
         <img class="line-213-gfxP7X" src="img/line-213@1x.png" />
         <div class="rectangle-220-gfxP7X"></div>
@@ -247,7 +247,17 @@ setTimeout(function() {
     <script src="js/script.js"></script>
 <!--     <script src="js/imageReveal.js"></script> -->
     <script  src="../js/nav.js"></script>
+  <!--   <script src="../js/backTotop.js"></script> -->
   <script type="text/javascript">
+    var backbtn = $("#backButton");
+    backbtn.on('click', function(e) {
+      // alert("clicked");
+  e.preventDefault();
+  $('.x1-cognitive-labor').animate({scrollTop:0}, '300');
+});
+
+   
+
 $("#quote1").css("display", "none");
 $("#quote2").css("display", "none");
 $("#quote3").css("display", "none");
