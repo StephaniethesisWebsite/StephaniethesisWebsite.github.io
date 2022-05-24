@@ -316,7 +316,12 @@
   <script  src="../js/nav.js"></script>
     <script  src="../js/backTotop.js"></script>
   <script type="text/javascript">
- 
+ var track = document.getElementById('Carolynaudio');
+var track2= document.getElementById('Bethaudio');
+var track3 = document.getElementById('Nancyaudio');
+var controlBtn = document.getElementById('c-play-pause');
+var controlBtn2 = document.getElementById('b-play-pause');
+var controlBtn3 = document.getElementById('n-play-pause');
 function playPause() {
     if (track.paused) {
         track.play();
