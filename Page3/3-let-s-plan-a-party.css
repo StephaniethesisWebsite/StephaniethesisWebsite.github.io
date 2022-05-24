@@ -3,7 +3,7 @@
 .x3-let-s-plan-a-party {
   background-color: var(--alabaster);
   height: 6700px;
-  overflow: hidden;
+/*  overflow: hidden;*/
   position: relative;
   width: 1920px;
 }

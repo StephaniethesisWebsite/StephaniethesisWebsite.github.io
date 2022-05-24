@@ -10,7 +10,7 @@
 html {
     display: table;
     margin: auto;
-    overflow-x: hidden;
+/*    overflow-x: hidden;*/
 }
 
 body {
@@ -19,7 +19,7 @@ body {
     position: sticky;
    width: 100vw;
    height: auto;
-   overflow-x: hidden;
+  /* overflow-x: hidden;*/
 }
 .screen a {
   display: contents;

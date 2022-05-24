@@ -319,7 +319,8 @@
     backbtn.on('click', function(e) {
      alert("clicked");
   e.preventDefault();
-  $('#whole').animate({scrollTop:0}, '300');
+  // $('#whole').animate({scrollTop:0}, '300');
+   $('html, body').animate({scrollTop:0}, '300');
 });
 
 var track = document.getElementById('Carolynaudio');
