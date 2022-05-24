@@ -10,7 +10,7 @@
 
 .x2-lived-experiences .foot-text {
   left: calc((100vw* 60)/1920);
-  letter-spacing:c0;
+  letter-spacing:0;
   position: absolute;
   top:calc((100vw * 8220)/1920);
 }
@@ -33,7 +33,7 @@
 
 .x2-lived-experiences .wendy-56-retired-tacoma-wa {
   left: 0;
-  letter-spacing:c0;
+  letter-spacing:0;
   position: absolute;
   top:calc((100vw * 63)/1920);
 }
@@ -125,9 +125,9 @@
 
 .x2-lived-experiences .carolyn-37-stay-a {
   left: 0;
-  letter-spacing:c0;
+  letter-spacing:0;
   position: absolute;
-  top:calc((100vw * 276)/1920);
+  top:calc((100vw * 325)/1920);
   width:calc((100vw * 543)/1920);
 }
 
@@ -284,16 +284,16 @@
 }
 
 .x2-lived-experiences .nancy_quote {
-  height:calc((100vw* 178)/1920);
-  left: calc((100vw* 817)/1920);
-  position: absolute;
-  top:calc((100vw * 1991)/1920);
-  width:calc((100vw * 940)/1920);
+    height: calc((100vw* 178)/1920);
+    left: calc((100vw* 900)/1920);
+    position: absolute;
+    top: calc((100vw * 597.35)/1920);
+    width: calc((100vw * 940)/1920);
 }
 
 .x2-lived-experiences .nancy-39-design-c {
   left: 0;
-  letter-spacing:c0;
+  letter-spacing:0;
   position: absolute;
   top:calc((100vw * 148)/1920);
 }
@@ -389,7 +389,7 @@
 
 .x2-lived-experiences .nancy-39-design-c-1 {
   left: 0;
-  letter-spacing:c0;
+  letter-spacing:0;
   position: absolute;
   top:calc((100vw * 280)/1920);
 }
@@ -494,7 +494,7 @@
 
 .x2-lived-experiences .beth-44-accountant-pacifica-ca {
   left: 0;
-  letter-spacing:c0;
+  letter-spacing:0;
   position: absolute;
   top:calc((100vw * 277)/1920);
 }
@@ -612,7 +612,7 @@
 
 .x2-lived-experiences .billie-28-stay-at {
   left: 0;
-  letter-spacing:c0;
+  letter-spacing:0;
   position: absolute;
   top:calc((100vw * 159)/1920);
 }
@@ -652,7 +652,7 @@
 
 .x2-lived-experiences .amanda-23-product {
   left: calc((100vw* 9)/1920);
-  letter-spacing:c0;
+  letter-spacing:0;
   position: absolute;
   top:calc((100vw * 196)/1920);
 }
@@ -877,5 +877,5 @@
   background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMiAyNHYtMjRsMjAgMTItMjAgMTJ6Ii8+PC9zdmc+);
 }
 .pause {
-   background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTAgMjRoLTZ2LTI0aDZ2MjR6bTEwLTI0aC02djI0aDZ2LTI0eiIvPjwvc3ZnPg==)!important;
+   background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTAgMjRoLTZ2LTI0aDZ2MjR6bTEwLTI0a02djI0aDZ2LTI0eiIvPjwvc3ZnPg==)!important;
 }
