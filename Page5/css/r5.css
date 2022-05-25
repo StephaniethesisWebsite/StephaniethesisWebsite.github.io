@@ -258,6 +258,7 @@ color: #292D31;
   font-weight: 700;
   letter-spacing: calc(100vw * 1.17 / 1920);
   line-height: calc(100vw * 72 / 1920);
+  font-style: italic;
 }
 
 .x5-from-the-experts .rectangle-16 {
