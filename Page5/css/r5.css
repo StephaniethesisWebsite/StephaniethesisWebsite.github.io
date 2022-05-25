@@ -68,7 +68,7 @@
 
 .x5-from-the-experts .i-interviewed-alliso {
   left:calc(100vw *  210 / 1920);
-  letter-spacing: calc(100vw * -4.64 / 1920);
+  letter-spacing: calc(100vw * -2.16 / 1920);
   line-height: calc(100vw * 70 / 1920);
   mix-blend-mode: darken;
   position: absolute;
@@ -88,7 +88,7 @@
 .x5-from-the-experts .interview-section {
   display: flex;
   flex-direction: column;
-  height: 371calc(100vw * 6.28 / 1920);
+  height: calc(100vw * 3716.28 / 1920);
   margin-left:calc(100vw *  488 / 1920);
   margin-top: calc(100vw * 152.3 / 1920);
   width:calc(100vw *  944 / 1920);
@@ -117,12 +117,12 @@
 
 .x5-from-the-experts .a1 {
   color: var(--black);
-  font-family: var(--font-family-undefined-regular);
+  font-family: var(--font-family-abc_diatype_edu-regular);
   font-size: var(--font-size-m);
   font-weight: 400;
   height:calc(100vw *  700 / 1920);
   letter-spacing: 0;
-  line-height:  calc(100vw * 24 / 1920);
+  line-height:  calc(100vw * 32 / 1920);
   margin-top: calc(100vw * 48 / 1920);
 }
 
@@ -138,7 +138,7 @@
   height: 8calc(100vw * 802.7 / 1920);
   letter-spacing: 0;
   line-height: calc(100vw * 32 / 1920);
-  margin-top: calc(100vw * 48 / 1920);
+  margin-top: calc(100vw * 78 / 1920);
 }
 
 .x5-from-the-experts .q3 {
@@ -151,12 +151,12 @@
 
 .x5-from-the-experts .a3 {
   color: var(--black);
-  font-family: var(--font-family-undefined-regular);
+  font-family: var(--font-family-abc_diatype_edu-regular);
   font-size: var(--font-size-m);
   font-weight: 400;
   height: calc(100vw * 484.91 / 1920);
   letter-spacing: 0;
-  line-height: calc(100vw * 24 / 1920);
+  line-height: calc(100vw * 32 / 1920);
   margin-top: calc(100vw * 48 / 1920);
 }
 
@@ -169,7 +169,7 @@
   height: calc(100vw * 32 / 1920);
   letter-spacing: 0;
   line-height: calc(100vw * 32 / 1920);
-  margin-top: 1calc(100vw * 11.3 / 1920);
+  margin-top: calc(100vw * 111.3 / 1920);
   white-space: nowrap;
   width:calc(100vw *  402 / 1920);
 }
@@ -215,17 +215,39 @@
 }
 
 .x5-from-the-experts .i-experimented-with {
-  left: calc(100vw * 91 / 1920);
+/*  left: calc(100vw * 91 / 1920);
   letter-spacing: calc(100vw * 2.16 / 1920);
-  line-height: calc(100vw * 54 / 1920);
+  line-height: calc(100vw * 70 / 1920);
   mix-blend-mode: darken;
   position: absolute;
   top: calc(100vw * 97 / 1920);
   width: calc(100vw * 1206 / 1920);
+  height: calc(100vw * 206 / 1920);*/
+  position: absolute;
+width: calc(100vw * 1345.61 / 1920);
+height: calc(100vw * 146 / 1920);
+left: calc(100vw * 41 / 1920);
+top: calc(100vw * 67 / 1920);
+
+/* 72 */
+
+font-family: 'Epilogue';
+font-style: normal;
+font-weight: 500;
+font-size: calc(100vw * 54 / 1920);
+line-height: calc(100vw * 28 / 1920);
+/* or 130% */
+
+letter-spacing: -0.04em;
+
+/* Header Dark Gray */
+
+color: #292D31;
+
 }
 
 .x5-from-the-experts .span {
-  letter-spacing: calc(100vw * 1.17 / 1920);
+  letter-spacing: calc(100vw * -2.16 / 1920);
   line-height: calc(100vw * 70 / 1920);
 }
 
@@ -271,12 +293,12 @@
 
 .x5-from-the-experts .this-exercise-is-mea {
 /*  color: transparent;*/
-  font-family: var(--font-family-undefined-regular);
+  font-family: var(--font-family-abc_diatype_edu-regular);
   font-size: var(--font-size-m);
-  font-weight: 700;
+  font-weight: 400;
   height: calc(100vw * 780.56 / 1920);
   letter-spacing: 0;
-  line-height: calc(100vw * 24 / 1920);
+  line-height: calc(100vw * 32 / 1920);
   margin-left: calc(100vw * 91.4 / 1920);
   margin-top: 0;
   width:calc(100vw *  887 / 1920);
