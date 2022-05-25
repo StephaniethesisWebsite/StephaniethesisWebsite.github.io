@@ -328,7 +328,7 @@ height: calc(100vw * 60 / 1920);
 
 .x1-cognitive-labor .track-your-labor-3qPDaJ {
   background-color: transparent;
-  color: #bab700;å
+  color: #bab700;Ã¥
     font-family: var(--font-family-abc_diatype_edu-bolditalic);
     font-style: italic;
     font-weight: 700;
@@ -612,7 +612,7 @@ border-radius: calc(100vw * 20 / 1920);
   left: 0px;
   position: absolute;
   top: 0px;
-  width: calc(100vw * 1332 / 1920);
+  width: calc(100vw * 1332.39 / 1920);
 }
 
 .x1-cognitive-labor .also-referred-to-as-Cyvgvg {
@@ -625,7 +625,7 @@ border-radius: calc(100vw * 20 / 1920);
   position: absolute;
   text-align: left;
   top: calc(100vw * 84 / 1920);
-  width: calc(100vw * 1209 / 1920);
+  font-size: calc(100vw * 54 / 1920);width: calc(100vw * 1209 / 1920);
 }
 
 .x1-cognitive-labor .span0-O37Edm {
@@ -634,7 +634,7 @@ border-radius: calc(100vw * 20 / 1920);
 
 .x1-cognitive-labor .span1-O37Edm {
   letter-spacing: -0.061vw;
-}
+font-style: italic;}
 
 .x1-cognitive-labor .span2-O37Edm {
   letter-spacing: -0.061vw;
@@ -642,7 +642,7 @@ border-radius: calc(100vw * 20 / 1920);
 
 .x1-cognitive-labor .span3-O37Edm {
   letter-spacing: -0.061vw;
-}
+font-style: italic;}
 
 .x1-cognitive-labor .span4-O37Edm {
   letter-spacing: -0.061vw;
@@ -650,7 +650,7 @@ border-radius: calc(100vw * 20 / 1920);
 
 .x1-cognitive-labor .span5-O37Edm {
   letter-spacing: -0.061vw;
-}
+font-style: italic;}
 
 .x1-cognitive-labor .span6-O37Edm {
   letter-spacing: -0.061vw;
@@ -658,7 +658,7 @@ border-radius: calc(100vw * 20 / 1920);
 
 .x1-cognitive-labor .span7-O37Edm {
   letter-spacing: -0.061vw;
-}
+font-style: italic;}
 
 .x1-cognitive-labor .span8-O37Edm {
   color: var(--baltic-sea);
@@ -671,7 +671,7 @@ border-radius: calc(100vw * 20 / 1920);
 
 .x1-cognitive-labor .span9-O37Edm {
   letter-spacing: -0.061vw;
-}
+font-style: italic;}
 
 .x1-cognitive-labor .p1-floating7-62bqZC {
   background-color: transparent;
