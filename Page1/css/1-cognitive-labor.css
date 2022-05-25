@@ -1,7 +1,7 @@
 /* screen - 1-cognitive-labor */
-/*@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Epilogue&display=swap');
-@import url("https://use.typekit.net/sis2rah.css");*/
+@import url("https://use.typekit.net/sis2rah.css");
 .x1-cognitive-labor {
   background-color: var(--alabaster);
   height: 100vh;
