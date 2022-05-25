@@ -60,23 +60,31 @@ top: calc(100vw * 1321.6 / 1920);
 }
 
 .prompt-container_2{
-position: absolute;
+/*position: absolute;
 width: calc(100vw * 1332 / 1920);
 height: calc(100vw * 434 / 1920);
 left: calc(100vw * 298.09 / 1920);
 top: calc(100vw * 4325.73 / 1920);
-
-
+bottom: calc(100vw * 7401.27/ 1920);*/
+ position: relative;
+  margin-top: 5em;
+  margin-bottom: 5em;
+  margin-left: 10rem;
+  margin-right: 10rem;
+ top: calc(160 / 1920 * 100vw);
 }
 .prompt-container_3{
-
-
-position: absolute;
+/*position: absolute;
 width: calc(100vw * 1332 / 1920);
 height: calc(100vw * 434 / 1920);
-left: calc(100vw * 293.65/ 1920);
-top: calc(100vw * 8410.96 / 1920);
-
+left: calc(100vw * 293.65 / 1920);
+top: calc(100vw * 10860.96 / 1920);*/
+ position: relative;
+  margin-top: 5em;
+  margin-bottom: 5em;
+  margin-left: 10rem;
+  margin-right: 10rem;
+      top: calc(160 / 1920 * 100vw);
 }
 .prompt-elipse {
   top: 0px;
@@ -133,19 +141,17 @@ top: calc(100vw * 1923.66 / 1920);
 }
 
 .question-row-container {
-position: absolute;
-width: calc(100vw * 1655 / 1920);
-height: calc(100vw *2042.77 / 1920);
-left: calc(100vw *132/1920);
-top: calc(100vw * 2155.12 / 1920);
+  position: relative;
+  margin: 5rem;
+  border-top: 1px solid black;
+  top: calc(400 / 1920 * 100vw);
 }
 
 .question-row-container_2 {
-position: absolute;
-height: calc(100vw * 3380.09 / 1920);
-left: calc(100vw * 132 / 1920);
-right: calc(100vw* 133 / 1920);
-top: calc(100vw * 4904.87/1920);
+position: relative;
+margin: 5em;
+top: calc(200 / 1920 * 100vw);
+border-top: 1px solid black;
 
 }
 .question-row-container_3 {
