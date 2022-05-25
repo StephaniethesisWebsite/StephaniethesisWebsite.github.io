@@ -553,7 +553,6 @@ left: 0;
 }
 
 .x2-lived-experiences .i-conducted-13-forma {
-<<<<<<< HEAD
     color: transparent;
     font-family: var(--font-family-epilogue);
     font-size: var(--font-size-xl2);
@@ -567,18 +566,6 @@ left: 0;
     height: calc(100vw * 195.63/ 1920);
   /*  width: calc((100vw * 1147 /1920);
     height: calc(111vw * 195.63 / 1920);*/
-=======
-  color: transparent;
-  font-family: var(--font-family-epilogue);
-  font-size: var(--font-size-xl2);
-  font-weight: 500;
-  left: calc((100vw* 142)/1920);
-  letter-spacing:calc((100vw * -2.16)/1920);
-  line-height:calc((100vw* 70)/1920);
-  position: absolute;
-  top:calc((100vw * 109)/1920);
-  width:calc((100vw * 1047)/1920);
->>>>>>> parent of f139124... p2 css
 }
 
 .x2-lived-experiences .floating-text_2 {
