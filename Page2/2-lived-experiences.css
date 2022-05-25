@@ -98,7 +98,7 @@
   color: var(--coral);
   font-family: var(--font-family-epilogue);
   font-size: var(--font-size-xl2);
-  font-weight: 500;
+  font-weight: 400; /* 500 */
   left: calc((100vw* 78)/1920);
   letter-spacing:calc((100vw * -2.16)/1920);
   line-height:calc((100vw* 70)/1920);
@@ -129,7 +129,7 @@
   left: 0;
   letter-spacing:0;
   position: absolute;
-  top:calc((100vw * 305)/1920);
+  top:calc((100vw * 325)/1920);
   width:calc((100vw * 543)/1920);
 }
 
@@ -420,7 +420,7 @@ left: 0;
   color: var(--la-rioja);
   font-family: var(--font-family-epilogue);
   font-size: var(--font-size-xl2);
-  font-weight: 500;
+  font-weight: 400;
   left: calc((100vw* 87)/1920);
   letter-spacing:calc((100vw * -2.16)/1920);
   line-height:calc((100vw* 70)/1920);
@@ -468,7 +468,7 @@ left: 0;
   color: var(--heliotrope);
   font-family: var(--font-family-epilogue);
   font-size: var(--font-size-xl2);
-  font-weight: 500;
+  font-weight: 400;
   left: calc((100vw* 90)/1920);
   letter-spacing:calc((100vw * -2.16)/1920);
   line-height:calc((100vw* 70)/1920);
@@ -659,7 +659,7 @@ left: 0;
   left: calc((100vw* 9)/1920);
   letter-spacing:0;
   position: absolute;
-  top:calc((100vw * 196)/1920);
+  top:calc((100vw * 240)/1920);
 }
 
 .x2-lived-experiences .i-feel-like-its-a {
