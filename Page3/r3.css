@@ -509,7 +509,7 @@
   mix-blend-mode: darken;
   position: absolute;
   top:calc(100vw * 116 / 1920 );
-  width:calc(100vw * 1046 / 1920 );
+  width:calc(100vw * 1100 / 1920 );
 }
 
 .x3-let-s-plan-a-party .span0 {
@@ -522,6 +522,7 @@
   font-family: var(--font-family-epilogue);
   font-size: var(--font-size-xl);
   font-weight: 700;
+  font-style: italic;
   letter-spacing:calc(100vw * -1.08 / 1920 );
   line-height:calc(100vw * 72 / 1920 );
 }
