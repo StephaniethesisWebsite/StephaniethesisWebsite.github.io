@@ -28,7 +28,7 @@
   position: absolute;
   text-align: left;
   top: 420.261vw;
-  width: 20.52vw;
+  width: 21.52vw;
 
 }
 
@@ -47,7 +47,7 @@
   position: absolute;
   text-align: right;
   top: 420.261vw;
-  width: 6.20vw;
+  width: 7.2vw;
 }
 
 .x1-cognitive-labor .purple-footnote-rect-62bqZC {
@@ -328,7 +328,7 @@ height: calc(100vw * 60 / 1920);
 
 .x1-cognitive-labor .track-your-labor-3qPDaJ {
   background-color: transparent;
-  color: #bab700;Ã¥
+  color: #bab700;
     font-family: var(--font-family-abc_diatype_edu-bolditalic);
     font-style: italic;
     font-weight: 700;
@@ -419,7 +419,7 @@ border-radius: calc(100vw * 20 / 1920);
 }
 
 .x1-cognitive-labor .it-can-be-a-source-o-evPz9j {
-      background-color: transparent;
+background-color: transparent;
     height: calc(100vw * 679.96 / 1920);
     left: calc(100vw * 47 / 1920);
     letter-spacing: calc(100vw * -2.16 / 1920);
@@ -427,9 +427,9 @@ border-radius: calc(100vw * 20 / 1920);
     mix-blend-mode: normal;
     position: absolute;
     text-align: left;
-    top: calc(100vw * 5102/ 1920);
+    top: calc(100vw * 5149/ 1920);
     width: calc(100vw * 1282 / 1920);
-}
+    font-size: calc(100vw * 54 / 1920);
 
 }
 
@@ -514,16 +514,17 @@ border-radius: calc(100vw * 20 / 1920);
 }
 
 .x1-cognitive-labor .this-is-a-gendered-p-r2BTO7 {
-  background-color: transparent;
-  height: auto;
-  left: calc(100vw * 153 / 1920);
-  letter-spacing: calc(100vw * -2.16 / 1920);
-  line-height: calc(100vw * 72 / 1920);
-  mix-blend-mode: normal;
-  position: absolute;
-  text-align: left;
-  top: calc(100vw * 116 / 1920);
-  width: calc(100vw * 1016 / 1920);
+background-color: transparent;
+    height: calc(100vw * 207 / 1920);
+    left: calc(100vw * 153 / 1920);
+    letter-spacing: calc(100vw * -2.16 / 1920);
+    line-height: calc(100vw * 72 / 1920);
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: calc(100vw * 116 / 1920);
+    font-size: calc(54 / 1920 * 100vw);
+    width: calc(100vw * 1116 / 1920);
 }
 
 .x1-cognitive-labor .span0-fGD5FQ {
@@ -625,7 +626,8 @@ border-radius: calc(100vw * 20 / 1920);
   position: absolute;
   text-align: left;
   top: calc(100vw * 84 / 1920);
-  font-size: calc(100vw * 54 / 1920);width: calc(100vw * 1209 / 1920);
+  font-size: calc(100vw * 54 / 1920);
+  width: calc(100vw * 1230 / 1920);
 }
 
 .x1-cognitive-labor .span0-O37Edm {
@@ -915,6 +917,7 @@ font-style: italic;}
 .x1-cognitive-labor .span0-qzzUam {
   letter-spacing: -0.061vw;
   text-decoration: underline;
+  font-style: italic;
 }
 
 .x1-cognitive-labor .span1-qzzUam {
