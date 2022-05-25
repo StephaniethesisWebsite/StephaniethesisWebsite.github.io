@@ -8,6 +8,9 @@
     font-display: swap;
 }
 
+@font-face {
+  font-family: font-family: 'Epilogue', sans-serif;
+}
 :root { 
   --alabaster: #f9fbff;
   --baltic-sea: #292d31;
