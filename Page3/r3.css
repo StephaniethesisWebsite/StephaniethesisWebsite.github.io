@@ -522,7 +522,7 @@
   color: var(--baltic-sea);
   font-family: var(--font-family-epilogue);
   font-size: var(--font-size-xl);
-  font-weight: 700;
+  font-weight: 600;
   font-style: italic;
   letter-spacing:calc(100vw * -1.08 / 1920 );
   line-height:calc(100vw * 72 / 1920 );
@@ -563,7 +563,7 @@
   color: #f8f9f8;
   font-family: var(--font-family-epilogue);
   font-size: var(--font-size-xl2);
-  font-weight: 500;
+  font-weight: initial;
   left:calc(100vw * 149 / 1920 );
   letter-spacing:calc(100vw * -2.16 / 1920 );
   line-height:calc(100vw * 72 / 1920 );
@@ -574,7 +574,7 @@
 
 .x3-let-s-plan-a-party .rectangle-16 {
   border: 1.5px solid var(--alabaster);
-  border-radius: 20 / 1920 );
+  border-radius: 10px 10px;
   height:calc(100vw * 400 / 1920 );
   left:0;
   position: absolute;
@@ -616,7 +616,7 @@
   color: var(--alabaster);
   font-family: var(--font-family-epilogue);
   font-size: var(--font-size-xl2);
-  font-weight: 500;
+  font-weight: initial;
   left:calc(100vw * 335 / 1920 );
   letter-spacing:calc(100vw * -2.16 / 1920 );
   line-height:calc(100vw * 72 / 1920 );

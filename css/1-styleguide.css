@@ -48,7 +48,7 @@
   font-family: var(--font-family-epilogue);
   font-size: var(--font-size-m);
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .abcdiatypeedu-bold-alabaster-23px {
@@ -56,7 +56,7 @@
   font-family: var(--font-family-abc_diatype_edu-bold);
   font-size: var(--font-size-xxxs);
   font-style: normal;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .epilogue-bold-baltic-sea-54px {
@@ -64,7 +64,7 @@
   font-family: var(--font-family-epilogue);
   font-size: var(--font-size-m);
   font-style: normal;
-  font-weight: 700;
+  font-weight: 700; /**or 600 idk*/
 }
 
 .freighttextpro-bookitalic-normal-eerie-black-32px {
@@ -112,7 +112,7 @@
   font-family: var(--font-family-epilogue);
   font-size: var(--font-size-m);
   font-style: normal;
-  font-weight: 800;
+  font-weight: 700;
 }
 
 .border-1-5px-black {
