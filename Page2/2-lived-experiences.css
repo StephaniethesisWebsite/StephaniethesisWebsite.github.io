@@ -562,8 +562,10 @@ left: 0;
     line-height: calc((100vw* 70)/1920);
     position: absolute;
     top: calc((100vw * 111)/1920);
-    width: calc((100vw * 1147 /1920);
-    height: calc(111vw * 195.63 / 1920);
+    width: calc(100vw * 1147 / 1920);
+    height: calc(100vw * 195.63/ 1920);
+  /*  width: calc((100vw * 1147 /1920);
+    height: calc(111vw * 195.63 / 1920);*/
 }
 
 .x2-lived-experiences .floating-text_2 {
