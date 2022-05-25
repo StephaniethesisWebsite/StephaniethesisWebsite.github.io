@@ -846,21 +846,18 @@ border-radius: calc(100vw * 20 / 1920);
 }
 
 .x1-cognitive-labor .it-can-feel-like-a-n-62bqZC {
-  background-color: transparent;
-  height: auto;
-  left: 47.604vw;
-  letter-spacing: -0.129vw;
-  line-height: 4.063vw;
-  mix-blend-mode: normal;
-  position: absolute;
-  text-align: left;
-  top: 126.823vw;
-  width: 44.948vw;
 
-
-
+    background-color: transparent;
+    height: calc(235.45 / 1920 * 100vw);
+    left: 47.604vw;
+    letter-spacing: -0.04em;
+    line-height: calc(78 / 1920 * 100vw);
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 126.823vw;
+    width: calc(873.32 / 1920 * 100vw);
 }
-
 .x1-cognitive-labor .span0-JxNdPt {
   letter-spacing: -0.080vw;
 }
@@ -872,15 +869,17 @@ border-radius: calc(100vw * 20 / 1920);
   font-style: normal;
   font-weight: 600;
   letter-spacing: -0.080vw;
+  font-style: italic;
 }
 
 .x1-cognitive-labor .span2-JxNdPt {
   color: var(--orange-soda);
   font-family: var(--font-family-epilogue);
   font-size: var(--font-size-l);
-  font-style: normal;
+  font-style: italic;
   font-weight: 700;
   letter-spacing: -0.080vw;
+
 }
 
 .x1-cognitive-labor .span3-JxNdPt {
@@ -893,21 +892,24 @@ border-radius: calc(100vw * 20 / 1920);
   left:15.469vw;
   mix-blend-mode: normal;
   position: absolute;
-  top: 67.813vw;
+  top: calc(1302 / 1920 * 100vw);
   width: 69.375vw;
 }
 
 .x1-cognitive-labor .cognitive-labor-in-t-2MrXlm {
-  background-color: transparent;
-  height: auto;
-  left: 6.198vw;
-  letter-spacing: -0.113vw;
-  line-height: 3.750vw;
-  mix-blend-mode: darken;
-  position: absolute;
-  text-align: left;
-  top: 7.917vw;
-  width: 56.979vw;
+    background-color: transparent;
+    height: auto;
+    left: 6.198vw;
+    letter-spacing: -0.113vw;
+    line-height: 3.750vw;
+    mix-blend-mode: darken;
+    position: absolute;
+    text-align: left;
+    top: 6.917vw;
+    width: 59.979vw;
+    font-size: calc(100vw * 54 / 1920);
+    line-height: calc(100vw * 76 / 1920);
+    letter-spacing: calc(100vw * -2 / 1920);
 }
 
 .x1-cognitive-labor .span0-qzzUam {
@@ -926,6 +928,7 @@ border-radius: calc(100vw * 20 / 1920);
 
 .x1-cognitive-labor .span2-qzzUam {
   letter-spacing: -0.061vw;
+  text-decoration: underline;
 }
 
 .x1-cognitive-labor .span3-qzzUam {
