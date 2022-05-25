@@ -298,6 +298,7 @@ letter-spacing: -0.01em;
 .link{
 font-style: italic;
 text-decoration: underline;
+color: white;
 }
 .bottom-block-image{
   width: calc(100vw * 447.41 / 1920);
