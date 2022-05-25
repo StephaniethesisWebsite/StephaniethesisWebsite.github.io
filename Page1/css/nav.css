@@ -1,4 +1,4 @@
-@import url("../font/fontstyle.css");
+@import url("../../font/fontstyle.css");
 /** navigation css **/
 a {
   text-decoration: none
@@ -91,9 +91,10 @@ font-weight: 700;
 }
 .nav__label {
   position: absolute;
-  top: calc(100vw * 21 / 1920);
+  /*top: calc(100vw * 21 / 1920);*/
   /* margin-right: calc(100vw * 57 / 1920); */
-  /* margin-left: calc(100vw * 7 / 1920); */text-align: center;
+  /* margin-left: calc(100vw * 7 / 1920); */
+  text-align: center;
   text-transform: uppercase;
   display: block;
   width: 100%;
