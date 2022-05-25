@@ -20,7 +20,7 @@
    
       $('#nav3').mousedown(function(){
       $('#nav3').addClass('navitalic');
-      window.location.href='../Page3/3-let-s-plan-a-party.html';
+      // window.location.href='../Page3/3-let-s-plan-a-party.html';
     });
 
     $('#nav3').mouseup(function(){
@@ -40,7 +40,7 @@
 
       $('#nav5').mousedown(function(){
       $('#nav5').addClass('navitalic');
-      window.location.href='../Page5/5-from-the-experts.html';
+      // window.location.href='../Page5/5-from-the-experts.html';
     });
 
     $('#nav5').mouseup(function(){
