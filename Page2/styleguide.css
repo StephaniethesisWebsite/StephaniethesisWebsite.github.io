@@ -44,7 +44,7 @@
   font-family: var(--font-family-abc_diatype_edu-regular);
   font-size: var(--font-size-m);
   font-style: normal;
-  font-weight: 400;
+  font-weight: 300; /** or 400 on figma **/
 }
 
 .epilogue-medium-stromboli-54px {
@@ -52,7 +52,7 @@
   font-family: var(--font-family-epilogue);
   font-size: var(--font-size-xl2);
   font-style: normal;
-  font-weight: 500;
+  font-weight: 450; /* or 500 */
 }
 
 .abcdiatypeedu-medium-coral-23px {
@@ -60,7 +60,7 @@
   font-family: var(--font-family-abc_diatype_edu-medium);
   font-size: var(--font-size-s2);
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400; /* ori is 500 */
 }
 
 .abcdiatypeedu-regular-normal-alabaster-31px {
@@ -68,7 +68,7 @@
   font-family: var(--font-family-abc_diatype_edu-regular);
   font-size: var(--font-size-m);
   font-style: normal;
-  font-weight: 400;
+  font-weight: 300; /** origin is 400 */
 }
 
 .freighttextpro-bookitalic-normal-eerie-black-32px {
