@@ -396,14 +396,17 @@ height: calc(100vw * 324 / 1920);
   line-height: calc(100vw * 32 / 1920);
   min-height: calc(100vw * 32 / 1920);
   white-space: nowrap;
+
 }
 
 .x5-from-the-experts .stickers {
   letter-spacing: 0;
   line-height: calc(100vw * 32 / 1920);
-  margin-top:calc(100vw *  259 / 1920);
+  margin-top:calc(100vw *  109 / 1920);
   min-height: calc(100vw * 32 / 1920);
   white-space: nowrap;
+  width:  calc(486 / 1920 * 100vw);
+  height : calc(247 / 1920 * 100vw);
 }
 
 .x5-from-the-experts .push-pins {
@@ -415,13 +418,13 @@ height: calc(100vw * 324 / 1920);
 }
 
 .x5-from-the-experts .addition_res {
-  align-items: flex-start;
-  display: flex;
-  flex-direction: column;
-  margin-left:calc(100vw *  130 / 1920);
-  margin-top: calc(100vw * 194.6 / 1920);
-  min-height:calc(100vw *  576 / 1920);
-  width: calc(100vw * 1659 / 1920);
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    margin-left: calc(100vw * 130 / 1920);
+    margin-top: calc(100vw * -85.4 / 1920);
+    min-height: calc(100vw * 576 / 1920);
+    width: calc(100vw * 1659 / 1920);
 }
 
 .x5-from-the-experts .additional-resources {
@@ -538,28 +541,28 @@ height: calc(100vw * 324 / 1920);
 }
 
 .x5-from-the-experts .foot_note {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  margin-top: calc(100vw * 162.2 / 1920);
-  min-height: calc(100vw * 61.41 / 1920);
-  width: 100vw;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: calc(100vw * 262.2 / 1920);
+    min-height: calc(100vw * 61.41 / 1920);
+    width: 100vw;
 }
 
 .x5-from-the-experts .line-213 {
-  height: calc(100vw * 1 / 1920);
-  margin-right: calc(100vw * 0.02 / 1920);
-  margin-top: calc(100vw *  -1 / 1920);
-  width: calc(100vw * 1920 / 1920);
+height: calc(100vw * 1 / 1920);
+    margin-right: calc(100vw * 0.02 / 1920);
+    margin-top: calc(100vw * 49 / 1920);
+    width: calc(100vw * 1920 / 1920);
 }
 
 .x5-from-the-experts .flex-row-3 {
-  align-items: flex-start;
-  display: flex;
-  height: calc(100vw *  31 / 1920);
-  margin-right: calc(100vw * 8.19 / 1920);
-  margin-top: calc(100vw * 29 / 1920);
-  min-width: calc(100vw * 1801 / 1920);
+align-items: flex-start;
+    display: flex;
+    height: calc(100vw * 31 / 1920);
+    margin-right: calc(100vw * 8.19 / 1920);
+    margin-top: calc(100vw * 89 / 1920);
+    min-width: calc(100vw * 1801 / 1920);
 }
 
 .x5-from-the-experts .the-invisible-weight-of-cognitive-labor {
@@ -614,3 +617,10 @@ background: #D9D9D9;
 /*#cogDim:hover + #cogDimImag{
   display: inline-block;
 }*/
+
+.x5-from-the-experts .spanClass1{
+    white-space: nowrap;
+    width: calc(525 / 1920 * 100vw);
+    height: calc(247 / 1920 * 100vw);
+    display: block;
+}

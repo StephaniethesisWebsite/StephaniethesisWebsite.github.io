@@ -366,8 +366,16 @@
   line-height: 32px;
   min-height: 32px;
   white-space: nowrap;
+      width: calc(525 / 1920 * 100vw);
+    height: calc(247 / 1920 * 100vw);
 }
 
+.x5-from-the-experts .spanClass1{
+    white-space: nowrap;
+    width: calc(525 / 1920 * 100vw);
+    height: calc(247 / 1920 * 100vw);
+    display: block;
+}
 .x5-from-the-experts .stickers {
   letter-spacing: 0;
   line-height: 32px;
