@@ -1,7 +1,7 @@
 @import url("../../font/fontstyle.css");
 /** navigation css **/
 a {
-  text-decoration: none
+  text-decoration: none;
   color:inherit;
 
 }
@@ -89,6 +89,7 @@ font-weight: 700;
   text-transform: uppercase;
   opacity: 0.15;
 }
+
 .nav__label {
   position: absolute;
   /*top: calc(100vw * 21 / 1920);*/

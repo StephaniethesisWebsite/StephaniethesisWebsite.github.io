@@ -108,7 +108,7 @@
 }
 
 .x5-from-the-experts .q1 {
-  height: 24calc(100vw * 2.28 / 1920);
+  height: calc(100vw * 242.8 / 1920);
   letter-spacing: calc(100vw * 0.21 / 1920);
   line-height: calc(100vw * 50 / 1920);
   margin-top:  calc(100vw * 48 / 1920);
@@ -135,7 +135,7 @@
 }
 
 .x5-from-the-experts .a2 {
-  height: 8calc(100vw * 802.7 / 1920);
+  height: calc(100vw * 802.7 / 1920);
   letter-spacing: 0;
   line-height: calc(100vw * 32 / 1920);
   margin-top: calc(100vw * 78 / 1920);
@@ -175,7 +175,7 @@
 }
 
 .x5-from-the-experts .alison_thumbnail {
-  height: 27calc(100vw * 0.56 / 1920);
+  height: calc(100vw * 270.56 / 1920);
   margin-left: calc(100vw * -0.1 / 1920);
   margin-top: calc(100vw * 21.8 / 1920);
   object-fit: cover;
@@ -438,7 +438,7 @@ height: calc(100vw * 324 / 1920);
 }
 
 .x5-from-the-experts .line-2 {
-  heigh: calc(100vw *  1 / 1920);
+  height: calc(100vw *  1 / 1920);
   margin-top: calc(100vw * 22 / 1920);
   width: calc(100vw * 1659 / 1920);
 }
@@ -547,7 +547,7 @@ height: calc(100vw * 324 / 1920);
 }
 
 .x5-from-the-experts .line-213 {
-  heigh: calc(100vw * 1 / 1920);
+  height: calc(100vw * 1 / 1920);
   margin-right: calc(100vw * 0.02 / 1920);
   margin-top: calc(100vw *  -1 / 1920);
   width: calc(100vw * 1920 / 1920);

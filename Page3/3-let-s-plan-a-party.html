@@ -10,33 +10,8 @@
     <link rel="stylesheet" type="text/css" href="globals.css" />
       <link rel="stylesheet" type="text/css" href="../css/nav.css" />
       <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+
   
-  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
-  <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
-  <script>
-   $( function() {
-
-
-    var i =1;
-    var w=100;
-
-    for(i=1; i<22; i++){
-           var dragId = "#drag" +i;
-    $("#dragArea").droppable({
-      // accept: dragId,
-      // tolerance: 'fit'
-    });
- 
-    $( dragId).draggable({ 
-      cursor: "move"
-    });
-      $( dragId).droppable({
-
-      });
-}
-  
-  } );
-  </script>
   <nav class="nav nav--active">
   <ul class="nav__list">
     <li class="nav__item">
@@ -221,6 +196,40 @@
       </div>
     </div>
   </body>
+  
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
 <script  src="../js/nav.js"></script>
 <script  src="../js/backTotop.js"></script>
+<script type="text/javascript">
+  var current_url = $(location).attr('href');
+// console.log(current_url);
+if (current_url = "../Page3/3-let-s-plan-a-party.html"){
+  $('#nav3').css("font-style", "italic");
+  $('#nav3').css("color", "#D674EE");
+
+}
+ $( function() {
+
+
+    var i =1;
+    var w=100;
+
+    for(i=1; i<22; i++){
+           var dragId = "#drag" +i;
+    $("#dragArea").droppable({
+      // accept: dragId,
+      // tolerance: 'fit'
+    });
+ 
+    $( dragId).draggable({ 
+      cursor: "move"
+    });
+      $( dragId).droppable({
+
+      });
+}
+  
+  } );
+</script>
 </html>

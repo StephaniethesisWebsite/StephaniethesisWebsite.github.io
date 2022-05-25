@@ -10,7 +10,7 @@
 
 .x3-let-s-plan-a-party .ellipse-5 {
   background-color: #f65735b2;
-  border-radius: calc((100vw * 316.17 / 1920) /(100vw* 118.67 / 1920));
+  border-radius: calc(100vw * 316.17 / 1920 / 100vw* 118.67 / 1920);
   height:calc(100vw * 237 / 1920 );
   left:calc(100vw * -1364 / 1920 );
   position: absolute;
@@ -551,7 +551,7 @@
 }
 
 .x3-let-s-plan-a-party .overlap-group-1 {
-  border-radius: 20 / 1920 );
+  border-radius: calc(100vw * 20 / 1920 );
   height:calc(100vw * 400 / 1920 );
   left:calc(100vw * 297 / 1920 );
   position: absolute;
