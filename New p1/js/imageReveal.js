@@ -6,6 +6,7 @@ for(let i=1; i<10; i++){
 $(quoteId).css("display","none");
 $(imageId).mouseover(function function_(){
 	$(quoteId).css("display", "inline-block");
+    $(quoteId).css("transition", ".4s ease-out");
 });
 }
 

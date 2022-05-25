@@ -577,6 +577,7 @@ background-color: transparent;
   text-align: left;
   top: calc(100vw * 4269 / 1920);
   width: calc(100vw * 394 / 1920);
+  display: inline-block;
 }
 
 .x1-cognitive-labor .p1-floating8-62bqZC {
@@ -595,6 +596,7 @@ background-color: transparent;
   text-align: left;
   top: calc(100vw * 4148 / 1920);
   width: calc(100vw * 496 / 1920);
+   display: inline-block;
 }
 
 .x1-cognitive-labor .rect-text1-62bqZC {
@@ -693,6 +695,7 @@ font-style: italic;}
   text-align: left;
   top: 174.323vw;
   width: 24.063vw;
+   display: inline-block;
 }
 
 .x1-cognitive-labor .p1-floating6-62bqZC {
@@ -706,6 +709,7 @@ font-style: italic;}
   text-align: left;
   top: 172.083vw;
   width: 22.760vw;
+   display: inline-block;
 }
 
 .x1-cognitive-labor .p1-floating5-62bqZC {
@@ -719,6 +723,7 @@ font-style: italic;}
   text-align: left;
   top: 159.115vw;
   width:22.500vw;
+   display: inline-block;
 }
 
 .x1-cognitive-labor .p1-floating4-62bqZC {
@@ -732,6 +737,7 @@ font-style: italic;}
   text-align: left;
   top: 154.219vw;
   width: 21.875vw;
+   display: inline-block;
 }
 
 .x1-cognitive-labor .p1-floating3-62bqZC {
@@ -745,6 +751,7 @@ font-style: italic;}
   text-align: left;
   top: 104.479vw;
   width: 24.063vw;
+   display: inline-block;
 }
 
 .x1-cognitive-labor .p1-floating2-62bqZC {
@@ -758,6 +765,7 @@ font-style: italic;}
   text-align: left;
   top: 101.198vw;
   width: 23.490vw;
+   display: inline-block;
 }
 
 .x1-cognitive-labor .p1-floating1-62bqZC {
@@ -771,6 +779,7 @@ font-style: italic;}
   text-align: left;
   top: 100.729vw;
   width: 19.740vw;
+   display: inline-block;
 }
 
 .x1-cognitive-labor .p1-floating-image9-62bqZC {
