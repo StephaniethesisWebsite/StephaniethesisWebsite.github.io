@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Epilogue&display=swap');
 @import url("https://use.typekit.net/sis2rah.css");
+
+@import url("../../font/fontstyle.css");
 .x1-cognitive-labor {
   background-color: var(--alabaster);
   height: 100vh;
@@ -171,7 +173,9 @@ top: calc(100vw * 7214.26 / 1920);
 }
 
 .x1-cognitive-labor .span11-z84dIm {
-}
+  color: white;
+/*  text-decoration: underline;
+*/}
 
 .x1-cognitive-labor .green-rect-sec-62bqZC {
   background-color: transparent;

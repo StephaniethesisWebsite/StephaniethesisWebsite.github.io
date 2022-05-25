@@ -1,4 +1,13 @@
-@import url("../font/fontstyle.css");
+/*@import url("../font/fontstyle.css");*/
+/*@import url("../../font/fontstyle.css");*/
+@font-face {
+    font-family: 'ABC Diatype Edu-Regular';
+    src: url("ABCDiatype-Regular.ttf") format('truetype');
+    font-weight: 500;
+    font-style:normal;
+    font-display: swap;
+}
+
 :root { 
   --alabaster: #f9fbff;
   --baltic-sea: #292d31;
@@ -19,7 +28,7 @@
   --font-family-abc_diatype_edu-bold: "ABC Diatype Edu-Bold", Helvetica;
   --font-family-abc_diatype_edu-bolditalic: "ABC Diatype Edu-BoldItalic", Helvetica;
   --font-family-abc_diatype_edu-medium: "ABC Diatype Edu-Medium", Helvetica;
-  --font-family-abc_diatype_edu-regular: "ABC Diatype Edu-Regular", Helvetica;
+  --font-family-abc_diatype_edu-regular: "ABC Diatype Edu-Regular";
   --font-family-epilogue: "Epilogue", Helvetica;
   --font-family-freighttext_pro-bookitalic: "FreightText Pro-BookItalic", Helvetica;
 }
@@ -65,7 +74,7 @@
 
 .abcdiatypeedu-medium-alabaster-28px {
   color: var(--alabaster);
-  font-family: var(--font-family-abc_diatype_edu-medium);
+  font-family: var(  --font-family-abc_diatype_edu-regular);
   font-size: var(--font-size-xxs);
   font-style: normal;
   font-weight: 500;
