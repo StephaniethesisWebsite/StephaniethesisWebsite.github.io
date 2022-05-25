@@ -1,3 +1,4 @@
+@import url("../../font/fontstyle.css");
 /** navigation css **/
 a {
   text-decoration: none
@@ -15,11 +16,11 @@ ul {
   position: fixed;
   top: 0;
   left: 0;
-  width: 120vw;
-  height: 40px;
+  width: 100vw;
+  height: calc(100vw * 60 / 1920);
   z-index: 1;
   background: #1a1a1a;
- font-size: 18px;
+ font-size: calc(100vw * 18 /1920);
  letter-spacing: 0.09em;
 
 }
@@ -38,7 +39,7 @@ ul {
 
 .nav__item:hover #nav1{
 
-  text-decoration: none;
+text-decoration: none;
  color:#F65735;
  font-weight: 700;
 }
@@ -75,7 +76,7 @@ font-weight: 700;
 .nav__thumb {
   display: block;
   width:20vw;
-  height: 61px;
+  height: calc(61/1920 * 100vw);
   background-color:white;
   border: 0.001em solid black;
 
@@ -90,15 +91,18 @@ font-weight: 700;
 }
 .nav__label {
   position: absolute;
-  top: 1.5vh;
-  right: -2vw;
+  /*top: calc(100vw * 21 / 1920);*/
+  /* margin-right: calc(100vw * 57 / 1920); */
+  /* margin-left: calc(100vw * 7 / 1920); */
   text-align: center;
   text-transform: uppercase;
-  margin: 0;
   display: block;
-  width: 120%;
+  width: 100%;
   background-color: transparent;
-
+  color: #000;
+  font-family: 'ABC Diatype Edu';
+  font-style: normal;
+font-weight: 500;
 }
 .navitalic{
   
@@ -110,10 +114,7 @@ font-weight: 700;
   .nav__label {
     font-size: 8px;
   }
- /* body{
-    width:800px;
-    height:auto;
-  }*/
+ 
 }
 @media (max-width: 720px) {
  /* .nav__label {
