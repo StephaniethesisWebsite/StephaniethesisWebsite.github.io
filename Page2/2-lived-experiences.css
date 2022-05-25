@@ -426,7 +426,8 @@ left: 0;
   line-height:calc((100vw* 70)/1920);
   position: absolute;
   top:calc((100vw * 62)/1920);
-  width:calc((100vw * 1157)/1920);
+  width:calc((100vw * 1148)/1920);
+  height: calc(100vw * 272.83 / 1920);
 }
 
 .x2-lived-experiences .floating-text_11 {
@@ -806,7 +807,7 @@ left: 0;
       cursor: pointer;
           position: absolute;
   border-radius: calc((100vw * 30)/1920);
-
+ left: calc((100vw* 0)/1920);
       border-radius: 50%;
     border: 1px solid #000;
     padding: calc(30 / 1920 * 100vw) calc(30 / 1920 * 100vw);
@@ -823,13 +824,13 @@ left: 0;
    transform: scale(0.8);
 }
 #beth-player-container #b-play-pause{
-     cursor: pointer;
+       cursor: pointer;
   border-radius: calc((100vw * 30)/1920);
-    height: calc((100vw* 60)/1920);
+    /*! height: calc((100vw* 60)/1920); */
     left: calc((100vw* 782)/1920);
     position: absolute;
     top: calc((100vw * 590)/1920);
-    width: calc((100vw * 60)/1920);
+    /*! width: calc((100vw * 60)/1920); */
       border-radius: 50%;
     border: 1px solid #000;
      padding: calc(30 / 1920 * 100vw) calc(30 / 1920 * 100vw);
@@ -851,7 +852,7 @@ left: 0;
     cursor: pointer;
     border-radius: calc((100vw * 30)/1920);
     height: calc((100vw* 10)/1920);
-    left: calc((100vw* 723)/1920);
+    left: calc((100vw* 782)/1920);
     position: absolute;
     top: calc((100vw * 571)/1920);
     width: calc((100vw * 10)/1920);
