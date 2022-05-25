@@ -1004,14 +1004,14 @@ background-image: url("../img/landingpage-1-1-1x-1@1x.png" );
 
 .x1-cognitive-labor .how-can-we-better-re-xAbaoo {
 background-color: transparent;
-    height: 5.851vw;
+    height: calc(112.34 / 1920 * 100vw);
     right: 4.299vw;
-    line-height: 1.979vw;
+    line-height: calc(100vw * 38 / 1920);
     mix-blend-mode: normal;
     position: absolute;
     text-align: left;
- top: 43.177vw;
-    width:47.708vw; /*calc(100% * 916 / 1599);*/
+    top: calc(100vw * 828.7/1920);
+    width: calc(916 / 1900 * 100vw);
     word-wrap: break-word;
 }
 
