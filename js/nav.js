@@ -50,7 +50,7 @@
 
 
   $("#nav1").click(function (){
-        window.location.href='../Page1/1-cognitive-labor.html';
+        window.location.href='/index.html';
  
 });
 
