@@ -5,8 +5,8 @@
 
     });
  $('#nav1').mouseup(function(){
-      $('#nav1').removeClass('navitalic');
-    });
+   $('#nav1').removeClass('navitalic');
+  });
    
   $('#nav2').mousedown(function(){
   $('#nav2').addClass('navitalic');
@@ -59,7 +59,7 @@
  
 });
  $("#nav3").click(function (){
-  window.location.href='../Page2/2-lived-experiences.html';
+  window.location.href='../Page3/3-let-s-plan-a-party.html';
  
 }); $("#nav4").click(function (){
     window.location.href='../Page4/track-your-labor.html';
