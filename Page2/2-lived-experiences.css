@@ -660,7 +660,7 @@ left: 0;
   left: calc((100vw* 9)/1920);
   letter-spacing:0;
   position: absolute;
-  top:calc((100vw * 240)/1920);
+  top:calc((100vw * 208)/1920);
 }
 
 .x2-lived-experiences .i-feel-like-its-a {
