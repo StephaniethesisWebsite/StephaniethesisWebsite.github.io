@@ -28,7 +28,7 @@
   font-size: var(--font-size-xxxl);
   font-weight: 600;
   height:calc(100vw *  100 / 1920);
-  letter-spacing: calc(100vw * -.00 / 1920);
+  letter-spacing: -0.04em;
   line-height:calc(100vw *  100 / 1920);
   margin-left: calc(100vw * 46.5 / 1920);
   margin-top: calc(100vw * 611.1 / 1920);
@@ -43,7 +43,7 @@
   font-style: italic;
   font-weight: 600;
   height:calc(100vw *  100 / 1920);
-  letter-spacing: calc(100vw * 4.00 / 1920);
+/*  letter-spacing: calc(100vw * 4.00 / 1920);*/
   line-height:calc(100vw *  100 / 1920);
   margin-left:calc(100vw *  322 / 1920);
   margin-top:calc(100vw *  1.9 / 1920);
