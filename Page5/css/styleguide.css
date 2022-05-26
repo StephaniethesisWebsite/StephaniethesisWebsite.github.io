@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'ABC Diatype Edu-Regular';
+    src: url("fonts/ABCDiatype-Regular.ttf") format('truetype');
+    font-weight: 400;
+    font-style:normal;
+    font-display: swap;
+}
+
 :root { 
   --baltic-sea: #292d31;
   --black: #000000;
@@ -22,7 +30,7 @@
   --font-family-abc_diatype_edu-bold: "ABC Diatype Edu-Bold", Helvetica;
   --font-family-abc_diatype_edu-bolditalic: "ABC Diatype Edu-BoldItalic", Helvetica;
   --font-family-abc_diatype_edu-medium: "ABC Diatype Edu-Medium", Helvetica;
-  --font-family-abc_diatype_edu-regular: "ABC Diatype Edu-Regular", Helvetica;
+  --font-family-abc_diatype_edu-regular: "ABC Diatype Edu-Regular";
   --font-family-epilogue: "Epilogue", Helvetica;
   --font-family-freighttext_pro-bookitalic: "FreightText Pro-BookItalic", Helvetica;
   --font-family-undefined-regular: "undefined-Regular", Helvetica;
