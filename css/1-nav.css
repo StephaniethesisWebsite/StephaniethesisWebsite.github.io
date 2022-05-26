@@ -85,7 +85,7 @@ font-weight: 700;
   display: block;
   width:20vw;
   height: calc(61/1920 * 100vw);
-  background-color:white;
+   background-color:#F9FBFF;
   border: 0.001em solid black;
 
 }

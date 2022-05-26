@@ -591,9 +591,9 @@ align-items: flex-start;
 .hoverImg{
 position: absolute;
 width: calc(100vw * 705 / 1920);
-height: calc(100vw * 749 / 1920);
+height: calc(100vw * 949 / 1920);
 left: calc(100vw * 634 / 1920);
-top: calc(100vw * 8246 / 1920);
+top: calc(100vw * 7846 / 1920);
 /*display: none;*/
 background: #D9D9D9;
 
@@ -613,11 +613,28 @@ background: #D9D9D9;
     background-image: url("../resources/Fair.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
+
 }
 /*#cogDim:hover + #cogDimImag{
   display: inline-block;
 }*/
 
+#mentalload{
+  background-image: url("../resources/thementalload.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#moreWork{
+  background-image: url("../resources/moreworkformother.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#secondshift{
+      background-image: url("../resources/thesecondshift.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 .x5-from-the-experts .spanClass1{
     white-space: nowrap;
     width: calc(525 / 1920 * 100vw);

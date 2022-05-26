@@ -6,6 +6,13 @@
     font-style:normal;
     font-display: swap;
 }
+@font-face {
+    font-family: 'Epilogue Medium';
+    src: url("fonts/Epilogue-Medium.ttf") format('truetype');
+    font-weight: 500;
+    font-style:normal;
+    font-display: swap;
+}
 
 :root { 
   --alabaster: #f9fbff;
@@ -29,6 +36,7 @@
   --font-family-abc_diatype_edu-medium: "ABC Diatype Edu-Medium", Helvetica;
   --font-family-abc_diatype_edu-regular: "ABC Diatype Edu-Regular", Helvetica;
   --font-family-epilogue: "Epilogue", Helvetica;
+  --font-family-epilogue-medium: "Epilogue Medium";
   --font-family-freighttext_pro-bookitalic: "FreightText Pro-BookItalic", Helvetica;
 }
 .abcdiatypeedu-medium-stromboli-23px {
@@ -57,7 +65,7 @@
 
 .epilogue-medium-stromboli-54px {
   color: var(--stromboli);
-  font-family: var(--font-family-epilogue);
+  font-family: var(--font-family-epilogue-medium);
   font-size: var(--font-size-xl2);
   font-style: normal;
   font-weight: 400; /* or 500 */

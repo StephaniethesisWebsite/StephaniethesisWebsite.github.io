@@ -805,9 +805,10 @@ left: 0;
 
 #nancy-player-container #n-play-pause{
       cursor: pointer;
-          position: absolute;
+    position: absolute;
   border-radius: calc((100vw * 30)/1920);
- left: calc((100vw* 0)/1920);
+     left: calc((100vw* 19)/1920);
+    top: calc(-10 / 1920 * 100vw);
       border-radius: 50%;
     border: 1px solid #000;
     padding: calc(30 / 1920 * 100vw) calc(30 / 1920 * 100vw);
@@ -826,6 +827,8 @@ left: 0;
 #beth-player-container #b-play-pause{
        cursor: pointer;
   border-radius: calc((100vw * 30)/1920);
+       left: calc((100vw* 19)/1920);
+    top: calc(-10 / 1920 * 100vw);
     /*! height: calc((100vw* 60)/1920); */
     left: calc((100vw* 782)/1920);
     position: absolute;
@@ -850,11 +853,13 @@ left: 0;
 
 #carolyn-player-container #c-play-pause {
     cursor: pointer;
+    top: calc((100vw * 570)/1920);
+    width: calc((100vw * 10)/1920);
     border-radius: calc((100vw * 30)/1920);
     height: calc((100vw* 10)/1920);
-    left: calc((100vw* 782)/1920);
+   /* left: calc((100vw* 782)/1920);*/
     position: absolute;
-    top: calc((100vw * 571)/1920);
+    /*top: calc((100vw * 571)/1920);*/
     width: calc((100vw * 10)/1920);
     /* top: calc((100vw * 16)/1920); */
     border-radius: 50%;
