@@ -1,13 +1,12 @@
-/*@import url("./../font/fontstyle.css");*/
-/** navigation css **/
 @font-face {
     font-family: 'ABC Diatype Edu-Regular';
-    src: url("ABCDiatype-Regular.ttf") format('truetype');
+    src: url("fonts/ABCDiatype-Regular.ttf") format('truetype');
     font-weight: 500;
     font-style:normal;
     font-display: swap;
 }
 
+/** navigation css **/
 a {
   text-decoration: none;
   color:inherit;
@@ -100,7 +99,7 @@ font-weight: 700;
 
 .nav__label {
   position: absolute;
-  /*top: calc(100vw * 21 / 1920);*/
+  top: calc(100vw * 21 / 1920);
   /* margin-right: calc(100vw * 57 / 1920); */
   /* margin-left: calc(100vw * 7 / 1920); */
  text-align: center;

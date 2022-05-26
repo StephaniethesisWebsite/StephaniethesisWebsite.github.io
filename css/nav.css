@@ -1,4 +1,11 @@
-@import url("../../font/fontstyle.css");
+@font-face {
+    font-family: 'ABC Diatype Edu-Regular';
+    src: url("ABCDiatype-Regular.ttf") format('truetype');
+    font-weight: 500;
+    font-style:normal;
+    font-display: swap;
+}
+
 /** navigation css **/
 a {
   text-decoration: none;
@@ -89,22 +96,25 @@ font-weight: 700;
   text-transform: uppercase;
   opacity: 0.15;
 }
+
 .nav__label {
   position: absolute;
   top: calc(100vw * 21 / 1920);
   /* margin-right: calc(100vw * 57 / 1920); */
   /* margin-left: calc(100vw * 7 / 1920); */
-  text-align: center;
+ text-align: center;
   text-transform: uppercase;
   display: block;
   width: 100%;
   background-color: transparent;
   color: #000;
-  font-family: 'ABC Diatype Edu';
+  font-family: 'ABC Diatype Edu-Regular';
   font-style: normal;
 font-weight: 500;
+  line-height: calc(23/ 1920 * 100vw);
+  font-size: calc(18/ 1920 * 100vw);
+  letter-spacing: -0.01em;
 }
-
 .navitalic{
   
   font-style: italic;

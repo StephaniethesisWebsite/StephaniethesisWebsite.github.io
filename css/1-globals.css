@@ -17,7 +17,7 @@ body {
     display: table-cell;
     vertical-align: middle;
     position: sticky;
-   width: 100vw;
+   width: 100%;
    height: auto;
  /*  overflow-x: hidden;
    overflow: scroll;*/
