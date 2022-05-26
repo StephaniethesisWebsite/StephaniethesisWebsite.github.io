@@ -561,7 +561,7 @@ align-items: flex-start;
     display: flex;
     height: calc(100vw * 31 / 1920);
     margin-right: calc(100vw * 8.19 / 1920);
-    margin-top: calc(100vw * 89 / 1920);
+    margin-top: calc(100vw * 50 / 1920);
     min-width: calc(100vw * 1801 / 1920);
 }
 
@@ -574,6 +574,7 @@ align-items: flex-start;
   letter-spacing: 0;
   min-height: calc(100vw * 29 / 1920);
   min-width:calc(100vw *  503 / 1920);
+
 }
 
 .x5-from-the-experts .back-to-top {

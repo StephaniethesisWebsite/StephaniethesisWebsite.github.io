@@ -248,16 +248,17 @@ width: 100vw;
     margin-top: 131%;/* margin-top: calc(100vw * -107 / 1920); */
 /* position: absolute; */bottom: 0px;}
 .foot-text {
- position: absolute;
-font-size: calc(100vw * 23 / 1920);
-left: 3.05%;
+  left:calc(100vw * 59 / 1920 );
+  letter-spacing:0;
+  position: absolute;
+  top:calc(100vw * 6646 / 1920 );
 }
 .back-button {
- position: absolute;
-   font-size: calc(100vw * 23 / 1920);
-    right: 3.17%;
-font-weight: 700;
-  
+  height:calc(100vw * 23 / 1920 );
+  left:calc(100vw * 1730 / 1920 );
+  position: absolute;
+  top:calc(100vw * 6645 / 1920 );
+  width:calc(100vw * 119 / 1920 );
 }
 .para_1{
 width: calc(627.52 / 1920 * 100vw);
