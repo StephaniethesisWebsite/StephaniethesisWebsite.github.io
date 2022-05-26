@@ -4,10 +4,11 @@
   background-color: #f9fbff;
   display: flex;
   flex-direction: column;
-  height: 100vh;
-  min-height: calc(100vw * 9147 / 1920);
-  min-width: calc(100vw * 1920 / 1920);
+  height: auto;
+/*  min-height: calc(100vw * 9147 / 1920);
+  min-width: calc(100vw * 1920 / 1920);*/
   width: 100%;
+  overflow-x: hidden;
 }
 
 .x5-from-the-experts .x5-landingpage {
@@ -596,7 +597,6 @@ height: calc(100vw * 100/ 1920);
   text-align: right;
   top: calc(100vw * 36 / 1920);
   position: relative;
-  botom: 15px;
   left: calc(100vw * 166 / 1920);
 }
 
