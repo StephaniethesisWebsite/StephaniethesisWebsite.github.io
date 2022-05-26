@@ -2,10 +2,7 @@
 }
 
 .title-container {
-/*  position: relative;
-  background-color: transparent;
-  mix-blend-mode: normal;
-  margin: 5em;*/
+
 position: absolute;
 width: calc(100vw * 1597 / 1920);
 height: calc(100vw * 1033 / 1920);
@@ -22,20 +19,13 @@ top: calc(100vw * 121 / 1920);
 }
 
 .title-text-container {
-/*  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 100%;
-  text-align: center;
-  color: white;*/
-  position: absolute;
+position: absolute;
 width: calc(100vw * 1353.89 / 1920);
 height: calc(100vw * 213.52 / 1920);
 left: calc(100vw * 117.65 / 1920);
 top: calc(100vw * 153.41 / 1920);
-}
-
+font-weight: 550;
+font-family: var( --font-family-epilogue);}
 .title-text_l {
   font-family: var(--font-family-epilogue);
   font-size: var(--font-size-xl);
@@ -93,14 +83,14 @@ bottom: calc(100vw * 7401.27/ 1920);*/
 }
 
 .prompt-text-container {
-
-  position: absolute;
-width: calc(100vw* 1120 / 1920);
+position: absolute;
+width: calc(100vw* 1050 / 1920);
 height: calc(100vw*196.42/ 1920);
 left: calc(100vw*181.84/ 1920);
 top: calc(100vw*118.79/ 1920);
 
 font-family: 'Epilogue';
+font-family: var(--font-family-abc_diatype_edu-regular);
 font-style: normal;
 font-weight: 500;
 font-size: calc(100vw * 54 / 1920);
@@ -140,6 +130,7 @@ letter-spacing: calc(100vw * -2.16 / 1920);
   margin: 5rem;
   border-top: 1px solid black;
   top: calc(1400 / 1920 * 100vw);
+  font-family: var(--font-family-abc_diatype_edu-regular);
 }
 
 .question-row-container_2 {
@@ -172,7 +163,9 @@ border-top: 1px solid black;
 .question-row-center {
   width: calc(50% - 10px);
   display: inline-block;
-  padding-bottom: 1.2%
+  padding-bottom: 1.2%;
+  font-size: calc(100vw * 32 / 1920);
+
 }
 
 .question-header-text {
@@ -189,14 +182,15 @@ border-top: 1px solid black;
 }
 
 .question-circle {
-margin: auto;
-/* width: 40%; */
-/* height: 100%; */
 width: calc(100vw * 132.94 / 1920);
 height: calc(100vw * 43.68 / 1920);
 border: 1.5px solid #000000;
 border-radius: 50%;
 background-color: white;
+margin-top: calc(12 / 1920 * 100vw);
+margin-bottom: calc(20 / 1920 * 100vw);
+left: calc(153.65 / 1920 * 100vw);
+position: relative;
 }
 
 .question-circle-left-on-color {
@@ -250,12 +244,12 @@ width: 100vw;
 /* position: absolute; */bottom: 0px;}
 .foot-text {
  position: absolute;
-font-size: calc(100vw * 18 / 1920);
+font-size: calc(100vw * 23 / 1920);
 left: 3.05%;
 }
 .back-button {
  position: absolute;
-   font-size: calc(100vw * 18 / 1920);
+   font-size: calc(100vw * 23 / 1920);
     right: 3.17%;
 font-weight: 700;
   
