@@ -54,7 +54,6 @@
 
 .x1-cognitive-labor .purple-footnote-rect-62bqZC {
   background-color: transparent;
-
 position: absolute;
 width: 100vw;
 height: calc(100vw * 826.46 / 1920);
@@ -562,7 +561,7 @@ background-color: transparent;
   font-style: normal;
   font-weight: 500;
   height: auto;
-  left: calc(100vw * 715 / 1920);
+  left: calc(100vw * 603 / 1920);
   letter-spacing: 0.00px;
   line-height: calc(100vw * 32 / 1920);
   mix-blend-mode: normal;
@@ -771,7 +770,7 @@ font-style: italic;}
   mix-blend-mode: normal;
   position: absolute;
   text-align: left;
-  top: 101.198vw;
+  top: 97.198vw;
   width: 23.490vw;
    display: inline-block;
 }
