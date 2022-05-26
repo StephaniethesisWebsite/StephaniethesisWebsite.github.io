@@ -380,6 +380,8 @@ $(".floating-text_6").css("opacity","0");
 $(".floating-text_7").css("opacity","0");
 $(".floating-text_8").css("opacity","0");
 $(".floating-text_9").css("opacity","0");
+$(".floating-text_10").css("opacity","0");
+$(".floating-text_11").css("opacity","0");
 
 $(".floating-image_1").mouseover(function (){
     $(".floating-text_1").css("opacity","1");
@@ -418,10 +420,18 @@ $(".floating-image_9").mouseover(function (){
     $(".floating-text_9").css("opacity","1");
      $(".floating-text_9").css("transition", "opacity .4s")
 });
+$(".floating-image_10").mouseover(function (){
+    $(".floating-text_10").css("opacity","1");
+     $(".floating-text_10").css("transition", "opacity .4s")
+});
+$(".floating-image_11").mouseover(function (){
+    $(".floating-text_11").css("opacity","1");
+     $(".floating-text_11").css("transition", "opacity .4s")
+});
 var current_url = $(location).attr('href');
-console.log(current_url);
+
 if (current_url = "../Page2/2-lived-experiences.html"){
-  $('#nav2').css("font-style", "bold");
+  $('#nav2').css("font-style", "700");
   $('#nav2').css("color", "#395B50");
 
 }
