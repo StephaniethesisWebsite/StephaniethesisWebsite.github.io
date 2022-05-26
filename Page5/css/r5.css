@@ -127,11 +127,11 @@
 }
 
 .x5-from-the-experts .q2 {
-  height:calc(100vw *  190 / 1920);
-  letter-spacing: calc(100vw * 0.21 / 1920);
-  line-height: calc(100vw * 50 / 1920);
-  margin-top:calc(100vw *  112 / 1920);
-  width:calc(100vw *  692 / 1920);
+    height: calc(100vw * 300 / 1920);
+    letter-spacing: calc(100vw * 0.21 / 1920);
+    line-height: calc(100vw * 50 / 1920);
+    margin-top: calc(100vw * 112 / 1920);
+    width: calc(100vw * 742 / 1920);
 }
 
 .x5-from-the-experts .a2 {
