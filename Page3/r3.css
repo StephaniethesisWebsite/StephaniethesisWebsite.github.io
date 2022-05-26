@@ -610,6 +610,7 @@
   position: absolute;
   top:0;
   width:calc(100vw * 1920 / 1920 );
+    border-bottom: 1px solid #000;
 }
 
 .x3-let-s-plan-a-party .many-people-that-i-t {
@@ -623,4 +624,5 @@
   position: absolute;
   top:calc(100vw * 204 / 1920 );
   width:calc(100vw * 1250 / 1920 );
+
 }

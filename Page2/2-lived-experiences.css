@@ -57,6 +57,7 @@
   position: absolute;
   top:calc((100vw * 495)/1920);
   width:calc((100vw * 1920)/1920);
+    border-bottom: 1px solid #000;
 }
 
 .x2-lived-experiences .overlap-group {
