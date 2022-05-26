@@ -63,9 +63,12 @@ bottom: calc(100vw * 7401.27/ 1920);*/
  position: relative;
   margin-top: 5em;
   margin-bottom: 5em;
-  margin-left: 10rem;
+  margin-left: 12rem;
   margin-right: 10rem;
  top: calc(1360 / 1920 * 100vw);
+ width: calc(100vw * 1332 / 1920);
+height: calc(100vw * 434 / 1920);
+
 }
 .prompt-container_3{
 
@@ -169,10 +172,12 @@ border-top: 1px solid black;
 }
 
 .question-header-text {
-  font-size: calc(100vw * 38 / 1920);
-  color: #bab700;
-  line-height: calc(100vw * 48 / 1920);
-  text-align: center;
+font-size: calc(100vw * 38 / 1920);
+color: #bab700;
+line-height: calc(100vw * 48 / 1920);
+text-align: center;
+position: relative;
+margin-top: calc(20 / 1920 * 100vw);
 }
 
 .question-circle-container {
