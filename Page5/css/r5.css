@@ -542,11 +542,12 @@ height: calc(100vw * 324 / 1920);
 
 .x5-from-the-experts .foot_note {
 align-items: center;
-    display: flex;
+    display: block;
     flex-direction: column;
-    margin-top: calc(100vw * 262.2 / 1920);
+    margin-top: calc(100vw * 403.2 / 1920);
     min-height: calc(100vw * 61.41 / 1920);
     width: 100vw;
+height: calc(100vw * 82/ 1920);
 }
 
 .x5-from-the-experts .line-213 {
@@ -561,32 +562,42 @@ align-items: flex-start;
     display: flex;
     height: calc(100vw * 31 / 1920);
     margin-right: calc(100vw * 8.19 / 1920);
-    margin-top: calc(100vw * 50 / 1920);
+    margin-top: calc(100vw * 62 / 1920);
     min-width: calc(100vw * 1801 / 1920);
+border-top: 0.5px solid #000;
+height: calc(100vw * 100/ 1920);
 }
 
 .x5-from-the-experts .the-invisible-weight-of-cognitive-labor {
   align-self: flex-end;
   color: var(--baltic-sea);
   font-family: var(--font-family-abc_diatype_edu-medium);
-  font-size: var(--font-size-s);
+  font-size: calc(18 / 1920 * 100vw);
   font-weight: 500;
   letter-spacing: 0;
-  min-height: calc(100vw * 29 / 1920);
-  min-width:calc(100vw *  503 / 1920);
+  /*! min-height: calc(100vw * 29 / 1920); */
+  /*! min-width:calc(100vw *  503 / 1920); */
 
+  top: calc(100vw * -44 / 1920);
+  position: relative;
+  botom: 15px;
+  left: calc(100vw * 59 / 1920);
 }
 
 .x5-from-the-experts .back-to-top {
   color: var(--baltic-sea);
   font-family: var(--font-family-abc_diatype_edu-bold);
-  font-size: var(--font-size-s);
+  font-size: calc(18/ 1920 * 100vw);
   font-weight: 700;
   letter-spacing: calc(100vw * 0.29 / 1920);
   margin-left: calc(100vw * 1147 / 1920);
   min-height: calc(100vw * 29 / 1920);
   min-width:calc(100vw *  151 / 1920);
   text-align: right;
+  top: calc(100vw * 36 / 1920);
+  position: relative;
+  botom: 15px;
+  left: calc(100vw * 166 / 1920);
 }
 
 .hoverImg{
