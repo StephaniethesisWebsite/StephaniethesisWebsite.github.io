@@ -541,7 +541,7 @@ height: calc(100vw * 324 / 1920);
 }
 
 .x5-from-the-experts .foot_note {
-    align-items: center;
+align-items: center;
     display: flex;
     flex-direction: column;
     margin-top: calc(100vw * 262.2 / 1920);

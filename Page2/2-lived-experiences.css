@@ -857,7 +857,7 @@ left: 0;
     width: calc((100vw * 10)/1920);
     border-radius: calc((100vw * 30)/1920);
     height: calc((100vw* 10)/1920);
-   /* left: calc((100vw* 782)/1920);*/
+    left: calc((100vw* 782)/1920);
     position: absolute;
     /*top: calc((100vw * 571)/1920);*/
     width: calc((100vw * 10)/1920);
