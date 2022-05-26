@@ -1,4 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@100;200;300;400;500&display=swap');
+@font-face {
+    font-family: 'ABC Diatype Edu-Regular';
+    src: url("fonts/ABCDiatype-Regular.ttf") format('truetype');
+    font-weight: 500;
+    font-style:normal;
+    font-display: swap;
+}
+
 :root { 
   --alabaster: #f9fbff;
   --baltic-sea: #292d31;
@@ -28,7 +36,7 @@
   font-family: var(--font-family-abc_diatype_edu-medium);
   font-size: var(--font-size-s2);
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .freighttextpro-bookitalic-normal-black-32px {
