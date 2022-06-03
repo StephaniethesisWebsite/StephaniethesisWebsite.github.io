@@ -27,7 +27,7 @@ populateQuestionRows(c1QuestionArr, 'questionBody1');
 
 var emQuestionArr = [
   'Who mostly manages social plans?',
-  'who mostly arranges plans with other parties involved?',
+  'Who mostly arranges plans with other parties involved?',
   'Who mostly knows what’s going on each weekend?',
   'Who mostly manages the social calendar?',
   'Who mostly manages home repairs?',
@@ -36,13 +36,13 @@ var emQuestionArr = [
   'Who mostly makes sure the repair is paid for?',
   'Who mostly manages correspondence with the repair technician?',
   'Who mostly calls customer service for a repair or question?',
-  'Who mtly cleans the home?',
-  'Who is mostly aware ofhat cleaning supplies are running low?',
-  'Who mostly makes sure tadd cleaning supplies to the grocery list?',
-  'Who mostly does researcfor cleaning services?',
-  'Who mostly manages correspondenceith cleaning service?',
+  'Who mostly cleans the home?',
+  'Who is mostly aware that cleaning supplies are running low?',
+  'Who mostly makes aware to add cleaning supplies to the grocery list?',
+  'Who mostly does research for cleaning services?',
+  'Who mostly manages correspondence with cleaning service?',
   'Who mostly knows which dates are best fothe cleaning service to come?',
-  'Who mostly arranges r a cleaning servi to clean the home?',
+  'Who mostly arranges for a cleaning service to clean the home?',
   'Who is mostly responsible for vacation and travel planning?',
   'Who is mostly responsible for booking flights?',
   'Who is mostly in charge of researching and considering flight costs?',
@@ -64,7 +64,7 @@ var emQuestionArr = [
   'Who is mostly responsible for birthday and holiday gifts?',
   'Who mostly spends time researching what gifts to purchase?',
   'Who mostly spends time making sure gifts are wrapped?',
-  'Who mostly spends time making sure gifts and sent + received in time?',
+  'Who mostly spends time making sure gifts are sent + received in time?',
 ];
 populateQuestionRows(emQuestionArr, 'questionBody2');
 
